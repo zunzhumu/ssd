@@ -1,0 +1,2856 @@
+Start training with (gpu(0)) from pretrained model /media/tx-deepocean/tx-data/st/ssd/model/vgg16_reduced
+Start training with (gpu(0)) from pretrained model /media/tx-deepocean/tx-data/st/ssd/model/vgg16_reduced
+Freezed parameters: [conv1_1_weight,conv1_1_bias,conv1_2_weight,conv1_2_bias,conv2_1_weight,conv2_1_bias,conv2_2_weight,conv2_2_bias]
+Epoch[0] Batch [20]	Speed: 50.44 samples/sec	CrossEntropy=3.725035	SmoothL1=0.768938
+Epoch[0] Batch [40]	Speed: 49.67 samples/sec	CrossEntropy=2.626482	SmoothL1=0.735851
+Epoch[0] Batch [60]	Speed: 50.28 samples/sec	CrossEntropy=1.801912	SmoothL1=0.700802
+Epoch[0] Batch [80]	Speed: 49.74 samples/sec	CrossEntropy=1.499313	SmoothL1=0.681160
+Epoch[0] Batch [100]	Speed: 48.91 samples/sec	CrossEntropy=1.377004	SmoothL1=0.658990
+Epoch[0] Batch [120]	Speed: 50.32 samples/sec	CrossEntropy=1.294262	SmoothL1=0.624511
+Epoch[0] Batch [140]	Speed: 48.53 samples/sec	CrossEntropy=1.264167	SmoothL1=0.641544
+Epoch[0] Batch [160]	Speed: 48.25 samples/sec	CrossEntropy=1.244049	SmoothL1=0.601018
+Epoch[0] Batch [180]	Speed: 47.54 samples/sec	CrossEntropy=1.243964	SmoothL1=0.568750
+Epoch[0] Batch [200]	Speed: 48.14 samples/sec	CrossEntropy=1.235651	SmoothL1=0.573030
+Epoch[0] Batch [220]	Speed: 47.90 samples/sec	CrossEntropy=1.229722	SmoothL1=0.575471
+Epoch[0] Batch [240]	Speed: 47.72 samples/sec	CrossEntropy=1.233044	SmoothL1=0.560175
+Epoch[0] Train-CrossEntropy=1.229264
+Epoch[0] Train-SmoothL1=0.561545
+Epoch[0] Time cost=168.262
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0001.params"
+Epoch[0] Validation-aeroplane=0.006494
+Epoch[0] Validation-bicycle=0.000000
+Epoch[0] Validation-bird=0.000000
+Epoch[0] Validation-boat=0.000579
+Epoch[0] Validation-bottle=0.000000
+Epoch[0] Validation-bus=0.000000
+Epoch[0] Validation-car=0.003834
+Epoch[0] Validation-cat=0.052475
+Epoch[0] Validation-chair=0.000361
+Epoch[0] Validation-cow=0.000000
+Epoch[0] Validation-diningtable=0.000000
+Epoch[0] Validation-dog=0.000000
+Epoch[0] Validation-horse=0.000000
+Epoch[0] Validation-motorbike=0.000000
+Epoch[0] Validation-person=0.100915
+Epoch[0] Validation-pottedplant=0.000000
+Epoch[0] Validation-sheep=0.000000
+Epoch[0] Validation-sofa=0.000000
+Epoch[0] Validation-train=0.000000
+Epoch[0] Validation-tvmonitor=0.000000
+Epoch[0] Validation-mAP=0.008233
+Epoch[1] Batch [20]	Speed: 47.44 samples/sec	CrossEntropy=1.212288	SmoothL1=0.555596
+Epoch[1] Batch [40]	Speed: 47.33 samples/sec	CrossEntropy=1.227981	SmoothL1=0.543872
+Epoch[1] Batch [60]	Speed: 48.57 samples/sec	CrossEntropy=1.218764	SmoothL1=0.555970
+Epoch[1] Batch [80]	Speed: 47.89 samples/sec	CrossEntropy=1.198213	SmoothL1=0.527155
+Epoch[1] Batch [100]	Speed: 47.98 samples/sec	CrossEntropy=1.198777	SmoothL1=0.538548
+Epoch[1] Batch [120]	Speed: 47.82 samples/sec	CrossEntropy=1.186038	SmoothL1=0.522976
+Epoch[1] Batch [140]	Speed: 47.49 samples/sec	CrossEntropy=1.195865	SmoothL1=0.531545
+Epoch[1] Batch [160]	Speed: 46.96 samples/sec	CrossEntropy=1.186033	SmoothL1=0.521161
+Start training with (gpu(0),gpu(1)) from pretrained model /media/tx-deepocean/tx-data/st/ssd/model/vgg16_reduced
+Freezed parameters: [conv1_1_weight,conv1_1_bias,conv1_2_weight,conv1_2_bias,conv2_1_weight,conv2_1_bias,conv2_2_weight,conv2_2_bias]
+Epoch[0] Batch [20]	Speed: 93.83 samples/sec	CrossEntropy=3.730869	SmoothL1=0.769370
+Epoch[0] Batch [40]	Speed: 93.93 samples/sec	CrossEntropy=2.628686	SmoothL1=0.736034
+Epoch[0] Batch [60]	Speed: 93.78 samples/sec	CrossEntropy=1.781223	SmoothL1=0.699347
+Epoch[0] Batch [80]	Speed: 92.01 samples/sec	CrossEntropy=1.524397	SmoothL1=0.684739
+Epoch[0] Batch [100]	Speed: 93.85 samples/sec	CrossEntropy=1.388926	SmoothL1=0.659169
+Epoch[0] Batch [120]	Speed: 93.11 samples/sec	CrossEntropy=1.300955	SmoothL1=0.622907
+Epoch[0] Batch [140]	Speed: 91.48 samples/sec	CrossEntropy=1.263720	SmoothL1=0.639777
+Epoch[0] Batch [160]	Speed: 91.75 samples/sec	CrossEntropy=1.241503	SmoothL1=0.603579
+Epoch[0] Batch [180]	Speed: 92.49 samples/sec	CrossEntropy=1.233827	SmoothL1=0.567093
+Epoch[0] Batch [200]	Speed: 93.89 samples/sec	CrossEntropy=1.229169	SmoothL1=0.571752
+Epoch[0] Batch [220]	Speed: 92.74 samples/sec	CrossEntropy=1.230478	SmoothL1=0.574035
+Epoch[0] Batch [240]	Speed: 91.10 samples/sec	CrossEntropy=1.230868	SmoothL1=0.557384
+Epoch[0] Train-CrossEntropy=1.228530
+Epoch[0] Train-SmoothL1=0.561789
+Epoch[0] Time cost=94.123
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0001.params"
+Epoch[0] Validation-aeroplane=0.005348
+Epoch[0] Validation-bicycle=0.000000
+Epoch[0] Validation-bird=0.000000
+Epoch[0] Validation-boat=0.000221
+Epoch[0] Validation-bottle=0.000000
+Epoch[0] Validation-bus=0.000000
+Epoch[0] Validation-car=0.025864
+Epoch[0] Validation-cat=0.023228
+Epoch[0] Validation-chair=0.003412
+Epoch[0] Validation-cow=0.000000
+Epoch[0] Validation-diningtable=0.000000
+Epoch[0] Validation-dog=0.000000
+Epoch[0] Validation-horse=0.000000
+Epoch[0] Validation-motorbike=0.000000
+Epoch[0] Validation-person=0.153120
+Epoch[0] Validation-pottedplant=0.000000
+Epoch[0] Validation-sheep=0.000000
+Epoch[0] Validation-sofa=0.000000
+Epoch[0] Validation-train=0.000000
+Epoch[0] Validation-tvmonitor=0.000000
+Epoch[0] Validation-mAP=0.010560
+Epoch[1] Batch [20]	Speed: 90.09 samples/sec	CrossEntropy=1.213376	SmoothL1=0.555998
+Epoch[1] Batch [40]	Speed: 91.46 samples/sec	CrossEntropy=1.223277	SmoothL1=0.539829
+Epoch[1] Batch [60]	Speed: 87.41 samples/sec	CrossEntropy=1.218825	SmoothL1=0.555348
+Epoch[1] Batch [80]	Speed: 86.45 samples/sec	CrossEntropy=1.195848	SmoothL1=0.527690
+Epoch[1] Batch [100]	Speed: 89.31 samples/sec	CrossEntropy=1.193596	SmoothL1=0.536117
+Epoch[1] Batch [120]	Speed: 87.83 samples/sec	CrossEntropy=1.186184	SmoothL1=0.521701
+Epoch[1] Batch [140]	Speed: 90.26 samples/sec	CrossEntropy=1.195124	SmoothL1=0.533395
+Epoch[1] Batch [160]	Speed: 87.05 samples/sec	CrossEntropy=1.180777	SmoothL1=0.518803
+Epoch[1] Batch [180]	Speed: 85.38 samples/sec	CrossEntropy=1.181685	SmoothL1=0.525991
+Epoch[1] Batch [200]	Speed: 88.19 samples/sec	CrossEntropy=1.175463	SmoothL1=0.516268
+Epoch[1] Batch [220]	Speed: 87.45 samples/sec	CrossEntropy=1.168185	SmoothL1=0.509310
+Epoch[1] Batch [240]	Speed: 91.49 samples/sec	CrossEntropy=1.173515	SmoothL1=0.507922
+Epoch[1] Train-CrossEntropy=1.162827
+Epoch[1] Train-SmoothL1=0.507444
+Epoch[1] Time cost=92.710
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0002.params"
+Epoch[1] Validation-aeroplane=0.162592
+Epoch[1] Validation-bicycle=0.000000
+Epoch[1] Validation-bird=0.008457
+Epoch[1] Validation-boat=0.000471
+Epoch[1] Validation-bottle=0.003953
+Epoch[1] Validation-bus=0.000000
+Epoch[1] Validation-car=0.119612
+Epoch[1] Validation-cat=0.035063
+Epoch[1] Validation-chair=0.001384
+Epoch[1] Validation-cow=0.000000
+Epoch[1] Validation-diningtable=0.002797
+Epoch[1] Validation-dog=0.011730
+Epoch[1] Validation-horse=0.000000
+Epoch[1] Validation-motorbike=0.000000
+Epoch[1] Validation-person=0.266584
+Epoch[1] Validation-pottedplant=0.000000
+Epoch[1] Validation-sheep=0.034091
+Epoch[1] Validation-sofa=0.000000
+Epoch[1] Validation-train=0.000000
+Epoch[1] Validation-tvmonitor=0.030303
+Epoch[1] Validation-mAP=0.033852
+Epoch[2] Batch [20]	Speed: 90.26 samples/sec	CrossEntropy=1.174281	SmoothL1=0.490830
+Epoch[2] Batch [40]	Speed: 91.33 samples/sec	CrossEntropy=1.172150	SmoothL1=0.490665
+Epoch[2] Batch [60]	Speed: 90.00 samples/sec	CrossEntropy=1.171019	SmoothL1=0.502848
+Epoch[2] Batch [80]	Speed: 87.98 samples/sec	CrossEntropy=1.152932	SmoothL1=0.507409
+Epoch[2] Batch [100]	Speed: 90.03 samples/sec	CrossEntropy=1.138825	SmoothL1=0.481153
+Epoch[2] Batch [120]	Speed: 89.91 samples/sec	CrossEntropy=1.152233	SmoothL1=0.477727
+Epoch[2] Batch [140]	Speed: 88.80 samples/sec	CrossEntropy=1.140597	SmoothL1=0.495270
+Epoch[2] Batch [160]	Speed: 88.02 samples/sec	CrossEntropy=1.138218	SmoothL1=0.473894
+Epoch[2] Batch [180]	Speed: 90.27 samples/sec	CrossEntropy=1.130986	SmoothL1=0.464327
+Epoch[2] Batch [200]	Speed: 89.42 samples/sec	CrossEntropy=1.146780	SmoothL1=0.478789
+Epoch[2] Batch [220]	Speed: 86.04 samples/sec	CrossEntropy=1.115170	SmoothL1=0.481118
+Epoch[2] Batch [240]	Speed: 91.86 samples/sec	CrossEntropy=1.123024	SmoothL1=0.477424
+Epoch[2] Train-CrossEntropy=1.115731
+Epoch[2] Train-SmoothL1=0.469597
+Epoch[2] Time cost=91.946
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0003.params"
+Epoch[2] Validation-aeroplane=0.050949
+Epoch[2] Validation-bicycle=0.012727
+Epoch[2] Validation-bird=0.004993
+Epoch[2] Validation-boat=0.001169
+Epoch[2] Validation-bottle=0.000095
+Epoch[2] Validation-bus=0.090909
+Epoch[2] Validation-car=0.155094
+Epoch[2] Validation-cat=0.146777
+Epoch[2] Validation-chair=0.036834
+Epoch[2] Validation-cow=0.003788
+Epoch[2] Validation-diningtable=0.009276
+Epoch[2] Validation-dog=0.105565
+Epoch[2] Validation-horse=0.090909
+Epoch[2] Validation-motorbike=0.022727
+Epoch[2] Validation-person=0.355701
+Epoch[2] Validation-pottedplant=0.000000
+Epoch[2] Validation-sheep=0.119883
+Epoch[2] Validation-sofa=0.036364
+Epoch[2] Validation-train=0.015810
+Epoch[2] Validation-tvmonitor=0.097243
+Epoch[2] Validation-mAP=0.067841
+Epoch[3] Batch [20]	Speed: 88.06 samples/sec	CrossEntropy=1.115413	SmoothL1=0.468796
+Epoch[3] Batch [40]	Speed: 88.94 samples/sec	CrossEntropy=1.125832	SmoothL1=0.468088
+Epoch[3] Batch [60]	Speed: 87.91 samples/sec	CrossEntropy=1.119629	SmoothL1=0.489352
+Epoch[3] Batch [80]	Speed: 88.81 samples/sec	CrossEntropy=1.095745	SmoothL1=0.486282
+Epoch[3] Batch [100]	Speed: 91.66 samples/sec	CrossEntropy=1.082191	SmoothL1=0.449663
+Epoch[3] Batch [120]	Speed: 90.16 samples/sec	CrossEntropy=1.082704	SmoothL1=0.450893
+Epoch[3] Batch [140]	Speed: 86.56 samples/sec	CrossEntropy=1.112027	SmoothL1=0.488500
+Epoch[3] Batch [160]	Speed: 89.43 samples/sec	CrossEntropy=1.083389	SmoothL1=0.461061
+Epoch[3] Batch [180]	Speed: 88.87 samples/sec	CrossEntropy=1.079304	SmoothL1=0.451462
+Epoch[3] Batch [200]	Speed: 88.41 samples/sec	CrossEntropy=1.097183	SmoothL1=0.451183
+Epoch[3] Batch [220]	Speed: 84.85 samples/sec	CrossEntropy=1.066064	SmoothL1=0.463558
+Epoch[3] Batch [240]	Speed: 87.98 samples/sec	CrossEntropy=1.086646	SmoothL1=0.453694
+Epoch[3] Train-CrossEntropy=1.082464
+Epoch[3] Train-SmoothL1=0.457898
+Epoch[3] Time cost=92.641
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0004.params"
+Epoch[3] Validation-aeroplane=0.172187
+Epoch[3] Validation-bicycle=0.030303
+Epoch[3] Validation-bird=0.050554
+Epoch[3] Validation-boat=0.007722
+Epoch[3] Validation-bottle=0.000608
+Epoch[3] Validation-bus=0.015152
+Epoch[3] Validation-car=0.269809
+Epoch[3] Validation-cat=0.219169
+Epoch[3] Validation-chair=0.071209
+Epoch[3] Validation-cow=0.002674
+Epoch[3] Validation-diningtable=0.018182
+Epoch[3] Validation-dog=0.130942
+Epoch[3] Validation-horse=0.025253
+Epoch[3] Validation-motorbike=0.090909
+Epoch[3] Validation-person=0.372132
+Epoch[3] Validation-pottedplant=0.000741
+Epoch[3] Validation-sheep=0.157147
+Epoch[3] Validation-sofa=0.003030
+Epoch[3] Validation-train=0.033953
+Epoch[3] Validation-tvmonitor=0.101595
+Epoch[3] Validation-mAP=0.088663
+Epoch[4] Batch [20]	Speed: 89.57 samples/sec	CrossEntropy=1.096686	SmoothL1=0.452004
+Epoch[4] Batch [40]	Speed: 93.27 samples/sec	CrossEntropy=1.088572	SmoothL1=0.437280
+Epoch[4] Batch [60]	Speed: 90.44 samples/sec	CrossEntropy=1.080035	SmoothL1=0.458906
+Epoch[4] Batch [80]	Speed: 93.27 samples/sec	CrossEntropy=1.052168	SmoothL1=0.442173
+Epoch[4] Batch [100]	Speed: 92.21 samples/sec	CrossEntropy=1.049457	SmoothL1=0.441393
+Epoch[4] Batch [120]	Speed: 92.73 samples/sec	CrossEntropy=1.055132	SmoothL1=0.449008
+Epoch[4] Batch [140]	Speed: 91.86 samples/sec	CrossEntropy=1.055867	SmoothL1=0.462586
+Epoch[4] Batch [160]	Speed: 92.19 samples/sec	CrossEntropy=1.037469	SmoothL1=0.436955
+Epoch[4] Batch [180]	Speed: 92.09 samples/sec	CrossEntropy=1.027361	SmoothL1=0.449208
+Epoch[4] Batch [200]	Speed: 91.52 samples/sec	CrossEntropy=1.039047	SmoothL1=0.434991
+Epoch[4] Batch [220]	Speed: 91.88 samples/sec	CrossEntropy=1.012030	SmoothL1=0.436164
+Epoch[4] Batch [240]	Speed: 92.86 samples/sec	CrossEntropy=1.028708	SmoothL1=0.431941
+Epoch[4] Train-CrossEntropy=1.029816
+Epoch[4] Train-SmoothL1=0.448629
+Epoch[4] Time cost=89.233
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0005.params"
+Epoch[4] Validation-aeroplane=0.224072
+Epoch[4] Validation-bicycle=0.106782
+Epoch[4] Validation-bird=0.118588
+Epoch[4] Validation-boat=0.048123
+Epoch[4] Validation-bottle=0.005051
+Epoch[4] Validation-bus=0.191893
+Epoch[4] Validation-car=0.353742
+Epoch[4] Validation-cat=0.369215
+Epoch[4] Validation-chair=0.129209
+Epoch[4] Validation-cow=0.092843
+Epoch[4] Validation-diningtable=0.030311
+Epoch[4] Validation-dog=0.233617
+Epoch[4] Validation-horse=0.125577
+Epoch[4] Validation-motorbike=0.185275
+Epoch[4] Validation-person=0.448134
+Epoch[4] Validation-pottedplant=0.010101
+Epoch[4] Validation-sheep=0.170685
+Epoch[4] Validation-sofa=0.090909
+Epoch[4] Validation-train=0.161066
+Epoch[4] Validation-tvmonitor=0.160785
+Epoch[4] Validation-mAP=0.162799
+Epoch[5] Batch [20]	Speed: 90.94 samples/sec	CrossEntropy=1.037991	SmoothL1=0.438512
+Epoch[5] Batch [40]	Speed: 92.88 samples/sec	CrossEntropy=1.020631	SmoothL1=0.425926
+Epoch[5] Batch [60]	Speed: 92.66 samples/sec	CrossEntropy=1.043106	SmoothL1=0.448030
+Epoch[5] Batch [80]	Speed: 92.36 samples/sec	CrossEntropy=1.009986	SmoothL1=0.439777
+Epoch[5] Batch [100]	Speed: 91.45 samples/sec	CrossEntropy=1.019391	SmoothL1=0.439903
+Epoch[5] Batch [120]	Speed: 92.58 samples/sec	CrossEntropy=1.006350	SmoothL1=0.422153
+Epoch[5] Batch [140]	Speed: 91.43 samples/sec	CrossEntropy=1.013522	SmoothL1=0.441104
+Epoch[5] Batch [160]	Speed: 91.49 samples/sec	CrossEntropy=1.002427	SmoothL1=0.428207
+Epoch[5] Batch [180]	Speed: 92.11 samples/sec	CrossEntropy=0.997975	SmoothL1=0.416808
+Epoch[5] Batch [200]	Speed: 91.75 samples/sec	CrossEntropy=1.011432	SmoothL1=0.438839
+Epoch[5] Batch [220]	Speed: 91.07 samples/sec	CrossEntropy=0.998031	SmoothL1=0.435131
+Epoch[5] Batch [240]	Speed: 92.37 samples/sec	CrossEntropy=1.003322	SmoothL1=0.414829
+Epoch[5] Train-CrossEntropy=0.997865
+Epoch[5] Train-SmoothL1=0.431439
+Epoch[5] Time cost=89.017
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0006.params"
+Epoch[5] Validation-aeroplane=0.286057
+Epoch[5] Validation-bicycle=0.151426
+Epoch[5] Validation-bird=0.199058
+Epoch[5] Validation-boat=0.009425
+Epoch[5] Validation-bottle=0.018182
+Epoch[5] Validation-bus=0.226566
+Epoch[5] Validation-car=0.403613
+Epoch[5] Validation-cat=0.393305
+Epoch[5] Validation-chair=0.138404
+Epoch[5] Validation-cow=0.117165
+Epoch[5] Validation-diningtable=0.054565
+Epoch[5] Validation-dog=0.266957
+Epoch[5] Validation-horse=0.157161
+Epoch[5] Validation-motorbike=0.242213
+Epoch[5] Validation-person=0.494410
+Epoch[5] Validation-pottedplant=0.016641
+Epoch[5] Validation-sheep=0.215832
+Epoch[5] Validation-sofa=0.090909
+Epoch[5] Validation-train=0.167631
+Epoch[5] Validation-tvmonitor=0.184464
+Epoch[5] Validation-mAP=0.191699
+Epoch[6] Batch [20]	Speed: 90.84 samples/sec	CrossEntropy=0.996673	SmoothL1=0.423615
+Epoch[6] Batch [40]	Speed: 92.30 samples/sec	CrossEntropy=1.000303	SmoothL1=0.415388
+Epoch[6] Batch [60]	Speed: 91.02 samples/sec	CrossEntropy=1.006320	SmoothL1=0.424933
+Epoch[6] Batch [80]	Speed: 92.46 samples/sec	CrossEntropy=0.972383	SmoothL1=0.433416
+Epoch[6] Batch [100]	Speed: 92.54 samples/sec	CrossEntropy=0.987502	SmoothL1=0.422870
+Epoch[6] Batch [120]	Speed: 90.36 samples/sec	CrossEntropy=0.969489	SmoothL1=0.417313
+Epoch[6] Batch [140]	Speed: 91.58 samples/sec	CrossEntropy=0.984805	SmoothL1=0.443981
+Epoch[6] Batch [160]	Speed: 93.49 samples/sec	CrossEntropy=0.954662	SmoothL1=0.424762
+Epoch[6] Batch [180]	Speed: 92.04 samples/sec	CrossEntropy=0.971502	SmoothL1=0.429236
+Epoch[6] Batch [200]	Speed: 91.68 samples/sec	CrossEntropy=0.972920	SmoothL1=0.406942
+Epoch[6] Batch [220]	Speed: 90.98 samples/sec	CrossEntropy=0.956155	SmoothL1=0.421709
+Epoch[6] Batch [240]	Speed: 92.87 samples/sec	CrossEntropy=0.956058	SmoothL1=0.414463
+Epoch[6] Train-CrossEntropy=0.958622
+Epoch[6] Train-SmoothL1=0.415813
+Epoch[6] Time cost=89.414
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0007.params"
+Epoch[6] Validation-aeroplane=0.376510
+Epoch[6] Validation-bicycle=0.205649
+Epoch[6] Validation-bird=0.160421
+Epoch[6] Validation-boat=0.101360
+Epoch[6] Validation-bottle=0.006061
+Epoch[6] Validation-bus=0.212899
+Epoch[6] Validation-car=0.424170
+Epoch[6] Validation-cat=0.421523
+Epoch[6] Validation-chair=0.145317
+Epoch[6] Validation-cow=0.085117
+Epoch[6] Validation-diningtable=0.059260
+Epoch[6] Validation-dog=0.315936
+Epoch[6] Validation-horse=0.163936
+Epoch[6] Validation-motorbike=0.233413
+Epoch[6] Validation-person=0.485737
+Epoch[6] Validation-pottedplant=0.026215
+Epoch[6] Validation-sheep=0.237995
+Epoch[6] Validation-sofa=0.156312
+Epoch[6] Validation-train=0.195020
+Epoch[6] Validation-tvmonitor=0.233613
+Epoch[6] Validation-mAP=0.212323
+Epoch[7] Batch [20]	Speed: 90.42 samples/sec	CrossEntropy=0.960732	SmoothL1=0.413715
+Epoch[7] Batch [40]	Speed: 92.30 samples/sec	CrossEntropy=0.965707	SmoothL1=0.401096
+Epoch[7] Batch [60]	Speed: 91.33 samples/sec	CrossEntropy=0.964140	SmoothL1=0.410715
+Epoch[7] Batch [80]	Speed: 92.02 samples/sec	CrossEntropy=0.948772	SmoothL1=0.420390
+Epoch[7] Batch [100]	Speed: 93.31 samples/sec	CrossEntropy=0.956118	SmoothL1=0.415951
+Epoch[7] Batch [120]	Speed: 92.90 samples/sec	CrossEntropy=0.954124	SmoothL1=0.397554
+Epoch[7] Batch [140]	Speed: 93.06 samples/sec	CrossEntropy=0.963480	SmoothL1=0.421983
+Epoch[7] Batch [160]	Speed: 93.30 samples/sec	CrossEntropy=0.935878	SmoothL1=0.411175
+Epoch[7] Batch [180]	Speed: 92.81 samples/sec	CrossEntropy=0.904106	SmoothL1=0.399703
+Epoch[7] Batch [200]	Speed: 93.47 samples/sec	CrossEntropy=0.930564	SmoothL1=0.403568
+Epoch[7] Batch [220]	Speed: 92.39 samples/sec	CrossEntropy=0.933820	SmoothL1=0.417879
+Epoch[7] Batch [240]	Speed: 93.57 samples/sec	CrossEntropy=0.937707	SmoothL1=0.409811
+Epoch[7] Train-CrossEntropy=0.942595
+Epoch[7] Train-SmoothL1=0.406858
+Epoch[7] Time cost=88.678
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0008.params"
+Epoch[7] Validation-aeroplane=0.384732
+Epoch[7] Validation-bicycle=0.253112
+Epoch[7] Validation-bird=0.232013
+Epoch[7] Validation-boat=0.101055
+Epoch[7] Validation-bottle=0.092267
+Epoch[7] Validation-bus=0.290006
+Epoch[7] Validation-car=0.453403
+Epoch[7] Validation-cat=0.443194
+Epoch[7] Validation-chair=0.149914
+Epoch[7] Validation-cow=0.046266
+Epoch[7] Validation-diningtable=0.092590
+Epoch[7] Validation-dog=0.342572
+Epoch[7] Validation-horse=0.229010
+Epoch[7] Validation-motorbike=0.358551
+Epoch[7] Validation-person=0.500011
+Epoch[7] Validation-pottedplant=0.033839
+Epoch[7] Validation-sheep=0.276958
+Epoch[7] Validation-sofa=0.182358
+Epoch[7] Validation-train=0.261629
+Epoch[7] Validation-tvmonitor=0.309235
+Epoch[7] Validation-mAP=0.251636
+Epoch[8] Batch [20]	Speed: 93.19 samples/sec	CrossEntropy=0.932421	SmoothL1=0.395516
+Epoch[8] Batch [40]	Speed: 93.40 samples/sec	CrossEntropy=0.934051	SmoothL1=0.405447
+Epoch[8] Batch [60]	Speed: 92.45 samples/sec	CrossEntropy=0.930820	SmoothL1=0.409262
+Epoch[8] Batch [80]	Speed: 91.94 samples/sec	CrossEntropy=0.928159	SmoothL1=0.409984
+Epoch[8] Batch [100]	Speed: 92.05 samples/sec	CrossEntropy=0.913234	SmoothL1=0.401254
+Epoch[8] Batch [120]	Speed: 91.93 samples/sec	CrossEntropy=0.911218	SmoothL1=0.390807
+Epoch[8] Batch [140]	Speed: 92.39 samples/sec	CrossEntropy=0.928045	SmoothL1=0.423978
+Epoch[8] Batch [160]	Speed: 91.92 samples/sec	CrossEntropy=0.901404	SmoothL1=0.391301
+Epoch[8] Batch [180]	Speed: 93.59 samples/sec	CrossEntropy=0.900365	SmoothL1=0.410869
+Epoch[8] Batch [200]	Speed: 93.03 samples/sec	CrossEntropy=0.894691	SmoothL1=0.383879
+Epoch[8] Batch [220]	Speed: 91.01 samples/sec	CrossEntropy=0.907312	SmoothL1=0.415417
+Epoch[8] Batch [240]	Speed: 93.42 samples/sec	CrossEntropy=0.905174	SmoothL1=0.388328
+Epoch[8] Train-CrossEntropy=0.925810
+Epoch[8] Train-SmoothL1=0.415409
+Epoch[8] Time cost=88.942
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0009.params"
+Epoch[8] Validation-aeroplane=0.490289
+Epoch[8] Validation-bicycle=0.319384
+Epoch[8] Validation-bird=0.307022
+Epoch[8] Validation-boat=0.096886
+Epoch[8] Validation-bottle=0.094013
+Epoch[8] Validation-bus=0.420141
+Epoch[8] Validation-car=0.502176
+Epoch[8] Validation-cat=0.513070
+Epoch[8] Validation-chair=0.182030
+Epoch[8] Validation-cow=0.098234
+Epoch[8] Validation-diningtable=0.133493
+Epoch[8] Validation-dog=0.406999
+Epoch[8] Validation-horse=0.254855
+Epoch[8] Validation-motorbike=0.398827
+Epoch[8] Validation-person=0.534960
+Epoch[8] Validation-pottedplant=0.039975
+Epoch[8] Validation-sheep=0.289517
+Epoch[8] Validation-sofa=0.268223
+Epoch[8] Validation-train=0.324305
+Epoch[8] Validation-tvmonitor=0.356616
+Epoch[8] Validation-mAP=0.301551
+Epoch[9] Batch [20]	Speed: 90.71 samples/sec	CrossEntropy=0.896334	SmoothL1=0.393394
+Epoch[9] Batch [40]	Speed: 92.61 samples/sec	CrossEntropy=0.916008	SmoothL1=0.395534
+Epoch[9] Batch [60]	Speed: 93.08 samples/sec	CrossEntropy=0.912895	SmoothL1=0.415738
+Epoch[9] Batch [80]	Speed: 92.83 samples/sec	CrossEntropy=0.891993	SmoothL1=0.407788
+Epoch[9] Batch [100]	Speed: 93.39 samples/sec	CrossEntropy=0.911530	SmoothL1=0.403803
+Epoch[9] Batch [120]	Speed: 93.91 samples/sec	CrossEntropy=0.905263	SmoothL1=0.392654
+Epoch[9] Batch [140]	Speed: 91.12 samples/sec	CrossEntropy=0.892520	SmoothL1=0.396096
+Epoch[9] Batch [160]	Speed: 92.43 samples/sec	CrossEntropy=0.884570	SmoothL1=0.399448
+Epoch[9] Batch [180]	Speed: 92.81 samples/sec	CrossEntropy=0.888504	SmoothL1=0.377484
+Epoch[9] Batch [200]	Speed: 90.65 samples/sec	CrossEntropy=0.884137	SmoothL1=0.395620
+Epoch[9] Batch [220]	Speed: 92.59 samples/sec	CrossEntropy=0.875822	SmoothL1=0.393304
+Epoch[9] Batch [240]	Speed: 93.31 samples/sec	CrossEntropy=0.886306	SmoothL1=0.386972
+Epoch[9] Train-CrossEntropy=0.875922
+Epoch[9] Train-SmoothL1=0.389229
+Epoch[9] Time cost=88.738
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0010.params"
+Epoch[9] Validation-aeroplane=0.473659
+Epoch[9] Validation-bicycle=0.327494
+Epoch[9] Validation-bird=0.329782
+Epoch[9] Validation-boat=0.123001
+Epoch[9] Validation-bottle=0.099873
+Epoch[9] Validation-bus=0.426317
+Epoch[9] Validation-car=0.524355
+Epoch[9] Validation-cat=0.541846
+Epoch[9] Validation-chair=0.186541
+Epoch[9] Validation-cow=0.162161
+Epoch[9] Validation-diningtable=0.155566
+Epoch[9] Validation-dog=0.468103
+Epoch[9] Validation-horse=0.353826
+Epoch[9] Validation-motorbike=0.460670
+Epoch[9] Validation-person=0.557889
+Epoch[9] Validation-pottedplant=0.048581
+Epoch[9] Validation-sheep=0.334501
+Epoch[9] Validation-sofa=0.264592
+Epoch[9] Validation-train=0.331976
+Epoch[9] Validation-tvmonitor=0.403773
+Epoch[9] Validation-mAP=0.328725
+Epoch[10] Batch [20]	Speed: 85.54 samples/sec	CrossEntropy=0.894284	SmoothL1=0.388108
+Epoch[10] Batch [40]	Speed: 91.43 samples/sec	CrossEntropy=0.889001	SmoothL1=0.389966
+Epoch[10] Batch [60]	Speed: 90.67 samples/sec	CrossEntropy=0.890176	SmoothL1=0.395899
+Epoch[10] Batch [80]	Speed: 91.27 samples/sec	CrossEntropy=0.869661	SmoothL1=0.397344
+Epoch[10] Batch [100]	Speed: 93.00 samples/sec	CrossEntropy=0.877881	SmoothL1=0.394679
+Epoch[10] Batch [120]	Speed: 92.34 samples/sec	CrossEntropy=0.868528	SmoothL1=0.394983
+Epoch[10] Batch [140]	Speed: 92.86 samples/sec	CrossEntropy=0.904354	SmoothL1=0.409149
+Epoch[10] Batch [160]	Speed: 92.40 samples/sec	CrossEntropy=0.846601	SmoothL1=0.381927
+Epoch[10] Batch [180]	Speed: 91.78 samples/sec	CrossEntropy=0.849756	SmoothL1=0.382751
+Epoch[10] Batch [200]	Speed: 91.81 samples/sec	CrossEntropy=0.870686	SmoothL1=0.373628
+Epoch[10] Batch [220]	Speed: 92.81 samples/sec	CrossEntropy=0.866723	SmoothL1=0.397760
+Epoch[10] Batch [240]	Speed: 93.21 samples/sec	CrossEntropy=0.863030	SmoothL1=0.377691
+Epoch[10] Train-CrossEntropy=0.866284
+Epoch[10] Train-SmoothL1=0.409783
+Epoch[10] Time cost=89.228
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0011.params"
+Epoch[10] Validation-aeroplane=0.520350
+Epoch[10] Validation-bicycle=0.411394
+Epoch[10] Validation-bird=0.381837
+Epoch[10] Validation-boat=0.109393
+Epoch[10] Validation-bottle=0.104100
+Epoch[10] Validation-bus=0.490614
+Epoch[10] Validation-car=0.551243
+Epoch[10] Validation-cat=0.609118
+Epoch[10] Validation-chair=0.186169
+Epoch[10] Validation-cow=0.148707
+Epoch[10] Validation-diningtable=0.177312
+Epoch[10] Validation-dog=0.506139
+Epoch[10] Validation-horse=0.364791
+Epoch[10] Validation-motorbike=0.472548
+Epoch[10] Validation-person=0.571427
+Epoch[10] Validation-pottedplant=0.055042
+Epoch[10] Validation-sheep=0.330817
+Epoch[10] Validation-sofa=0.223017
+Epoch[10] Validation-train=0.352744
+Epoch[10] Validation-tvmonitor=0.392009
+Epoch[10] Validation-mAP=0.347938
+Epoch[11] Batch [20]	Speed: 94.58 samples/sec	CrossEntropy=0.861373	SmoothL1=0.389337
+Epoch[11] Batch [40]	Speed: 90.95 samples/sec	CrossEntropy=0.867358	SmoothL1=0.380731
+Epoch[11] Batch [60]	Speed: 92.58 samples/sec	CrossEntropy=0.860572	SmoothL1=0.391532
+Epoch[11] Batch [80]	Speed: 92.53 samples/sec	CrossEntropy=0.855815	SmoothL1=0.389396
+Epoch[11] Batch [100]	Speed: 93.18 samples/sec	CrossEntropy=0.851975	SmoothL1=0.387722
+Epoch[11] Batch [120]	Speed: 91.92 samples/sec	CrossEntropy=0.851474	SmoothL1=0.375957
+Epoch[11] Batch [140]	Speed: 91.63 samples/sec	CrossEntropy=0.878852	SmoothL1=0.407265
+Epoch[11] Batch [160]	Speed: 92.53 samples/sec	CrossEntropy=0.837358	SmoothL1=0.386276
+Epoch[11] Batch [180]	Speed: 92.71 samples/sec	CrossEntropy=0.829644	SmoothL1=0.399854
+Epoch[11] Batch [200]	Speed: 93.71 samples/sec	CrossEntropy=0.837664	SmoothL1=0.376415
+Epoch[11] Batch [220]	Speed: 93.26 samples/sec	CrossEntropy=0.848288	SmoothL1=0.391955
+Epoch[11] Batch [240]	Speed: 92.26 samples/sec	CrossEntropy=0.849764	SmoothL1=0.375118
+Epoch[11] Train-CrossEntropy=0.852987
+Epoch[11] Train-SmoothL1=0.381982
+Epoch[11] Time cost=88.707
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0012.params"
+Epoch[11] Validation-aeroplane=0.548204
+Epoch[11] Validation-bicycle=0.431897
+Epoch[11] Validation-bird=0.421305
+Epoch[11] Validation-boat=0.144591
+Epoch[11] Validation-bottle=0.058785
+Epoch[11] Validation-bus=0.483022
+Epoch[11] Validation-car=0.554959
+Epoch[11] Validation-cat=0.655882
+Epoch[11] Validation-chair=0.200232
+Epoch[11] Validation-cow=0.237663
+Epoch[11] Validation-diningtable=0.168354
+Epoch[11] Validation-dog=0.515526
+Epoch[11] Validation-horse=0.407309
+Epoch[11] Validation-motorbike=0.455443
+Epoch[11] Validation-person=0.586286
+Epoch[11] Validation-pottedplant=0.123373
+Epoch[11] Validation-sheep=0.414663
+Epoch[11] Validation-sofa=0.266350
+Epoch[11] Validation-train=0.423059
+Epoch[11] Validation-tvmonitor=0.410040
+Epoch[11] Validation-mAP=0.375347
+Epoch[12] Batch [20]	Speed: 92.64 samples/sec	CrossEntropy=0.862710	SmoothL1=0.385861
+Epoch[12] Batch [40]	Speed: 93.17 samples/sec	CrossEntropy=0.836793	SmoothL1=0.356832
+Epoch[12] Batch [60]	Speed: 92.78 samples/sec	CrossEntropy=0.849551	SmoothL1=0.389984
+Epoch[12] Batch [80]	Speed: 92.97 samples/sec	CrossEntropy=0.838897	SmoothL1=0.385694
+Epoch[12] Batch [100]	Speed: 92.71 samples/sec	CrossEntropy=0.819952	SmoothL1=0.383711
+Epoch[12] Batch [120]	Speed: 93.66 samples/sec	CrossEntropy=0.834430	SmoothL1=0.374152
+Epoch[12] Batch [140]	Speed: 91.43 samples/sec	CrossEntropy=0.844010	SmoothL1=0.405861
+Epoch[12] Batch [160]	Speed: 86.80 samples/sec	CrossEntropy=0.809010	SmoothL1=0.371424
+Epoch[12] Batch [180]	Speed: 91.84 samples/sec	CrossEntropy=0.810265	SmoothL1=0.361575
+Epoch[12] Batch [200]	Speed: 91.22 samples/sec	CrossEntropy=0.831689	SmoothL1=0.371363
+Epoch[12] Batch [220]	Speed: 93.53 samples/sec	CrossEntropy=0.830918	SmoothL1=0.375129
+Epoch[12] Batch [240]	Speed: 92.69 samples/sec	CrossEntropy=0.818358	SmoothL1=0.371240
+Epoch[12] Train-CrossEntropy=0.833951
+Epoch[12] Train-SmoothL1=0.382437
+Epoch[12] Time cost=89.284
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0013.params"
+Epoch[12] Validation-aeroplane=0.568703
+Epoch[12] Validation-bicycle=0.465937
+Epoch[12] Validation-bird=0.440120
+Epoch[12] Validation-boat=0.135109
+Epoch[12] Validation-bottle=0.070905
+Epoch[12] Validation-bus=0.544213
+Epoch[12] Validation-car=0.530360
+Epoch[12] Validation-cat=0.710457
+Epoch[12] Validation-chair=0.231240
+Epoch[12] Validation-cow=0.294512
+Epoch[12] Validation-diningtable=0.259911
+Epoch[12] Validation-dog=0.600922
+Epoch[12] Validation-horse=0.435146
+Epoch[12] Validation-motorbike=0.497327
+Epoch[12] Validation-person=0.599924
+Epoch[12] Validation-pottedplant=0.122967
+Epoch[12] Validation-sheep=0.457115
+Epoch[12] Validation-sofa=0.307441
+Epoch[12] Validation-train=0.477937
+Epoch[12] Validation-tvmonitor=0.443012
+Epoch[12] Validation-mAP=0.409663
+Epoch[13] Batch [20]	Speed: 92.74 samples/sec	CrossEntropy=0.831020	SmoothL1=0.375196
+Epoch[13] Batch [40]	Speed: 93.33 samples/sec	CrossEntropy=0.823843	SmoothL1=0.366907
+Epoch[13] Batch [60]	Speed: 91.88 samples/sec	CrossEntropy=0.826060	SmoothL1=0.384295
+Epoch[13] Batch [80]	Speed: 92.91 samples/sec	CrossEntropy=0.821466	SmoothL1=0.380629
+Epoch[13] Batch [100]	Speed: 93.33 samples/sec	CrossEntropy=0.811743	SmoothL1=0.379964
+Epoch[13] Batch [120]	Speed: 93.99 samples/sec	CrossEntropy=0.817533	SmoothL1=0.363565
+Epoch[13] Batch [140]	Speed: 93.50 samples/sec	CrossEntropy=0.828121	SmoothL1=0.382849
+Epoch[13] Batch [160]	Speed: 92.64 samples/sec	CrossEntropy=0.802651	SmoothL1=0.365853
+Epoch[13] Batch [180]	Speed: 92.74 samples/sec	CrossEntropy=0.807683	SmoothL1=0.366517
+Epoch[13] Batch [200]	Speed: 92.32 samples/sec	CrossEntropy=0.811191	SmoothL1=0.360874
+Epoch[13] Batch [220]	Speed: 93.84 samples/sec	CrossEntropy=0.810614	SmoothL1=0.365131
+Epoch[13] Batch [240]	Speed: 93.25 samples/sec	CrossEntropy=0.816218	SmoothL1=0.377660
+Epoch[13] Train-CrossEntropy=0.819723
+Epoch[13] Train-SmoothL1=0.384605
+Epoch[13] Time cost=88.439
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0014.params"
+Epoch[13] Validation-aeroplane=0.611176
+Epoch[13] Validation-bicycle=0.467358
+Epoch[13] Validation-bird=0.452973
+Epoch[13] Validation-boat=0.162000
+Epoch[13] Validation-bottle=0.130903
+Epoch[13] Validation-bus=0.561655
+Epoch[13] Validation-car=0.589524
+Epoch[13] Validation-cat=0.658095
+Epoch[13] Validation-chair=0.243045
+Epoch[13] Validation-cow=0.103815
+Epoch[13] Validation-diningtable=0.230424
+Epoch[13] Validation-dog=0.598182
+Epoch[13] Validation-horse=0.453395
+Epoch[13] Validation-motorbike=0.467991
+Epoch[13] Validation-person=0.595588
+Epoch[13] Validation-pottedplant=0.144941
+Epoch[13] Validation-sheep=0.388067
+Epoch[13] Validation-sofa=0.302025
+Epoch[13] Validation-train=0.479912
+Epoch[13] Validation-tvmonitor=0.446907
+Epoch[13] Validation-mAP=0.404399
+Epoch[14] Batch [20]	Speed: 89.28 samples/sec	CrossEntropy=0.804796	SmoothL1=0.368287
+Epoch[14] Batch [40]	Speed: 95.05 samples/sec	CrossEntropy=0.819714	SmoothL1=0.358955
+Epoch[14] Batch [60]	Speed: 92.26 samples/sec	CrossEntropy=0.806469	SmoothL1=0.375940
+Epoch[14] Batch [80]	Speed: 93.36 samples/sec	CrossEntropy=0.822523	SmoothL1=0.378205
+Epoch[14] Batch [100]	Speed: 92.80 samples/sec	CrossEntropy=0.818688	SmoothL1=0.374284
+Epoch[14] Batch [120]	Speed: 93.28 samples/sec	CrossEntropy=0.808724	SmoothL1=0.364311
+Epoch[14] Batch [140]	Speed: 93.23 samples/sec	CrossEntropy=0.806484	SmoothL1=0.379400
+Epoch[14] Batch [160]	Speed: 93.50 samples/sec	CrossEntropy=0.788903	SmoothL1=0.375247
+Epoch[14] Batch [180]	Speed: 92.97 samples/sec	CrossEntropy=0.799993	SmoothL1=0.368598
+Epoch[14] Batch [200]	Speed: 92.12 samples/sec	CrossEntropy=0.793699	SmoothL1=0.356591
+Epoch[14] Batch [220]	Speed: 92.09 samples/sec	CrossEntropy=0.793749	SmoothL1=0.381137
+Epoch[14] Batch [240]	Speed: 93.34 samples/sec	CrossEntropy=0.789484	SmoothL1=0.364800
+Epoch[14] Train-CrossEntropy=0.786088
+Epoch[14] Train-SmoothL1=0.379053
+Epoch[14] Time cost=88.541
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0015.params"
+Epoch[14] Validation-aeroplane=0.602768
+Epoch[14] Validation-bicycle=0.485759
+Epoch[14] Validation-bird=0.465803
+Epoch[14] Validation-boat=0.164043
+Epoch[14] Validation-bottle=0.160107
+Epoch[14] Validation-bus=0.535360
+Epoch[14] Validation-car=0.560828
+Epoch[14] Validation-cat=0.713640
+Epoch[14] Validation-chair=0.250325
+Epoch[14] Validation-cow=0.239126
+Epoch[14] Validation-diningtable=0.240483
+Epoch[14] Validation-dog=0.576853
+Epoch[14] Validation-horse=0.485133
+Epoch[14] Validation-motorbike=0.536867
+Epoch[14] Validation-person=0.601697
+Epoch[14] Validation-pottedplant=0.149729
+Epoch[14] Validation-sheep=0.418421
+Epoch[14] Validation-sofa=0.333958
+Epoch[14] Validation-train=0.488947
+Epoch[14] Validation-tvmonitor=0.479147
+Epoch[14] Validation-mAP=0.424450
+Epoch[15] Batch [20]	Speed: 91.47 samples/sec	CrossEntropy=0.799877	SmoothL1=0.371580
+Epoch[15] Batch [40]	Speed: 93.83 samples/sec	CrossEntropy=0.797747	SmoothL1=0.363318
+Epoch[15] Batch [60]	Speed: 93.35 samples/sec	CrossEntropy=0.805793	SmoothL1=0.372477
+Epoch[15] Batch [80]	Speed: 93.44 samples/sec	CrossEntropy=0.793000	SmoothL1=0.372223
+Epoch[15] Batch [100]	Speed: 92.85 samples/sec	CrossEntropy=0.801796	SmoothL1=0.366899
+Epoch[15] Batch [120]	Speed: 94.51 samples/sec	CrossEntropy=0.790097	SmoothL1=0.368542
+Epoch[15] Batch [140]	Speed: 91.09 samples/sec	CrossEntropy=0.800359	SmoothL1=0.370669
+Epoch[15] Batch [160]	Speed: 92.23 samples/sec	CrossEntropy=0.751045	SmoothL1=0.350075
+Epoch[15] Batch [180]	Speed: 93.36 samples/sec	CrossEntropy=0.759091	SmoothL1=0.362664
+Epoch[15] Batch [200]	Speed: 92.49 samples/sec	CrossEntropy=0.775082	SmoothL1=0.358201
+Epoch[15] Batch [220]	Speed: 92.25 samples/sec	CrossEntropy=0.775528	SmoothL1=0.375033
+Epoch[15] Batch [240]	Speed: 93.79 samples/sec	CrossEntropy=0.789759	SmoothL1=0.359874
+Epoch[15] Train-CrossEntropy=0.773044
+Epoch[15] Train-SmoothL1=0.372540
+Epoch[15] Time cost=88.167
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0016.params"
+Epoch[15] Validation-aeroplane=0.638577
+Epoch[15] Validation-bicycle=0.534474
+Epoch[15] Validation-bird=0.439702
+Epoch[15] Validation-boat=0.180759
+Epoch[15] Validation-bottle=0.162227
+Epoch[15] Validation-bus=0.591940
+Epoch[15] Validation-car=0.597879
+Epoch[15] Validation-cat=0.710396
+Epoch[15] Validation-chair=0.243783
+Epoch[15] Validation-cow=0.236924
+Epoch[15] Validation-diningtable=0.333111
+Epoch[15] Validation-dog=0.592246
+Epoch[15] Validation-horse=0.470773
+Epoch[15] Validation-motorbike=0.553936
+Epoch[15] Validation-person=0.614169
+Epoch[15] Validation-pottedplant=0.148168
+Epoch[15] Validation-sheep=0.409375
+Epoch[15] Validation-sofa=0.391138
+Epoch[15] Validation-train=0.513260
+Epoch[15] Validation-tvmonitor=0.498735
+Epoch[15] Validation-mAP=0.443079
+Epoch[16] Batch [20]	Speed: 90.33 samples/sec	CrossEntropy=0.772439	SmoothL1=0.348118
+Epoch[16] Batch [40]	Speed: 93.21 samples/sec	CrossEntropy=0.790765	SmoothL1=0.359171
+Epoch[16] Batch [60]	Speed: 92.25 samples/sec	CrossEntropy=0.780795	SmoothL1=0.368885
+Epoch[16] Batch [80]	Speed: 93.97 samples/sec	CrossEntropy=0.785134	SmoothL1=0.363376
+Epoch[16] Batch [100]	Speed: 94.04 samples/sec	CrossEntropy=0.789895	SmoothL1=0.359356
+Epoch[16] Batch [120]	Speed: 94.67 samples/sec	CrossEntropy=0.774402	SmoothL1=0.354364
+Epoch[16] Batch [140]	Speed: 93.86 samples/sec	CrossEntropy=0.779431	SmoothL1=0.362721
+Epoch[16] Batch [160]	Speed: 91.73 samples/sec	CrossEntropy=0.757087	SmoothL1=0.371228
+Epoch[16] Batch [180]	Speed: 93.25 samples/sec	CrossEntropy=0.778642	SmoothL1=0.368086
+Epoch[16] Batch [200]	Speed: 93.03 samples/sec	CrossEntropy=0.768226	SmoothL1=0.352982
+Epoch[16] Batch [220]	Speed: 93.11 samples/sec	CrossEntropy=0.783027	SmoothL1=0.362748
+Epoch[16] Batch [240]	Speed: 92.69 samples/sec	CrossEntropy=0.772416	SmoothL1=0.353571
+Epoch[16] Train-CrossEntropy=0.781575
+Epoch[16] Train-SmoothL1=0.382085
+Epoch[16] Time cost=88.493
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0017.params"
+Epoch[16] Validation-aeroplane=0.620010
+Epoch[16] Validation-bicycle=0.458436
+Epoch[16] Validation-bird=0.477146
+Epoch[16] Validation-boat=0.210918
+Epoch[16] Validation-bottle=0.154009
+Epoch[16] Validation-bus=0.565613
+Epoch[16] Validation-car=0.592427
+Epoch[16] Validation-cat=0.730874
+Epoch[16] Validation-chair=0.253041
+Epoch[16] Validation-cow=0.272076
+Epoch[16] Validation-diningtable=0.318777
+Epoch[16] Validation-dog=0.661732
+Epoch[16] Validation-horse=0.546636
+Epoch[16] Validation-motorbike=0.553576
+Epoch[16] Validation-person=0.610403
+Epoch[16] Validation-pottedplant=0.162497
+Epoch[16] Validation-sheep=0.474687
+Epoch[16] Validation-sofa=0.368023
+Epoch[16] Validation-train=0.540260
+Epoch[16] Validation-tvmonitor=0.496751
+Epoch[16] Validation-mAP=0.453395
+Epoch[17] Batch [20]	Speed: 92.05 samples/sec	CrossEntropy=0.769831	SmoothL1=0.369795
+Epoch[17] Batch [40]	Speed: 94.88 samples/sec	CrossEntropy=0.764333	SmoothL1=0.347784
+Epoch[17] Batch [60]	Speed: 91.50 samples/sec	CrossEntropy=0.761506	SmoothL1=0.357067
+Epoch[17] Batch [80]	Speed: 94.61 samples/sec	CrossEntropy=0.760618	SmoothL1=0.367385
+Epoch[17] Batch [100]	Speed: 92.63 samples/sec	CrossEntropy=0.760998	SmoothL1=0.352401
+Epoch[17] Batch [120]	Speed: 94.86 samples/sec	CrossEntropy=0.755328	SmoothL1=0.345786
+Epoch[17] Batch [140]	Speed: 93.16 samples/sec	CrossEntropy=0.776004	SmoothL1=0.372422
+Epoch[17] Batch [160]	Speed: 93.08 samples/sec	CrossEntropy=0.736517	SmoothL1=0.356826
+Epoch[17] Batch [180]	Speed: 92.35 samples/sec	CrossEntropy=0.759589	SmoothL1=0.363639
+Epoch[17] Batch [200]	Speed: 92.72 samples/sec	CrossEntropy=0.754067	SmoothL1=0.344535
+Epoch[17] Batch [220]	Speed: 93.08 samples/sec	CrossEntropy=0.753252	SmoothL1=0.368005
+Epoch[17] Batch [240]	Speed: 92.66 samples/sec	CrossEntropy=0.784562	SmoothL1=0.358773
+Epoch[17] Train-CrossEntropy=0.761097
+Epoch[17] Train-SmoothL1=0.368813
+Epoch[17] Time cost=88.223
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0018.params"
+Epoch[17] Validation-aeroplane=0.642486
+Epoch[17] Validation-bicycle=0.540824
+Epoch[17] Validation-bird=0.472662
+Epoch[17] Validation-boat=0.204478
+Epoch[17] Validation-bottle=0.157678
+Epoch[17] Validation-bus=0.566464
+Epoch[17] Validation-car=0.556203
+Epoch[17] Validation-cat=0.744998
+Epoch[17] Validation-chair=0.229193
+Epoch[17] Validation-cow=0.301598
+Epoch[17] Validation-diningtable=0.305147
+Epoch[17] Validation-dog=0.677736
+Epoch[17] Validation-horse=0.537611
+Epoch[17] Validation-motorbike=0.570674
+Epoch[17] Validation-person=0.616026
+Epoch[17] Validation-pottedplant=0.161390
+Epoch[17] Validation-sheep=0.490551
+Epoch[17] Validation-sofa=0.361155
+Epoch[17] Validation-train=0.563035
+Epoch[17] Validation-tvmonitor=0.474931
+Epoch[17] Validation-mAP=0.458742
+Epoch[18] Batch [20]	Speed: 92.33 samples/sec	CrossEntropy=0.761560	SmoothL1=0.344716
+Epoch[18] Batch [40]	Speed: 94.34 samples/sec	CrossEntropy=0.768089	SmoothL1=0.340352
+Epoch[18] Batch [60]	Speed: 91.72 samples/sec	CrossEntropy=0.758648	SmoothL1=0.362122
+Epoch[18] Batch [80]	Speed: 93.56 samples/sec	CrossEntropy=0.774048	SmoothL1=0.365485
+Epoch[18] Batch [100]	Speed: 92.83 samples/sec	CrossEntropy=0.744749	SmoothL1=0.360067
+Epoch[18] Batch [120]	Speed: 92.84 samples/sec	CrossEntropy=0.749447	SmoothL1=0.348681
+Epoch[18] Batch [140]	Speed: 93.63 samples/sec	CrossEntropy=0.758970	SmoothL1=0.358692
+Epoch[18] Batch [160]	Speed: 92.88 samples/sec	CrossEntropy=0.738544	SmoothL1=0.345504
+Epoch[18] Batch [180]	Speed: 92.65 samples/sec	CrossEntropy=0.747978	SmoothL1=0.362062
+Epoch[18] Batch [200]	Speed: 94.03 samples/sec	CrossEntropy=0.739402	SmoothL1=0.338581
+Epoch[18] Batch [220]	Speed: 93.01 samples/sec	CrossEntropy=0.735651	SmoothL1=0.349272
+Epoch[18] Batch [240]	Speed: 92.24 samples/sec	CrossEntropy=0.754812	SmoothL1=0.361896
+Epoch[18] Train-CrossEntropy=0.768050
+Epoch[18] Train-SmoothL1=0.367296
+Epoch[18] Time cost=88.222
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0019.params"
+Epoch[18] Validation-aeroplane=0.654806
+Epoch[18] Validation-bicycle=0.568024
+Epoch[18] Validation-bird=0.478461
+Epoch[18] Validation-boat=0.251581
+Epoch[18] Validation-bottle=0.193484
+Epoch[18] Validation-bus=0.586250
+Epoch[18] Validation-car=0.583800
+Epoch[18] Validation-cat=0.750876
+Epoch[18] Validation-chair=0.281844
+Epoch[18] Validation-cow=0.324411
+Epoch[18] Validation-diningtable=0.370993
+Epoch[18] Validation-dog=0.637477
+Epoch[18] Validation-horse=0.536146
+Epoch[18] Validation-motorbike=0.538192
+Epoch[18] Validation-person=0.624037
+Epoch[18] Validation-pottedplant=0.172267
+Epoch[18] Validation-sheep=0.498405
+Epoch[18] Validation-sofa=0.398182
+Epoch[18] Validation-train=0.563715
+Epoch[18] Validation-tvmonitor=0.518128
+Epoch[18] Validation-mAP=0.476554
+Epoch[19] Batch [20]	Speed: 91.22 samples/sec	CrossEntropy=0.748257	SmoothL1=0.348269
+Epoch[19] Batch [40]	Speed: 94.34 samples/sec	CrossEntropy=0.729585	SmoothL1=0.335835
+Epoch[19] Batch [60]	Speed: 93.54 samples/sec	CrossEntropy=0.760240	SmoothL1=0.366874
+Epoch[19] Batch [80]	Speed: 94.03 samples/sec	CrossEntropy=0.736301	SmoothL1=0.355202
+Epoch[19] Batch [100]	Speed: 94.21 samples/sec	CrossEntropy=0.759585	SmoothL1=0.360174
+Epoch[19] Batch [120]	Speed: 93.96 samples/sec	CrossEntropy=0.766466	SmoothL1=0.352518
+Epoch[19] Batch [140]	Speed: 94.55 samples/sec	CrossEntropy=0.751388	SmoothL1=0.352306
+Epoch[19] Batch [160]	Speed: 91.46 samples/sec	CrossEntropy=0.721016	SmoothL1=0.336020
+Epoch[19] Batch [180]	Speed: 93.28 samples/sec	CrossEntropy=0.740385	SmoothL1=0.356630
+Epoch[19] Batch [200]	Speed: 92.63 samples/sec	CrossEntropy=0.741953	SmoothL1=0.335747
+Epoch[19] Batch [220]	Speed: 94.29 samples/sec	CrossEntropy=0.744209	SmoothL1=0.352577
+Epoch[19] Batch [240]	Speed: 93.88 samples/sec	CrossEntropy=0.739792	SmoothL1=0.351535
+Epoch[19] Train-CrossEntropy=0.742510
+Epoch[19] Train-SmoothL1=0.342122
+Epoch[19] Time cost=87.789
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0020.params"
+Epoch[19] Validation-aeroplane=0.665939
+Epoch[19] Validation-bicycle=0.578531
+Epoch[19] Validation-bird=0.510896
+Epoch[19] Validation-boat=0.262374
+Epoch[19] Validation-bottle=0.208789
+Epoch[19] Validation-bus=0.618374
+Epoch[19] Validation-car=0.597975
+Epoch[19] Validation-cat=0.775916
+Epoch[19] Validation-chair=0.275033
+Epoch[19] Validation-cow=0.366430
+Epoch[19] Validation-diningtable=0.376096
+Epoch[19] Validation-dog=0.679532
+Epoch[19] Validation-horse=0.564549
+Epoch[19] Validation-motorbike=0.607321
+Epoch[19] Validation-person=0.623985
+Epoch[19] Validation-pottedplant=0.190711
+Epoch[19] Validation-sheep=0.517650
+Epoch[19] Validation-sofa=0.388890
+Epoch[19] Validation-train=0.644317
+Epoch[19] Validation-tvmonitor=0.507114
+Epoch[19] Validation-mAP=0.498021
+Start training with (gpu(0),gpu(1)) from pretrained model /media/tx-deepocean/tx-data/st/ssd/model/vgg16_reduced
+Freezed parameters: [conv1_1_weight,conv1_1_bias,conv1_2_weight,conv1_2_bias,conv2_1_weight,conv2_1_bias,conv2_2_weight,conv2_2_bias]
+Epoch[0] Batch [20]	Speed: 93.58 samples/sec	CrossEntropy=3.730871	SmoothL1=0.769381
+Epoch[0] Batch [40]	Speed: 91.02 samples/sec	CrossEntropy=2.629065	SmoothL1=0.736125
+Epoch[0] Batch [60]	Speed: 92.84 samples/sec	CrossEntropy=1.779608	SmoothL1=0.699034
+Epoch[0] Batch [80]	Speed: 92.30 samples/sec	CrossEntropy=1.485276	SmoothL1=0.681854
+Epoch[0] Batch [100]	Speed: 92.05 samples/sec	CrossEntropy=1.377707	SmoothL1=0.656299
+Epoch[0] Batch [120]	Speed: 91.11 samples/sec	CrossEntropy=1.297308	SmoothL1=0.621514
+Epoch[0] Batch [140]	Speed: 90.55 samples/sec	CrossEntropy=1.264443	SmoothL1=0.638894
+Epoch[0] Batch [160]	Speed: 90.39 samples/sec	CrossEntropy=1.239234	SmoothL1=0.602005
+Epoch[0] Batch [180]	Speed: 91.77 samples/sec	CrossEntropy=1.237046	SmoothL1=0.568199
+Epoch[0] Batch [200]	Speed: 93.36 samples/sec	CrossEntropy=1.236490	SmoothL1=0.571115
+Epoch[0] Batch [220]	Speed: 93.35 samples/sec	CrossEntropy=1.232580	SmoothL1=0.572361
+Epoch[0] Batch [240]	Speed: 93.30 samples/sec	CrossEntropy=1.234285	SmoothL1=0.558375
+Epoch[0] Train-CrossEntropy=1.230797
+Epoch[0] Train-SmoothL1=0.559483
+Epoch[0] Time cost=89.319
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0001.params"
+Epoch[0] Validation-aeroplane=0.010823
+Epoch[0] Validation-bicycle=0.000000
+Epoch[0] Validation-bird=0.000000
+Epoch[0] Validation-boat=0.000162
+Epoch[0] Validation-bottle=0.000000
+Epoch[0] Validation-bus=0.000000
+Epoch[0] Validation-car=0.011422
+Epoch[0] Validation-cat=0.024983
+Epoch[0] Validation-chair=0.005898
+Epoch[0] Validation-cow=0.000000
+Epoch[0] Validation-diningtable=0.000000
+Epoch[0] Validation-dog=0.000000
+Epoch[0] Validation-horse=0.000000
+Epoch[0] Validation-motorbike=0.000000
+Epoch[0] Validation-person=0.158898
+Epoch[0] Validation-pottedplant=0.000000
+Epoch[0] Validation-sheep=0.000000
+Epoch[0] Validation-sofa=0.000000
+Epoch[0] Validation-train=0.000000
+Epoch[0] Validation-tvmonitor=0.000000
+Epoch[0] Validation-mAP=0.010609
+Epoch[1] Batch [20]	Speed: 86.99 samples/sec	CrossEntropy=1.213079	SmoothL1=0.554185
+Epoch[1] Batch [40]	Speed: 89.60 samples/sec	CrossEntropy=1.222839	SmoothL1=0.541905
+Epoch[1] Batch [60]	Speed: 89.58 samples/sec	CrossEntropy=1.219507	SmoothL1=0.556424
+Epoch[1] Batch [80]	Speed: 89.54 samples/sec	CrossEntropy=1.198444	SmoothL1=0.528313
+Epoch[1] Batch [100]	Speed: 90.48 samples/sec	CrossEntropy=1.198580	SmoothL1=0.538935
+Epoch[1] Batch [120]	Speed: 91.25 samples/sec	CrossEntropy=1.187614	SmoothL1=0.523614
+Epoch[1] Batch [140]	Speed: 87.09 samples/sec	CrossEntropy=1.192481	SmoothL1=0.530850
+Epoch[1] Batch [160]	Speed: 83.74 samples/sec	CrossEntropy=1.185080	SmoothL1=0.519619
+Epoch[1] Batch [180]	Speed: 83.75 samples/sec	CrossEntropy=1.184244	SmoothL1=0.525128
+Epoch[1] Batch [200]	Speed: 87.60 samples/sec	CrossEntropy=1.176658	SmoothL1=0.515707
+Epoch[1] Batch [220]	Speed: 87.93 samples/sec	CrossEntropy=1.169677	SmoothL1=0.509227
+Epoch[1] Batch [240]	Speed: 88.20 samples/sec	CrossEntropy=1.173470	SmoothL1=0.509380
+Epoch[1] Train-CrossEntropy=1.165560
+Epoch[1] Train-SmoothL1=0.507025
+Epoch[1] Time cost=93.396
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0002.params"
+Epoch[1] Validation-aeroplane=0.108245
+Epoch[1] Validation-bicycle=0.018182
+Epoch[1] Validation-bird=0.020979
+Epoch[1] Validation-boat=0.000189
+Epoch[1] Validation-bottle=0.000000
+Epoch[1] Validation-bus=0.000000
+Epoch[1] Validation-car=0.120567
+Epoch[1] Validation-cat=0.018185
+Epoch[1] Validation-chair=0.004672
+Epoch[1] Validation-cow=0.000000
+Epoch[1] Validation-diningtable=0.001515
+Epoch[1] Validation-dog=0.018182
+Epoch[1] Validation-horse=0.000000
+Epoch[1] Validation-motorbike=0.000000
+Epoch[1] Validation-person=0.231215
+Epoch[1] Validation-pottedplant=0.000000
+Epoch[1] Validation-sheep=0.028926
+Epoch[1] Validation-sofa=0.000000
+Epoch[1] Validation-train=0.000000
+Epoch[1] Validation-tvmonitor=0.030303
+Epoch[1] Validation-mAP=0.030058
+Epoch[2] Batch [20]	Speed: 88.23 samples/sec	CrossEntropy=1.176244	SmoothL1=0.490661
+Epoch[2] Batch [40]	Speed: 89.80 samples/sec	CrossEntropy=1.171961	SmoothL1=0.491528
+Epoch[2] Batch [60]	Speed: 90.03 samples/sec	CrossEntropy=1.169032	SmoothL1=0.501844
+Epoch[2] Batch [80]	Speed: 90.36 samples/sec	CrossEntropy=1.153521	SmoothL1=0.507309
+Epoch[2] Batch [100]	Speed: 90.39 samples/sec	CrossEntropy=1.140752	SmoothL1=0.481845
+Epoch[2] Batch [120]	Speed: 89.80 samples/sec	CrossEntropy=1.153257	SmoothL1=0.477617
+Epoch[2] Batch [140]	Speed: 89.71 samples/sec	CrossEntropy=1.133611	SmoothL1=0.494963
+Epoch[2] Batch [160]	Speed: 90.58 samples/sec	CrossEntropy=1.137668	SmoothL1=0.476851
+Epoch[2] Batch [180]	Speed: 90.67 samples/sec	CrossEntropy=1.131009	SmoothL1=0.465303
+Epoch[2] Batch [200]	Speed: 90.97 samples/sec	CrossEntropy=1.147897	SmoothL1=0.478719
+Epoch[2] Batch [220]	Speed: 89.89 samples/sec	CrossEntropy=1.110972	SmoothL1=0.482609
+Epoch[2] Batch [240]	Speed: 89.31 samples/sec	CrossEntropy=1.122969	SmoothL1=0.478084
+Epoch[2] Train-CrossEntropy=1.118696
+Epoch[2] Train-SmoothL1=0.472192
+Epoch[2] Time cost=91.037
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0003.params"
+Epoch[2] Validation-aeroplane=0.046431
+Epoch[2] Validation-bicycle=0.090909
+Epoch[2] Validation-bird=0.022727
+Epoch[2] Validation-boat=0.001099
+Epoch[2] Validation-bottle=0.000000
+Epoch[2] Validation-bus=0.060606
+Epoch[2] Validation-car=0.205597
+Epoch[2] Validation-cat=0.097768
+Epoch[2] Validation-chair=0.043016
+Epoch[2] Validation-cow=0.000347
+Epoch[2] Validation-diningtable=0.003336
+Epoch[2] Validation-dog=0.143062
+Epoch[2] Validation-horse=0.045455
+Epoch[2] Validation-motorbike=0.015152
+Epoch[2] Validation-person=0.343766
+Epoch[2] Validation-pottedplant=0.000000
+Epoch[2] Validation-sheep=0.102387
+Epoch[2] Validation-sofa=0.012121
+Epoch[2] Validation-train=0.015437
+Epoch[2] Validation-tvmonitor=0.096070
+Epoch[2] Validation-mAP=0.067264
+Epoch[3] Batch [20]	Speed: 89.74 samples/sec	CrossEntropy=1.118990	SmoothL1=0.470276
+Epoch[3] Batch [40]	Speed: 91.49 samples/sec	CrossEntropy=1.127267	SmoothL1=0.468500
+Epoch[3] Batch [60]	Speed: 88.93 samples/sec	CrossEntropy=1.116733	SmoothL1=0.489460
+Epoch[3] Batch [80]	Speed: 89.97 samples/sec	CrossEntropy=1.094672	SmoothL1=0.485681
+Epoch[3] Batch [100]	Speed: 91.61 samples/sec	CrossEntropy=1.083355	SmoothL1=0.448569
+Epoch[3] Batch [120]	Speed: 90.53 samples/sec	CrossEntropy=1.082435	SmoothL1=0.452777
+Epoch[3] Batch [140]	Speed: 88.81 samples/sec	CrossEntropy=1.111849	SmoothL1=0.488011
+Epoch[3] Batch [160]	Speed: 91.63 samples/sec	CrossEntropy=1.085750	SmoothL1=0.463934
+Epoch[3] Batch [180]	Speed: 91.23 samples/sec	CrossEntropy=1.080550	SmoothL1=0.450034
+Epoch[3] Batch [200]	Speed: 91.36 samples/sec	CrossEntropy=1.097701	SmoothL1=0.452194
+Epoch[3] Batch [220]	Speed: 90.70 samples/sec	CrossEntropy=1.064874	SmoothL1=0.464261
+Epoch[3] Batch [240]	Speed: 91.11 samples/sec	CrossEntropy=1.088842	SmoothL1=0.453114
+Epoch[3] Train-CrossEntropy=1.084653
+Epoch[3] Train-SmoothL1=0.459286
+Epoch[3] Time cost=90.524
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0004.params"
+Epoch[3] Validation-aeroplane=0.187303
+Epoch[3] Validation-bicycle=0.090909
+Epoch[3] Validation-bird=0.037909
+Epoch[3] Validation-boat=0.032102
+Epoch[3] Validation-bottle=0.000631
+Epoch[3] Validation-bus=0.038790
+Epoch[3] Validation-car=0.279019
+Epoch[3] Validation-cat=0.198747
+Epoch[3] Validation-chair=0.071652
+Epoch[3] Validation-cow=0.002392
+Epoch[3] Validation-diningtable=0.012987
+Epoch[3] Validation-dog=0.162264
+Epoch[3] Validation-horse=0.021944
+Epoch[3] Validation-motorbike=0.064935
+Epoch[3] Validation-person=0.379664
+Epoch[3] Validation-pottedplant=0.001166
+Epoch[3] Validation-sheep=0.156869
+Epoch[3] Validation-sofa=0.002901
+Epoch[3] Validation-train=0.116523
+Epoch[3] Validation-tvmonitor=0.108880
+Epoch[3] Validation-mAP=0.098379
+Epoch[4] Batch [20]	Speed: 88.70 samples/sec	CrossEntropy=1.095318	SmoothL1=0.452697
+Epoch[4] Batch [40]	Speed: 92.00 samples/sec	CrossEntropy=1.087187	SmoothL1=0.437288
+Epoch[4] Batch [60]	Speed: 90.35 samples/sec	CrossEntropy=1.080672	SmoothL1=0.459683
+Epoch[4] Batch [80]	Speed: 91.13 samples/sec	CrossEntropy=1.051585	SmoothL1=0.441459
+Epoch[4] Batch [100]	Speed: 90.91 samples/sec	CrossEntropy=1.049135	SmoothL1=0.440668
+Epoch[4] Batch [120]	Speed: 91.52 samples/sec	CrossEntropy=1.054317	SmoothL1=0.448819
+Epoch[4] Batch [140]	Speed: 90.88 samples/sec	CrossEntropy=1.059286	SmoothL1=0.464379
+Epoch[4] Batch [160]	Speed: 91.06 samples/sec	CrossEntropy=1.035086	SmoothL1=0.438602
+Epoch[4] Batch [180]	Speed: 91.06 samples/sec	CrossEntropy=1.028467	SmoothL1=0.448431
+Epoch[4] Batch [200]	Speed: 90.75 samples/sec	CrossEntropy=1.037264	SmoothL1=0.436284
+Epoch[4] Batch [220]	Speed: 90.92 samples/sec	CrossEntropy=1.014495	SmoothL1=0.438102
+Epoch[4] Batch [240]	Speed: 91.46 samples/sec	CrossEntropy=1.028004	SmoothL1=0.432627
+Epoch[4] Train-CrossEntropy=1.027727
+Epoch[4] Train-SmoothL1=0.447620
+Epoch[4] Time cost=90.290
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0005.params"
+Epoch[4] Validation-aeroplane=0.207586
+Epoch[4] Validation-bicycle=0.116279
+Epoch[4] Validation-bird=0.125552
+Epoch[4] Validation-boat=0.093211
+Epoch[4] Validation-bottle=0.000211
+Epoch[4] Validation-bus=0.233349
+Epoch[4] Validation-car=0.351230
+Epoch[4] Validation-cat=0.364826
+Epoch[4] Validation-chair=0.127982
+Epoch[4] Validation-cow=0.007792
+Epoch[4] Validation-diningtable=0.050440
+Epoch[4] Validation-dog=0.230955
+Epoch[4] Validation-horse=0.110687
+Epoch[4] Validation-motorbike=0.164686
+Epoch[4] Validation-person=0.425990
+Epoch[4] Validation-pottedplant=0.003056
+Epoch[4] Validation-sheep=0.146014
+Epoch[4] Validation-sofa=0.090909
+Epoch[4] Validation-train=0.105282
+Epoch[4] Validation-tvmonitor=0.175059
+Epoch[4] Validation-mAP=0.156555
+Epoch[5] Batch [20]	Speed: 89.39 samples/sec	CrossEntropy=1.038827	SmoothL1=0.438704
+Epoch[5] Batch [40]	Speed: 92.64 samples/sec	CrossEntropy=1.020422	SmoothL1=0.425530
+Epoch[5] Batch [60]	Speed: 91.86 samples/sec	CrossEntropy=1.046112	SmoothL1=0.447997
+Epoch[5] Batch [80]	Speed: 91.62 samples/sec	CrossEntropy=1.010734	SmoothL1=0.439794
+Epoch[5] Batch [100]	Speed: 90.55 samples/sec	CrossEntropy=1.023323	SmoothL1=0.438190
+Epoch[5] Batch [120]	Speed: 91.36 samples/sec	CrossEntropy=1.007734	SmoothL1=0.420629
+Epoch[5] Batch [140]	Speed: 90.82 samples/sec	CrossEntropy=1.014171	SmoothL1=0.442276
+Epoch[5] Batch [160]	Speed: 91.33 samples/sec	CrossEntropy=0.999086	SmoothL1=0.429510
+Epoch[5] Batch [180]	Speed: 92.36 samples/sec	CrossEntropy=0.995401	SmoothL1=0.418175
+Epoch[5] Batch [200]	Speed: 91.10 samples/sec	CrossEntropy=1.011303	SmoothL1=0.443336
+Epoch[5] Batch [220]	Speed: 91.78 samples/sec	CrossEntropy=0.998710	SmoothL1=0.436019
+Epoch[5] Batch [240]	Speed: 91.28 samples/sec	CrossEntropy=0.999705	SmoothL1=0.414093
+Epoch[5] Train-CrossEntropy=0.998201
+Epoch[5] Train-SmoothL1=0.434324
+Epoch[5] Time cost=89.515
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0006.params"
+Epoch[5] Validation-aeroplane=0.294985
+Epoch[5] Validation-bicycle=0.155946
+Epoch[5] Validation-bird=0.187531
+Epoch[5] Validation-boat=0.021811
+Epoch[5] Validation-bottle=0.006494
+Epoch[5] Validation-bus=0.281687
+Epoch[5] Validation-car=0.406561
+Epoch[5] Validation-cat=0.391292
+Epoch[5] Validation-chair=0.087886
+Epoch[5] Validation-cow=0.118074
+Epoch[5] Validation-diningtable=0.036765
+Epoch[5] Validation-dog=0.296025
+Epoch[5] Validation-horse=0.166095
+Epoch[5] Validation-motorbike=0.231118
+Epoch[5] Validation-person=0.491355
+Epoch[5] Validation-pottedplant=0.015310
+Epoch[5] Validation-sheep=0.218042
+Epoch[5] Validation-sofa=0.114660
+Epoch[5] Validation-train=0.183596
+Epoch[5] Validation-tvmonitor=0.190770
+Epoch[5] Validation-mAP=0.194800
+Epoch[6] Batch [20]	Speed: 88.91 samples/sec	CrossEntropy=0.993893	SmoothL1=0.425752
+Epoch[6] Batch [40]	Speed: 91.88 samples/sec	CrossEntropy=0.999805	SmoothL1=0.416016
+Epoch[6] Batch [60]	Speed: 91.91 samples/sec	CrossEntropy=1.001969	SmoothL1=0.424176
+Epoch[6] Batch [80]	Speed: 91.53 samples/sec	CrossEntropy=0.969814	SmoothL1=0.429901
+Epoch[6] Batch [100]	Speed: 92.09 samples/sec	CrossEntropy=0.991293	SmoothL1=0.422740
+Epoch[6] Batch [120]	Speed: 91.19 samples/sec	CrossEntropy=0.972031	SmoothL1=0.418323
+Epoch[6] Batch [140]	Speed: 91.57 samples/sec	CrossEntropy=0.984393	SmoothL1=0.442450
+Epoch[6] Batch [160]	Speed: 90.99 samples/sec	CrossEntropy=0.952339	SmoothL1=0.427175
+Epoch[6] Batch [180]	Speed: 91.65 samples/sec	CrossEntropy=0.969380	SmoothL1=0.428688
+Epoch[6] Batch [200]	Speed: 91.21 samples/sec	CrossEntropy=0.970656	SmoothL1=0.408475
+Epoch[6] Batch [220]	Speed: 92.28 samples/sec	CrossEntropy=0.955538	SmoothL1=0.421394
+Epoch[6] Batch [240]	Speed: 92.46 samples/sec	CrossEntropy=0.953834	SmoothL1=0.414276
+Epoch[6] Train-CrossEntropy=0.959015
+Epoch[6] Train-SmoothL1=0.415986
+Epoch[6] Time cost=89.769
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0007.params"
+Epoch[6] Validation-aeroplane=0.395244
+Epoch[6] Validation-bicycle=0.188945
+Epoch[6] Validation-bird=0.160852
+Epoch[6] Validation-boat=0.099622
+Epoch[6] Validation-bottle=0.022727
+Epoch[6] Validation-bus=0.288460
+Epoch[6] Validation-car=0.422648
+Epoch[6] Validation-cat=0.418662
+Epoch[6] Validation-chair=0.112769
+Epoch[6] Validation-cow=0.123582
+Epoch[6] Validation-diningtable=0.030808
+Epoch[6] Validation-dog=0.343918
+Epoch[6] Validation-horse=0.169364
+Epoch[6] Validation-motorbike=0.225623
+Epoch[6] Validation-person=0.495124
+Epoch[6] Validation-pottedplant=0.021298
+Epoch[6] Validation-sheep=0.263921
+Epoch[6] Validation-sofa=0.153979
+Epoch[6] Validation-train=0.231177
+Epoch[6] Validation-tvmonitor=0.227149
+Epoch[6] Validation-mAP=0.219794
+Epoch[7] Batch [20]	Speed: 89.65 samples/sec	CrossEntropy=0.966002	SmoothL1=0.413073
+Epoch[7] Batch [40]	Speed: 90.57 samples/sec	CrossEntropy=0.967224	SmoothL1=0.402133
+Epoch[7] Batch [60]	Speed: 89.62 samples/sec	CrossEntropy=0.963340	SmoothL1=0.412232
+Epoch[7] Batch [80]	Speed: 92.40 samples/sec	CrossEntropy=0.948979	SmoothL1=0.420680
+Epoch[7] Batch [100]	Speed: 91.26 samples/sec	CrossEntropy=0.953692	SmoothL1=0.414361
+Epoch[7] Batch [120]	Speed: 91.14 samples/sec	CrossEntropy=0.952636	SmoothL1=0.398238
+Epoch[7] Batch [140]	Speed: 91.18 samples/sec	CrossEntropy=0.964597	SmoothL1=0.423235
+Epoch[7] Batch [160]	Speed: 92.77 samples/sec	CrossEntropy=0.935736	SmoothL1=0.411129
+Epoch[7] Batch [180]	Speed: 93.31 samples/sec	CrossEntropy=0.903618	SmoothL1=0.397640
+Epoch[7] Batch [200]	Speed: 91.01 samples/sec	CrossEntropy=0.928200	SmoothL1=0.403610
+Epoch[7] Batch [220]	Speed: 91.80 samples/sec	CrossEntropy=0.931619	SmoothL1=0.418013
+Epoch[7] Batch [240]	Speed: 92.73 samples/sec	CrossEntropy=0.936731	SmoothL1=0.410174
+Epoch[7] Train-CrossEntropy=0.935913
+Epoch[7] Train-SmoothL1=0.406101
+Epoch[7] Time cost=89.808
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0008.params"
+Epoch[7] Validation-aeroplane=0.401819
+Epoch[7] Validation-bicycle=0.263844
+Epoch[7] Validation-bird=0.243485
+Epoch[7] Validation-boat=0.102075
+Epoch[7] Validation-bottle=0.091678
+Epoch[7] Validation-bus=0.320557
+Epoch[7] Validation-car=0.446463
+Epoch[7] Validation-cat=0.451076
+Epoch[7] Validation-chair=0.143444
+Epoch[7] Validation-cow=0.052009
+Epoch[7] Validation-diningtable=0.054156
+Epoch[7] Validation-dog=0.353594
+Epoch[7] Validation-horse=0.233136
+Epoch[7] Validation-motorbike=0.336996
+Epoch[7] Validation-person=0.499769
+Epoch[7] Validation-pottedplant=0.022985
+Epoch[7] Validation-sheep=0.270864
+Epoch[7] Validation-sofa=0.192847
+Epoch[7] Validation-train=0.243157
+Epoch[7] Validation-tvmonitor=0.314738
+Epoch[7] Validation-mAP=0.251935
+Epoch[8] Batch [20]	Speed: 91.21 samples/sec	CrossEntropy=0.932794	SmoothL1=0.396989
+Epoch[8] Batch [40]	Speed: 91.62 samples/sec	CrossEntropy=0.932133	SmoothL1=0.404957
+Epoch[8] Batch [60]	Speed: 90.54 samples/sec	CrossEntropy=0.929330	SmoothL1=0.409897
+Epoch[8] Batch [80]	Speed: 90.96 samples/sec	CrossEntropy=0.924131	SmoothL1=0.408875
+Epoch[8] Batch [100]	Speed: 90.74 samples/sec	CrossEntropy=0.910431	SmoothL1=0.401481
+Epoch[8] Batch [120]	Speed: 93.53 samples/sec	CrossEntropy=0.909116	SmoothL1=0.391868
+Epoch[8] Batch [140]	Speed: 92.13 samples/sec	CrossEntropy=0.927546	SmoothL1=0.424778
+Epoch[8] Batch [160]	Speed: 91.59 samples/sec	CrossEntropy=0.900871	SmoothL1=0.392250
+Epoch[8] Batch [180]	Speed: 93.25 samples/sec	CrossEntropy=0.897477	SmoothL1=0.410007
+Epoch[8] Batch [200]	Speed: 92.23 samples/sec	CrossEntropy=0.890678	SmoothL1=0.383731
+Epoch[8] Batch [220]	Speed: 92.01 samples/sec	CrossEntropy=0.908648	SmoothL1=0.416691
+Epoch[8] Batch [240]	Speed: 93.02 samples/sec	CrossEntropy=0.899923	SmoothL1=0.390763
+Epoch[8] Train-CrossEntropy=0.922165
+Epoch[8] Train-SmoothL1=0.415119
+Epoch[8] Time cost=89.213
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0009.params"
+Epoch[8] Validation-aeroplane=0.495179
+Epoch[8] Validation-bicycle=0.313514
+Epoch[8] Validation-bird=0.323295
+Epoch[8] Validation-boat=0.100271
+Epoch[8] Validation-bottle=0.048357
+Epoch[8] Validation-bus=0.451655
+Epoch[8] Validation-car=0.504889
+Epoch[8] Validation-cat=0.530815
+Epoch[8] Validation-chair=0.142538
+Epoch[8] Validation-cow=0.136034
+Epoch[8] Validation-diningtable=0.081516
+Epoch[8] Validation-dog=0.369374
+Epoch[8] Validation-horse=0.261206
+Epoch[8] Validation-motorbike=0.377185
+Epoch[8] Validation-person=0.535287
+Epoch[8] Validation-pottedplant=0.039715
+Epoch[8] Validation-sheep=0.305360
+Epoch[8] Validation-sofa=0.269417
+Epoch[8] Validation-train=0.307034
+Epoch[8] Validation-tvmonitor=0.367808
+Epoch[8] Validation-mAP=0.298022
+Epoch[9] Batch [20]	Speed: 91.24 samples/sec	CrossEntropy=0.892624	SmoothL1=0.391466
+Epoch[9] Batch [40]	Speed: 92.80 samples/sec	CrossEntropy=0.915704	SmoothL1=0.394565
+Epoch[9] Batch [60]	Speed: 92.44 samples/sec	CrossEntropy=0.913198	SmoothL1=0.417435
+Epoch[9] Batch [80]	Speed: 91.62 samples/sec	CrossEntropy=0.888047	SmoothL1=0.406941
+Epoch[9] Batch [100]	Speed: 92.32 samples/sec	CrossEntropy=0.909518	SmoothL1=0.403286
+Epoch[9] Batch [120]	Speed: 92.42 samples/sec	CrossEntropy=0.906566	SmoothL1=0.391621
+Epoch[9] Batch [140]	Speed: 90.77 samples/sec	CrossEntropy=0.890955	SmoothL1=0.399530
+Epoch[9] Batch [160]	Speed: 93.12 samples/sec	CrossEntropy=0.879621	SmoothL1=0.398010
+Epoch[9] Batch [180]	Speed: 91.94 samples/sec	CrossEntropy=0.886343	SmoothL1=0.376404
+Epoch[9] Batch [200]	Speed: 91.94 samples/sec	CrossEntropy=0.882623	SmoothL1=0.395425
+Epoch[9] Batch [220]	Speed: 91.33 samples/sec	CrossEntropy=0.875614	SmoothL1=0.392769
+Epoch[9] Batch [240]	Speed: 91.38 samples/sec	CrossEntropy=0.885158	SmoothL1=0.389095
+Epoch[9] Train-CrossEntropy=0.875987
+Epoch[9] Train-SmoothL1=0.390863
+Epoch[9] Time cost=89.333
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0010.params"
+Epoch[9] Validation-aeroplane=0.476538
+Epoch[9] Validation-bicycle=0.314346
+Epoch[9] Validation-bird=0.338131
+Epoch[9] Validation-boat=0.130050
+Epoch[9] Validation-bottle=0.102960
+Epoch[9] Validation-bus=0.465131
+Epoch[9] Validation-car=0.526233
+Epoch[9] Validation-cat=0.559800
+Epoch[9] Validation-chair=0.156561
+Epoch[9] Validation-cow=0.158360
+Epoch[9] Validation-diningtable=0.108238
+Epoch[9] Validation-dog=0.455067
+Epoch[9] Validation-horse=0.357405
+Epoch[9] Validation-motorbike=0.458976
+Epoch[9] Validation-person=0.557298
+Epoch[9] Validation-pottedplant=0.063022
+Epoch[9] Validation-sheep=0.361810
+Epoch[9] Validation-sofa=0.260048
+Epoch[9] Validation-train=0.316677
+Epoch[9] Validation-tvmonitor=0.396642
+Epoch[9] Validation-mAP=0.328165
+Epoch[10] Batch [20]	Speed: 94.28 samples/sec	CrossEntropy=0.894194	SmoothL1=0.390792
+Epoch[10] Batch [40]	Speed: 95.44 samples/sec	CrossEntropy=0.882815	SmoothL1=0.389795
+Epoch[10] Batch [60]	Speed: 92.63 samples/sec	CrossEntropy=0.885583	SmoothL1=0.393782
+Epoch[10] Batch [80]	Speed: 93.60 samples/sec	CrossEntropy=0.867063	SmoothL1=0.399219
+Epoch[10] Batch [100]	Speed: 94.94 samples/sec	CrossEntropy=0.876334	SmoothL1=0.395250
+Epoch[10] Batch [120]	Speed: 93.65 samples/sec	CrossEntropy=0.863197	SmoothL1=0.394681
+Epoch[10] Batch [140]	Speed: 90.72 samples/sec	CrossEntropy=0.898599	SmoothL1=0.408682
+Epoch[10] Batch [160]	Speed: 93.34 samples/sec	CrossEntropy=0.841881	SmoothL1=0.381939
+Epoch[10] Batch [180]	Speed: 90.98 samples/sec	CrossEntropy=0.846567	SmoothL1=0.381989
+Epoch[10] Batch [200]	Speed: 93.39 samples/sec	CrossEntropy=0.868208	SmoothL1=0.372571
+Epoch[10] Batch [220]	Speed: 92.93 samples/sec	CrossEntropy=0.865520	SmoothL1=0.395143
+Epoch[10] Batch [240]	Speed: 94.07 samples/sec	CrossEntropy=0.858928	SmoothL1=0.377189
+Epoch[10] Train-CrossEntropy=0.862560
+Epoch[10] Train-SmoothL1=0.409797
+Epoch[10] Time cost=87.630
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0011.params"
+Epoch[10] Validation-aeroplane=0.538879
+Epoch[10] Validation-bicycle=0.393820
+Epoch[10] Validation-bird=0.389167
+Epoch[10] Validation-boat=0.122363
+Epoch[10] Validation-bottle=0.108426
+Epoch[10] Validation-bus=0.500175
+Epoch[10] Validation-car=0.557625
+Epoch[10] Validation-cat=0.624569
+Epoch[10] Validation-chair=0.190822
+Epoch[10] Validation-cow=0.108536
+Epoch[10] Validation-diningtable=0.166738
+Epoch[10] Validation-dog=0.487621
+Epoch[10] Validation-horse=0.385108
+Epoch[10] Validation-motorbike=0.479196
+Epoch[10] Validation-person=0.575427
+Epoch[10] Validation-pottedplant=0.106287
+Epoch[10] Validation-sheep=0.346090
+Epoch[10] Validation-sofa=0.244127
+Epoch[10] Validation-train=0.346498
+Epoch[10] Validation-tvmonitor=0.400478
+Epoch[10] Validation-mAP=0.353598
+Epoch[11] Batch [20]	Speed: 92.93 samples/sec	CrossEntropy=0.857931	SmoothL1=0.388500
+Epoch[11] Batch [40]	Speed: 92.06 samples/sec	CrossEntropy=0.862489	SmoothL1=0.381943
+Epoch[11] Batch [60]	Speed: 93.75 samples/sec	CrossEntropy=0.856386	SmoothL1=0.389292
+Epoch[11] Batch [80]	Speed: 91.91 samples/sec	CrossEntropy=0.853178	SmoothL1=0.390878
+Epoch[11] Batch [100]	Speed: 94.12 samples/sec	CrossEntropy=0.849520	SmoothL1=0.387192
+Epoch[11] Batch [120]	Speed: 93.30 samples/sec	CrossEntropy=0.846446	SmoothL1=0.375287
+Epoch[11] Batch [140]	Speed: 92.31 samples/sec	CrossEntropy=0.874555	SmoothL1=0.405046
+Epoch[11] Batch [160]	Speed: 94.59 samples/sec	CrossEntropy=0.831368	SmoothL1=0.385514
+Epoch[11] Batch [180]	Speed: 95.45 samples/sec	CrossEntropy=0.825160	SmoothL1=0.398397
+Epoch[11] Batch [200]	Speed: 93.83 samples/sec	CrossEntropy=0.833253	SmoothL1=0.377418
+Epoch[11] Batch [220]	Speed: 93.16 samples/sec	CrossEntropy=0.847246	SmoothL1=0.394383
+Epoch[11] Batch [240]	Speed: 93.09 samples/sec	CrossEntropy=0.843488	SmoothL1=0.374640
+Epoch[11] Train-CrossEntropy=0.849906
+Epoch[11] Train-SmoothL1=0.382764
+Epoch[11] Time cost=87.764
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0012.params"
+Epoch[11] Validation-aeroplane=0.562660
+Epoch[11] Validation-bicycle=0.431921
+Epoch[11] Validation-bird=0.426620
+Epoch[11] Validation-boat=0.146540
+Epoch[11] Validation-bottle=0.063756
+Epoch[11] Validation-bus=0.480930
+Epoch[11] Validation-car=0.545672
+Epoch[11] Validation-cat=0.675983
+Epoch[11] Validation-chair=0.196270
+Epoch[11] Validation-cow=0.247600
+Epoch[11] Validation-diningtable=0.171357
+Epoch[11] Validation-dog=0.515256
+Epoch[11] Validation-horse=0.426202
+Epoch[11] Validation-motorbike=0.476870
+Epoch[11] Validation-person=0.590120
+Epoch[11] Validation-pottedplant=0.119389
+Epoch[11] Validation-sheep=0.421306
+Epoch[11] Validation-sofa=0.277862
+Epoch[11] Validation-train=0.405059
+Epoch[11] Validation-tvmonitor=0.418044
+Epoch[11] Validation-mAP=0.379971
+Epoch[12] Batch [20]	Speed: 89.41 samples/sec	CrossEntropy=0.858272	SmoothL1=0.387348
+Epoch[12] Batch [40]	Speed: 93.48 samples/sec	CrossEntropy=0.836381	SmoothL1=0.357590
+Epoch[12] Batch [60]	Speed: 93.23 samples/sec	CrossEntropy=0.845612	SmoothL1=0.390497
+Epoch[12] Batch [80]	Speed: 92.06 samples/sec	CrossEntropy=0.840137	SmoothL1=0.387439
+Epoch[12] Batch [100]	Speed: 94.81 samples/sec	CrossEntropy=0.815997	SmoothL1=0.385629
+Epoch[12] Batch [120]	Speed: 94.29 samples/sec	CrossEntropy=0.832694	SmoothL1=0.374532
+Epoch[12] Batch [140]	Speed: 94.32 samples/sec	CrossEntropy=0.841189	SmoothL1=0.403394
+Epoch[12] Batch [160]	Speed: 95.07 samples/sec	CrossEntropy=0.805023	SmoothL1=0.370304
+Epoch[12] Batch [180]	Speed: 95.07 samples/sec	CrossEntropy=0.806550	SmoothL1=0.361335
+Epoch[12] Batch [200]	Speed: 92.38 samples/sec	CrossEntropy=0.826938	SmoothL1=0.369838
+Epoch[12] Batch [220]	Speed: 92.71 samples/sec	CrossEntropy=0.828096	SmoothL1=0.374906
+Epoch[12] Batch [240]	Speed: 95.56 samples/sec	CrossEntropy=0.811569	SmoothL1=0.370781
+Epoch[12] Train-CrossEntropy=0.828482
+Epoch[12] Train-SmoothL1=0.380625
+Epoch[12] Time cost=87.661
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0013.params"
+Epoch[12] Validation-aeroplane=0.593882
+Epoch[12] Validation-bicycle=0.460071
+Epoch[12] Validation-bird=0.443412
+Epoch[12] Validation-boat=0.145688
+Epoch[12] Validation-bottle=0.093710
+Epoch[12] Validation-bus=0.547775
+Epoch[12] Validation-car=0.522818
+Epoch[12] Validation-cat=0.719432
+Epoch[12] Validation-chair=0.242412
+Epoch[12] Validation-cow=0.277495
+Epoch[12] Validation-diningtable=0.269758
+Epoch[12] Validation-dog=0.581280
+Epoch[12] Validation-horse=0.446766
+Epoch[12] Validation-motorbike=0.510577
+Epoch[12] Validation-person=0.599720
+Epoch[12] Validation-pottedplant=0.130005
+Epoch[12] Validation-sheep=0.445443
+Epoch[12] Validation-sofa=0.338112
+Epoch[12] Validation-train=0.499968
+Epoch[12] Validation-tvmonitor=0.437747
+Epoch[12] Validation-mAP=0.415303
+Epoch[13] Batch [20]	Speed: 92.93 samples/sec	CrossEntropy=0.827530	SmoothL1=0.376291
+Epoch[13] Batch [40]	Speed: 93.97 samples/sec	CrossEntropy=0.822307	SmoothL1=0.366820
+Epoch[13] Batch [60]	Speed: 92.22 samples/sec	CrossEntropy=0.823538	SmoothL1=0.384051
+Epoch[13] Batch [80]	Speed: 91.58 samples/sec	CrossEntropy=0.819172	SmoothL1=0.381191
+Epoch[13] Batch [100]	Speed: 93.12 samples/sec	CrossEntropy=0.809337	SmoothL1=0.379731
+Epoch[13] Batch [120]	Speed: 94.47 samples/sec	CrossEntropy=0.814200	SmoothL1=0.363088
+Epoch[13] Batch [140]	Speed: 93.64 samples/sec	CrossEntropy=0.824918	SmoothL1=0.382061
+Epoch[13] Batch [160]	Speed: 93.55 samples/sec	CrossEntropy=0.800026	SmoothL1=0.365461
+Epoch[13] Batch [180]	Speed: 92.84 samples/sec	CrossEntropy=0.806716	SmoothL1=0.366226
+Epoch[13] Batch [200]	Speed: 92.91 samples/sec	CrossEntropy=0.809365	SmoothL1=0.360347
+Epoch[13] Batch [220]	Speed: 92.46 samples/sec	CrossEntropy=0.809122	SmoothL1=0.364664
+Epoch[13] Batch [240]	Speed: 91.38 samples/sec	CrossEntropy=0.813569	SmoothL1=0.377617
+Epoch[13] Train-CrossEntropy=0.817135
+Epoch[13] Train-SmoothL1=0.382196
+Epoch[13] Time cost=88.550
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0014.params"
+Epoch[13] Validation-aeroplane=0.602926
+Epoch[13] Validation-bicycle=0.445898
+Epoch[13] Validation-bird=0.445726
+Epoch[13] Validation-boat=0.156096
+Epoch[13] Validation-bottle=0.105819
+Epoch[13] Validation-bus=0.540418
+Epoch[13] Validation-car=0.586616
+Epoch[13] Validation-cat=0.683156
+Epoch[13] Validation-chair=0.227486
+Epoch[13] Validation-cow=0.114499
+Epoch[13] Validation-diningtable=0.161736
+Epoch[13] Validation-dog=0.572863
+Epoch[13] Validation-horse=0.452400
+Epoch[13] Validation-motorbike=0.498335
+Epoch[13] Validation-person=0.594970
+Epoch[13] Validation-pottedplant=0.132328
+Epoch[13] Validation-sheep=0.355015
+Epoch[13] Validation-sofa=0.332575
+Epoch[13] Validation-train=0.472698
+Epoch[13] Validation-tvmonitor=0.472161
+Epoch[13] Validation-mAP=0.397686
+Epoch[14] Batch [20]	Speed: 92.77 samples/sec	CrossEntropy=0.801027	SmoothL1=0.368741
+Epoch[14] Batch [40]	Speed: 95.43 samples/sec	CrossEntropy=0.817440	SmoothL1=0.361149
+Epoch[14] Batch [60]	Speed: 93.24 samples/sec	CrossEntropy=0.803549	SmoothL1=0.377735
+Epoch[14] Batch [80]	Speed: 94.00 samples/sec	CrossEntropy=0.816322	SmoothL1=0.380084
+Epoch[14] Batch [100]	Speed: 93.00 samples/sec	CrossEntropy=0.816576	SmoothL1=0.373790
+Epoch[14] Batch [120]	Speed: 93.25 samples/sec	CrossEntropy=0.804780	SmoothL1=0.365265
+Epoch[14] Batch [140]	Speed: 90.09 samples/sec	CrossEntropy=0.797921	SmoothL1=0.376195
+Epoch[14] Batch [160]	Speed: 91.43 samples/sec	CrossEntropy=0.783416	SmoothL1=0.373991
+Epoch[14] Batch [180]	Speed: 88.56 samples/sec	CrossEntropy=0.797375	SmoothL1=0.370566
+Epoch[14] Batch [200]	Speed: 89.52 samples/sec	CrossEntropy=0.790031	SmoothL1=0.356206
+Epoch[14] Batch [220]	Speed: 94.07 samples/sec	CrossEntropy=0.790346	SmoothL1=0.380444
+Epoch[14] Batch [240]	Speed: 95.16 samples/sec	CrossEntropy=0.787674	SmoothL1=0.365082
+Epoch[14] Train-CrossEntropy=0.783101
+Epoch[14] Train-SmoothL1=0.378125
+Epoch[14] Time cost=88.551
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0015.params"
+Epoch[14] Validation-aeroplane=0.623945
+Epoch[14] Validation-bicycle=0.502714
+Epoch[14] Validation-bird=0.471098
+Epoch[14] Validation-boat=0.173484
+Epoch[14] Validation-bottle=0.172188
+Epoch[14] Validation-bus=0.552556
+Epoch[14] Validation-car=0.579866
+Epoch[14] Validation-cat=0.719560
+Epoch[14] Validation-chair=0.248879
+Epoch[14] Validation-cow=0.238990
+Epoch[14] Validation-diningtable=0.264684
+Epoch[14] Validation-dog=0.588056
+Epoch[14] Validation-horse=0.502776
+Epoch[14] Validation-motorbike=0.563680
+Epoch[14] Validation-person=0.603285
+Epoch[14] Validation-pottedplant=0.151996
+Epoch[14] Validation-sheep=0.435255
+Epoch[14] Validation-sofa=0.363424
+Epoch[14] Validation-train=0.527035
+Epoch[14] Validation-tvmonitor=0.493457
+Epoch[14] Validation-mAP=0.438846
+Epoch[15] Batch [20]	Speed: 91.28 samples/sec	CrossEntropy=0.792795	SmoothL1=0.370480
+Epoch[15] Batch [40]	Speed: 94.18 samples/sec	CrossEntropy=0.794886	SmoothL1=0.364883
+Epoch[15] Batch [60]	Speed: 92.97 samples/sec	CrossEntropy=0.804325	SmoothL1=0.373546
+Epoch[15] Batch [80]	Speed: 95.27 samples/sec	CrossEntropy=0.789269	SmoothL1=0.373818
+Epoch[15] Batch [100]	Speed: 94.65 samples/sec	CrossEntropy=0.795372	SmoothL1=0.365477
+Epoch[15] Batch [120]	Speed: 93.21 samples/sec	CrossEntropy=0.785472	SmoothL1=0.368732
+Epoch[15] Batch [140]	Speed: 92.49 samples/sec	CrossEntropy=0.792327	SmoothL1=0.370629
+Epoch[15] Batch [160]	Speed: 91.67 samples/sec	CrossEntropy=0.744919	SmoothL1=0.349369
+Epoch[15] Batch [180]	Speed: 92.05 samples/sec	CrossEntropy=0.755758	SmoothL1=0.363892
+Epoch[15] Batch [200]	Speed: 91.72 samples/sec	CrossEntropy=0.770921	SmoothL1=0.357441
+Epoch[15] Batch [220]	Speed: 91.56 samples/sec	CrossEntropy=0.773921	SmoothL1=0.372735
+Epoch[15] Batch [240]	Speed: 95.41 samples/sec	CrossEntropy=0.788986	SmoothL1=0.360529
+Epoch[15] Train-CrossEntropy=0.769340
+Epoch[15] Train-SmoothL1=0.372234
+Epoch[15] Time cost=87.809
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0016.params"
+Epoch[15] Validation-aeroplane=0.644263
+Epoch[15] Validation-bicycle=0.543557
+Epoch[15] Validation-bird=0.449082
+Epoch[15] Validation-boat=0.173930
+Epoch[15] Validation-bottle=0.164017
+Epoch[15] Validation-bus=0.616374
+Epoch[15] Validation-car=0.597011
+Epoch[15] Validation-cat=0.719680
+Epoch[15] Validation-chair=0.246249
+Epoch[15] Validation-cow=0.220205
+Epoch[15] Validation-diningtable=0.321980
+Epoch[15] Validation-dog=0.583352
+Epoch[15] Validation-horse=0.463452
+Epoch[15] Validation-motorbike=0.569420
+Epoch[15] Validation-person=0.606152
+Epoch[15] Validation-pottedplant=0.146066
+Epoch[15] Validation-sheep=0.400389
+Epoch[15] Validation-sofa=0.385219
+Epoch[15] Validation-train=0.528634
+Epoch[15] Validation-tvmonitor=0.509997
+Epoch[15] Validation-mAP=0.444451
+Epoch[16] Batch [20]	Speed: 91.83 samples/sec	CrossEntropy=0.768680	SmoothL1=0.348069
+Epoch[16] Batch [40]	Speed: 93.26 samples/sec	CrossEntropy=0.788163	SmoothL1=0.358555
+Epoch[16] Batch [60]	Speed: 94.25 samples/sec	CrossEntropy=0.774589	SmoothL1=0.369506
+Epoch[16] Batch [80]	Speed: 95.88 samples/sec	CrossEntropy=0.773938	SmoothL1=0.362421
+Epoch[16] Batch [100]	Speed: 92.77 samples/sec	CrossEntropy=0.785483	SmoothL1=0.360747
+Epoch[16] Batch [120]	Speed: 92.66 samples/sec	CrossEntropy=0.771775	SmoothL1=0.353351
+Epoch[16] Batch [140]	Speed: 92.90 samples/sec	CrossEntropy=0.775738	SmoothL1=0.362034
+Epoch[16] Batch [160]	Speed: 96.49 samples/sec	CrossEntropy=0.754412	SmoothL1=0.369951
+Epoch[16] Batch [180]	Speed: 94.76 samples/sec	CrossEntropy=0.773918	SmoothL1=0.367158
+Epoch[16] Batch [200]	Speed: 93.43 samples/sec	CrossEntropy=0.766947	SmoothL1=0.355068
+Epoch[16] Batch [220]	Speed: 90.58 samples/sec	CrossEntropy=0.776222	SmoothL1=0.362090
+Epoch[16] Batch [240]	Speed: 89.14 samples/sec	CrossEntropy=0.771936	SmoothL1=0.352745
+Epoch[16] Train-CrossEntropy=0.779923
+Epoch[16] Train-SmoothL1=0.379230
+Epoch[16] Time cost=88.733
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0017.params"
+Epoch[16] Validation-aeroplane=0.640158
+Epoch[16] Validation-bicycle=0.487986
+Epoch[16] Validation-bird=0.459871
+Epoch[16] Validation-boat=0.222208
+Epoch[16] Validation-bottle=0.156164
+Epoch[16] Validation-bus=0.571107
+Epoch[16] Validation-car=0.589425
+Epoch[16] Validation-cat=0.741546
+Epoch[16] Validation-chair=0.260521
+Epoch[16] Validation-cow=0.272282
+Epoch[16] Validation-diningtable=0.303032
+Epoch[16] Validation-dog=0.651366
+Epoch[16] Validation-horse=0.553194
+Epoch[16] Validation-motorbike=0.580578
+Epoch[16] Validation-person=0.611705
+Epoch[16] Validation-pottedplant=0.154962
+Epoch[16] Validation-sheep=0.455398
+Epoch[16] Validation-sofa=0.382376
+Epoch[16] Validation-train=0.565177
+Epoch[16] Validation-tvmonitor=0.499447
+Epoch[16] Validation-mAP=0.457925
+Epoch[17] Batch [20]	Speed: 86.15 samples/sec	CrossEntropy=0.763770	SmoothL1=0.368562
+Epoch[17] Batch [40]	Speed: 90.83 samples/sec	CrossEntropy=0.757311	SmoothL1=0.346923
+Epoch[17] Batch [60]	Speed: 93.25 samples/sec	CrossEntropy=0.760076	SmoothL1=0.356268
+Epoch[17] Batch [80]	Speed: 92.80 samples/sec	CrossEntropy=0.757927	SmoothL1=0.365163
+Epoch[17] Batch [100]	Speed: 92.29 samples/sec	CrossEntropy=0.756834	SmoothL1=0.354923
+Epoch[17] Batch [120]	Speed: 89.30 samples/sec	CrossEntropy=0.751531	SmoothL1=0.345975
+Epoch[17] Batch [140]	Speed: 89.99 samples/sec	CrossEntropy=0.773783	SmoothL1=0.369321
+Epoch[17] Batch [160]	Speed: 93.39 samples/sec	CrossEntropy=0.735028	SmoothL1=0.355260
+Epoch[17] Batch [180]	Speed: 92.30 samples/sec	CrossEntropy=0.757082	SmoothL1=0.362761
+Epoch[17] Batch [200]	Speed: 94.62 samples/sec	CrossEntropy=0.747983	SmoothL1=0.342713
+Epoch[17] Batch [220]	Speed: 92.19 samples/sec	CrossEntropy=0.748860	SmoothL1=0.370579
+Epoch[17] Batch [240]	Speed: 88.97 samples/sec	CrossEntropy=0.777076	SmoothL1=0.359138
+Epoch[17] Train-CrossEntropy=0.759897
+Epoch[17] Train-SmoothL1=0.369005
+Epoch[17] Time cost=89.832
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0018.params"
+Epoch[17] Validation-aeroplane=0.642101
+Epoch[17] Validation-bicycle=0.520593
+Epoch[17] Validation-bird=0.473718
+Epoch[17] Validation-boat=0.177468
+Epoch[17] Validation-bottle=0.164072
+Epoch[17] Validation-bus=0.585936
+Epoch[17] Validation-car=0.558812
+Epoch[17] Validation-cat=0.757865
+Epoch[17] Validation-chair=0.219231
+Epoch[17] Validation-cow=0.294452
+Epoch[17] Validation-diningtable=0.319041
+Epoch[17] Validation-dog=0.674812
+Epoch[17] Validation-horse=0.543168
+Epoch[17] Validation-motorbike=0.614240
+Epoch[17] Validation-person=0.614764
+Epoch[17] Validation-pottedplant=0.150247
+Epoch[17] Validation-sheep=0.502660
+Epoch[17] Validation-sofa=0.367127
+Epoch[17] Validation-train=0.558280
+Epoch[17] Validation-tvmonitor=0.467924
+Epoch[17] Validation-mAP=0.460325
+Epoch[18] Batch [20]	Speed: 94.36 samples/sec	CrossEntropy=0.757628	SmoothL1=0.342895
+Epoch[18] Batch [40]	Speed: 94.55 samples/sec	CrossEntropy=0.766345	SmoothL1=0.343533
+Epoch[18] Batch [60]	Speed: 93.55 samples/sec	CrossEntropy=0.757115	SmoothL1=0.364069
+Epoch[18] Batch [80]	Speed: 92.55 samples/sec	CrossEntropy=0.766887	SmoothL1=0.363786
+Epoch[18] Batch [100]	Speed: 91.62 samples/sec	CrossEntropy=0.743479	SmoothL1=0.360655
+Epoch[18] Batch [120]	Speed: 94.23 samples/sec	CrossEntropy=0.746655	SmoothL1=0.347870
+Epoch[18] Batch [140]	Speed: 94.63 samples/sec	CrossEntropy=0.752929	SmoothL1=0.357690
+Epoch[18] Batch [160]	Speed: 92.36 samples/sec	CrossEntropy=0.739287	SmoothL1=0.345879
+Epoch[18] Batch [180]	Speed: 92.55 samples/sec	CrossEntropy=0.743419	SmoothL1=0.360608
+Epoch[18] Batch [200]	Speed: 94.36 samples/sec	CrossEntropy=0.734546	SmoothL1=0.338125
+Epoch[18] Batch [220]	Speed: 93.30 samples/sec	CrossEntropy=0.727171	SmoothL1=0.346836
+Epoch[18] Batch [240]	Speed: 95.12 samples/sec	CrossEntropy=0.752207	SmoothL1=0.362179
+Epoch[18] Train-CrossEntropy=0.764254
+Epoch[18] Train-SmoothL1=0.365684
+Epoch[18] Time cost=87.765
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0019.params"
+Epoch[18] Validation-aeroplane=0.664391
+Epoch[18] Validation-bicycle=0.567151
+Epoch[18] Validation-bird=0.485073
+Epoch[18] Validation-boat=0.248739
+Epoch[18] Validation-bottle=0.197202
+Epoch[18] Validation-bus=0.588097
+Epoch[18] Validation-car=0.588020
+Epoch[18] Validation-cat=0.739944
+Epoch[18] Validation-chair=0.271789
+Epoch[18] Validation-cow=0.340755
+Epoch[18] Validation-diningtable=0.362907
+Epoch[18] Validation-dog=0.642843
+Epoch[18] Validation-horse=0.535771
+Epoch[18] Validation-motorbike=0.601730
+Epoch[18] Validation-person=0.624314
+Epoch[18] Validation-pottedplant=0.172880
+Epoch[18] Validation-sheep=0.465710
+Epoch[18] Validation-sofa=0.402587
+Epoch[18] Validation-train=0.580729
+Epoch[18] Validation-tvmonitor=0.508438
+Epoch[18] Validation-mAP=0.479454
+Epoch[19] Batch [20]	Speed: 90.85 samples/sec	CrossEntropy=0.747187	SmoothL1=0.349417
+Epoch[19] Batch [40]	Speed: 95.93 samples/sec	CrossEntropy=0.727823	SmoothL1=0.338267
+Epoch[19] Batch [60]	Speed: 90.97 samples/sec	CrossEntropy=0.756778	SmoothL1=0.368561
+Epoch[19] Batch [80]	Speed: 92.91 samples/sec	CrossEntropy=0.730844	SmoothL1=0.357640
+Epoch[19] Batch [100]	Speed: 94.93 samples/sec	CrossEntropy=0.760333	SmoothL1=0.359926
+Epoch[19] Batch [120]	Speed: 94.44 samples/sec	CrossEntropy=0.760871	SmoothL1=0.354028
+Epoch[19] Batch [140]	Speed: 92.73 samples/sec	CrossEntropy=0.749015	SmoothL1=0.352806
+Epoch[19] Batch [160]	Speed: 93.49 samples/sec	CrossEntropy=0.720140	SmoothL1=0.338143
+Epoch[19] Batch [180]	Speed: 93.29 samples/sec	CrossEntropy=0.737924	SmoothL1=0.356091
+Epoch[19] Batch [200]	Speed: 92.91 samples/sec	CrossEntropy=0.741588	SmoothL1=0.335633
+Epoch[19] Batch [220]	Speed: 90.40 samples/sec	CrossEntropy=0.739995	SmoothL1=0.353444
+Epoch[19] Batch [240]	Speed: 93.95 samples/sec	CrossEntropy=0.738989	SmoothL1=0.352238
+Epoch[19] Train-CrossEntropy=0.739305
+Epoch[19] Train-SmoothL1=0.341294
+Epoch[19] Time cost=88.049
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0020.params"
+Epoch[19] Validation-aeroplane=0.666072
+Epoch[19] Validation-bicycle=0.568091
+Epoch[19] Validation-bird=0.516761
+Epoch[19] Validation-boat=0.273157
+Epoch[19] Validation-bottle=0.206644
+Epoch[19] Validation-bus=0.590273
+Epoch[19] Validation-car=0.588006
+Epoch[19] Validation-cat=0.782287
+Epoch[19] Validation-chair=0.269098
+Epoch[19] Validation-cow=0.365439
+Epoch[19] Validation-diningtable=0.361830
+Epoch[19] Validation-dog=0.688401
+Epoch[19] Validation-horse=0.562934
+Epoch[19] Validation-motorbike=0.617158
+Epoch[19] Validation-person=0.617213
+Epoch[19] Validation-pottedplant=0.191483
+Epoch[19] Validation-sheep=0.524896
+Epoch[19] Validation-sofa=0.391756
+Epoch[19] Validation-train=0.619508
+Epoch[19] Validation-tvmonitor=0.506137
+Epoch[19] Validation-mAP=0.495357
+Epoch[20] Batch [20]	Speed: 93.06 samples/sec	CrossEntropy=0.740742	SmoothL1=0.336938
+Epoch[20] Batch [40]	Speed: 94.33 samples/sec	CrossEntropy=0.745043	SmoothL1=0.337709
+Epoch[20] Batch [60]	Speed: 92.05 samples/sec	CrossEntropy=0.738507	SmoothL1=0.359630
+Epoch[20] Batch [80]	Speed: 92.31 samples/sec	CrossEntropy=0.742443	SmoothL1=0.354539
+Epoch[20] Batch [100]	Speed: 94.40 samples/sec	CrossEntropy=0.724363	SmoothL1=0.336653
+Epoch[20] Batch [120]	Speed: 93.06 samples/sec	CrossEntropy=0.732862	SmoothL1=0.343038
+Epoch[20] Batch [140]	Speed: 94.05 samples/sec	CrossEntropy=0.747852	SmoothL1=0.357021
+Epoch[20] Batch [160]	Speed: 95.14 samples/sec	CrossEntropy=0.711152	SmoothL1=0.337834
+Epoch[20] Batch [180]	Speed: 93.15 samples/sec	CrossEntropy=0.719498	SmoothL1=0.350274
+Epoch[20] Batch [200]	Speed: 93.03 samples/sec	CrossEntropy=0.714614	SmoothL1=0.344195
+Epoch[20] Batch [220]	Speed: 93.40 samples/sec	CrossEntropy=0.728949	SmoothL1=0.354225
+Epoch[20] Batch [240]	Speed: 94.06 samples/sec	CrossEntropy=0.725204	SmoothL1=0.344813
+Epoch[20] Train-CrossEntropy=0.758565
+Epoch[20] Train-SmoothL1=0.357070
+Epoch[20] Time cost=87.802
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0021.params"
+Epoch[20] Validation-aeroplane=0.703163
+Epoch[20] Validation-bicycle=0.569624
+Epoch[20] Validation-bird=0.484555
+Epoch[20] Validation-boat=0.296870
+Epoch[20] Validation-bottle=0.212016
+Epoch[20] Validation-bus=0.625521
+Epoch[20] Validation-car=0.606524
+Epoch[20] Validation-cat=0.749089
+Epoch[20] Validation-chair=0.294808
+Epoch[20] Validation-cow=0.313960
+Epoch[20] Validation-diningtable=0.371024
+Epoch[20] Validation-dog=0.644287
+Epoch[20] Validation-horse=0.516199
+Epoch[20] Validation-motorbike=0.614698
+Epoch[20] Validation-person=0.628552
+Epoch[20] Validation-pottedplant=0.200102
+Epoch[20] Validation-sheep=0.491902
+Epoch[20] Validation-sofa=0.415865
+Epoch[20] Validation-train=0.637557
+Epoch[20] Validation-tvmonitor=0.555166
+Epoch[20] Validation-mAP=0.496574
+Epoch[21] Batch [20]	Speed: 90.27 samples/sec	CrossEntropy=0.725854	SmoothL1=0.341608
+Epoch[21] Batch [40]	Speed: 92.09 samples/sec	CrossEntropy=0.724905	SmoothL1=0.339840
+Epoch[21] Batch [60]	Speed: 92.76 samples/sec	CrossEntropy=0.722017	SmoothL1=0.353395
+Epoch[21] Batch [80]	Speed: 91.11 samples/sec	CrossEntropy=0.719026	SmoothL1=0.346133
+Epoch[21] Batch [100]	Speed: 91.01 samples/sec	CrossEntropy=0.711362	SmoothL1=0.337536
+Epoch[21] Batch [120]	Speed: 89.32 samples/sec	CrossEntropy=0.731587	SmoothL1=0.334702
+Epoch[21] Batch [140]	Speed: 89.30 samples/sec	CrossEntropy=0.738617	SmoothL1=0.362909
+Epoch[21] Batch [160]	Speed: 90.43 samples/sec	CrossEntropy=0.697693	SmoothL1=0.330321
+Epoch[21] Batch [180]	Speed: 94.53 samples/sec	CrossEntropy=0.708336	SmoothL1=0.347457
+Epoch[21] Batch [200]	Speed: 93.19 samples/sec	CrossEntropy=0.712123	SmoothL1=0.321673
+Epoch[21] Batch [220]	Speed: 88.08 samples/sec	CrossEntropy=0.722214	SmoothL1=0.355308
+Epoch[21] Batch [240]	Speed: 93.50 samples/sec	CrossEntropy=0.706407	SmoothL1=0.328796
+Epoch[21] Train-CrossEntropy=0.746215
+Epoch[21] Train-SmoothL1=0.346105
+Epoch[21] Time cost=89.457
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0022.params"
+Epoch[21] Validation-aeroplane=0.691527
+Epoch[21] Validation-bicycle=0.583304
+Epoch[21] Validation-bird=0.534492
+Epoch[21] Validation-boat=0.300800
+Epoch[21] Validation-bottle=0.208308
+Epoch[21] Validation-bus=0.644762
+Epoch[21] Validation-car=0.616665
+Epoch[21] Validation-cat=0.753891
+Epoch[21] Validation-chair=0.294134
+Epoch[21] Validation-cow=0.363452
+Epoch[21] Validation-diningtable=0.380686
+Epoch[21] Validation-dog=0.688353
+Epoch[21] Validation-horse=0.563457
+Epoch[21] Validation-motorbike=0.603279
+Epoch[21] Validation-person=0.619768
+Epoch[21] Validation-pottedplant=0.208978
+Epoch[21] Validation-sheep=0.512870
+Epoch[21] Validation-sofa=0.425129
+Epoch[21] Validation-train=0.666112
+Epoch[21] Validation-tvmonitor=0.526937
+Epoch[21] Validation-mAP=0.509345
+Epoch[22] Batch [20]	Speed: 86.57 samples/sec	CrossEntropy=0.728156	SmoothL1=0.330815
+Epoch[22] Batch [40]	Speed: 89.18 samples/sec	CrossEntropy=0.719877	SmoothL1=0.341808
+Epoch[22] Batch [60]	Speed: 86.38 samples/sec	CrossEntropy=0.720318	SmoothL1=0.347091
+Epoch[22] Batch [80]	Speed: 88.77 samples/sec	CrossEntropy=0.708851	SmoothL1=0.353020
+Epoch[22] Batch [100]	Speed: 89.17 samples/sec	CrossEntropy=0.712606	SmoothL1=0.339945
+Epoch[22] Batch [120]	Speed: 93.94 samples/sec	CrossEntropy=0.715141	SmoothL1=0.333256
+Epoch[22] Batch [140]	Speed: 92.99 samples/sec	CrossEntropy=0.721091	SmoothL1=0.351280
+Epoch[22] Batch [160]	Speed: 93.02 samples/sec	CrossEntropy=0.706671	SmoothL1=0.346378
+Epoch[22] Batch [180]	Speed: 94.71 samples/sec	CrossEntropy=0.712866	SmoothL1=0.335163
+Epoch[22] Batch [200]	Speed: 92.68 samples/sec	CrossEntropy=0.718117	SmoothL1=0.340547
+Epoch[22] Batch [220]	Speed: 92.33 samples/sec	CrossEntropy=0.695545	SmoothL1=0.338565
+Epoch[22] Batch [240]	Speed: 93.33 samples/sec	CrossEntropy=0.703071	SmoothL1=0.337030
+Epoch[22] Train-CrossEntropy=0.714673
+Epoch[22] Train-SmoothL1=0.345502
+Epoch[22] Time cost=90.121
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0023.params"
+Epoch[22] Validation-aeroplane=0.697042
+Epoch[22] Validation-bicycle=0.598598
+Epoch[22] Validation-bird=0.507572
+Epoch[22] Validation-boat=0.310648
+Epoch[22] Validation-bottle=0.235575
+Epoch[22] Validation-bus=0.645782
+Epoch[22] Validation-car=0.622033
+Epoch[22] Validation-cat=0.774743
+Epoch[22] Validation-chair=0.303053
+Epoch[22] Validation-cow=0.397723
+Epoch[22] Validation-diningtable=0.401124
+Epoch[22] Validation-dog=0.730133
+Epoch[22] Validation-horse=0.616131
+Epoch[22] Validation-motorbike=0.659746
+Epoch[22] Validation-person=0.634377
+Epoch[22] Validation-pottedplant=0.207448
+Epoch[22] Validation-sheep=0.519268
+Epoch[22] Validation-sofa=0.452596
+Epoch[22] Validation-train=0.671400
+Epoch[22] Validation-tvmonitor=0.543682
+Epoch[22] Validation-mAP=0.526434
+Epoch[23] Batch [20]	Speed: 90.23 samples/sec	CrossEntropy=0.711227	SmoothL1=0.326595
+Epoch[23] Batch [40]	Speed: 93.00 samples/sec	CrossEntropy=0.701781	SmoothL1=0.328613
+Epoch[23] Batch [60]	Speed: 89.54 samples/sec	CrossEntropy=0.729335	SmoothL1=0.349578
+Epoch[23] Batch [80]	Speed: 93.80 samples/sec	CrossEntropy=0.705197	SmoothL1=0.343009
+Epoch[23] Batch [100]	Speed: 91.72 samples/sec	CrossEntropy=0.699659	SmoothL1=0.341114
+Epoch[23] Batch [120]	Speed: 93.38 samples/sec	CrossEntropy=0.700148	SmoothL1=0.329497
+Epoch[23] Batch [140]	Speed: 92.57 samples/sec	CrossEntropy=0.725735	SmoothL1=0.350723
+Epoch[23] Batch [160]	Speed: 90.58 samples/sec	CrossEntropy=0.694127	SmoothL1=0.330954
+Epoch[23] Batch [180]	Speed: 93.92 samples/sec	CrossEntropy=0.696046	SmoothL1=0.332652
+Epoch[23] Batch [200]	Speed: 93.17 samples/sec	CrossEntropy=0.686721	SmoothL1=0.321269
+Epoch[23] Batch [220]	Speed: 90.02 samples/sec	CrossEntropy=0.698359	SmoothL1=0.342435
+Epoch[23] Batch [240]	Speed: 96.61 samples/sec	CrossEntropy=0.709748	SmoothL1=0.335842
+Epoch[23] Train-CrossEntropy=0.714956
+Epoch[23] Train-SmoothL1=0.328997
+Epoch[23] Time cost=88.746
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0024.params"
+Epoch[23] Validation-aeroplane=0.700288
+Epoch[23] Validation-bicycle=0.624453
+Epoch[23] Validation-bird=0.527261
+Epoch[23] Validation-boat=0.326025
+Epoch[23] Validation-bottle=0.228965
+Epoch[23] Validation-bus=0.656277
+Epoch[23] Validation-car=0.613608
+Epoch[23] Validation-cat=0.804065
+Epoch[23] Validation-chair=0.310257
+Epoch[23] Validation-cow=0.426301
+Epoch[23] Validation-diningtable=0.400780
+Epoch[23] Validation-dog=0.718889
+Epoch[23] Validation-horse=0.600111
+Epoch[23] Validation-motorbike=0.640065
+Epoch[23] Validation-person=0.642149
+Epoch[23] Validation-pottedplant=0.251409
+Epoch[23] Validation-sheep=0.553158
+Epoch[23] Validation-sofa=0.470083
+Epoch[23] Validation-train=0.685417
+Epoch[23] Validation-tvmonitor=0.564590
+Epoch[23] Validation-mAP=0.537208
+Epoch[24] Batch [20]	Speed: 91.76 samples/sec	CrossEntropy=0.692125	SmoothL1=0.328932
+Epoch[24] Batch [40]	Speed: 96.71 samples/sec	CrossEntropy=0.700165	SmoothL1=0.326782
+Epoch[24] Batch [60]	Speed: 95.41 samples/sec	CrossEntropy=0.717229	SmoothL1=0.336876
+Epoch[24] Batch [80]	Speed: 91.62 samples/sec	CrossEntropy=0.710745	SmoothL1=0.347806
+Epoch[24] Batch [100]	Speed: 93.84 samples/sec	CrossEntropy=0.705526	SmoothL1=0.328090
+Epoch[24] Batch [120]	Speed: 95.28 samples/sec	CrossEntropy=0.710838	SmoothL1=0.319713
+Epoch[24] Batch [140]	Speed: 94.81 samples/sec	CrossEntropy=0.710328	SmoothL1=0.344139
+Epoch[24] Batch [160]	Speed: 95.76 samples/sec	CrossEntropy=0.683551	SmoothL1=0.322172
+Epoch[24] Batch [180]	Speed: 96.22 samples/sec	CrossEntropy=0.707321	SmoothL1=0.334921
+Epoch[24] Batch [200]	Speed: 92.27 samples/sec	CrossEntropy=0.676468	SmoothL1=0.318651
+Epoch[24] Batch [220]	Speed: 91.42 samples/sec	CrossEntropy=0.695218	SmoothL1=0.331014
+Epoch[24] Batch [240]	Speed: 90.62 samples/sec	CrossEntropy=0.713590	SmoothL1=0.328477
+Epoch[24] Train-CrossEntropy=0.713988
+Epoch[24] Train-SmoothL1=0.348480
+Epoch[24] Time cost=87.855
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0025.params"
+Epoch[24] Validation-aeroplane=0.705018
+Epoch[24] Validation-bicycle=0.623022
+Epoch[24] Validation-bird=0.512105
+Epoch[24] Validation-boat=0.290846
+Epoch[24] Validation-bottle=0.217759
+Epoch[24] Validation-bus=0.639911
+Epoch[24] Validation-car=0.628250
+Epoch[24] Validation-cat=0.787256
+Epoch[24] Validation-chair=0.297135
+Epoch[24] Validation-cow=0.457067
+Epoch[24] Validation-diningtable=0.408461
+Epoch[24] Validation-dog=0.696568
+Epoch[24] Validation-horse=0.627653
+Epoch[24] Validation-motorbike=0.664794
+Epoch[24] Validation-person=0.645400
+Epoch[24] Validation-pottedplant=0.257700
+Epoch[24] Validation-sheep=0.541040
+Epoch[24] Validation-sofa=0.464053
+Epoch[24] Validation-train=0.692769
+Epoch[24] Validation-tvmonitor=0.538975
+Epoch[24] Validation-mAP=0.534789
+Epoch[25] Batch [20]	Speed: 92.36 samples/sec	CrossEntropy=0.700992	SmoothL1=0.339051
+Epoch[25] Batch [40]	Speed: 94.60 samples/sec	CrossEntropy=0.709192	SmoothL1=0.329766
+Epoch[25] Batch [60]	Speed: 91.12 samples/sec	CrossEntropy=0.707704	SmoothL1=0.356655
+Epoch[25] Batch [80]	Speed: 89.95 samples/sec	CrossEntropy=0.695896	SmoothL1=0.339366
+Epoch[25] Batch [100]	Speed: 89.45 samples/sec	CrossEntropy=0.716965	SmoothL1=0.347782
+Epoch[25] Batch [120]	Speed: 89.30 samples/sec	CrossEntropy=0.675543	SmoothL1=0.319007
+Epoch[25] Batch [140]	Speed: 89.65 samples/sec	CrossEntropy=0.716872	SmoothL1=0.357371
+Epoch[25] Batch [160]	Speed: 94.41 samples/sec	CrossEntropy=0.661063	SmoothL1=0.310126
+Epoch[25] Batch [180]	Speed: 91.76 samples/sec	CrossEntropy=0.704900	SmoothL1=0.330768
+Epoch[25] Batch [200]	Speed: 86.97 samples/sec	CrossEntropy=0.682348	SmoothL1=0.327405
+Epoch[25] Batch [220]	Speed: 88.71 samples/sec	CrossEntropy=0.694912	SmoothL1=0.328044
+Epoch[25] Batch [240]	Speed: 89.68 samples/sec	CrossEntropy=0.694735	SmoothL1=0.329170
+Epoch[25] Train-CrossEntropy=0.692767
+Epoch[25] Train-SmoothL1=0.333568
+Epoch[25] Time cost=90.656
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0026.params"
+Epoch[25] Validation-aeroplane=0.717806
+Epoch[25] Validation-bicycle=0.617974
+Epoch[25] Validation-bird=0.498028
+Epoch[25] Validation-boat=0.344743
+Epoch[25] Validation-bottle=0.248058
+Epoch[25] Validation-bus=0.652545
+Epoch[25] Validation-car=0.624998
+Epoch[25] Validation-cat=0.797965
+Epoch[25] Validation-chair=0.325118
+Epoch[25] Validation-cow=0.450439
+Epoch[25] Validation-diningtable=0.430301
+Epoch[25] Validation-dog=0.712162
+Epoch[25] Validation-horse=0.642782
+Epoch[25] Validation-motorbike=0.636164
+Epoch[25] Validation-person=0.652471
+Epoch[25] Validation-pottedplant=0.259119
+Epoch[25] Validation-sheep=0.559283
+Epoch[25] Validation-sofa=0.391762
+Epoch[25] Validation-train=0.689618
+Epoch[25] Validation-tvmonitor=0.596430
+Epoch[25] Validation-mAP=0.542388
+Epoch[26] Batch [20]	Speed: 88.60 samples/sec	CrossEntropy=0.681818	SmoothL1=0.316572
+Epoch[26] Batch [40]	Speed: 90.75 samples/sec	CrossEntropy=0.689878	SmoothL1=0.323076
+Epoch[26] Batch [60]	Speed: 90.65 samples/sec	CrossEntropy=0.698764	SmoothL1=0.337272
+Epoch[26] Batch [80]	Speed: 89.80 samples/sec	CrossEntropy=0.697208	SmoothL1=0.328824
+Epoch[26] Batch [100]	Speed: 91.43 samples/sec	CrossEntropy=0.690523	SmoothL1=0.340808
+Epoch[26] Batch [120]	Speed: 95.86 samples/sec	CrossEntropy=0.694400	SmoothL1=0.325863
+Epoch[26] Batch [140]	Speed: 93.47 samples/sec	CrossEntropy=0.684848	SmoothL1=0.333889
+Epoch[26] Batch [160]	Speed: 92.17 samples/sec	CrossEntropy=0.668273	SmoothL1=0.322164
+Epoch[26] Batch [180]	Speed: 95.19 samples/sec	CrossEntropy=0.674699	SmoothL1=0.340165
+Epoch[26] Batch [200]	Speed: 93.22 samples/sec	CrossEntropy=0.666870	SmoothL1=0.326353
+Epoch[26] Batch [220]	Speed: 92.14 samples/sec	CrossEntropy=0.686125	SmoothL1=0.336113
+Epoch[26] Batch [240]	Speed: 95.00 samples/sec	CrossEntropy=0.697986	SmoothL1=0.343183
+Epoch[26] Train-CrossEntropy=0.688231
+Epoch[26] Train-SmoothL1=0.340811
+Epoch[26] Time cost=88.380
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0027.params"
+Epoch[26] Validation-aeroplane=0.720803
+Epoch[26] Validation-bicycle=0.621287
+Epoch[26] Validation-bird=0.520762
+Epoch[26] Validation-boat=0.351960
+Epoch[26] Validation-bottle=0.219175
+Epoch[26] Validation-bus=0.658971
+Epoch[26] Validation-car=0.636782
+Epoch[26] Validation-cat=0.806970
+Epoch[26] Validation-chair=0.329776
+Epoch[26] Validation-cow=0.499024
+Epoch[26] Validation-diningtable=0.415444
+Epoch[26] Validation-dog=0.724553
+Epoch[26] Validation-horse=0.654008
+Epoch[26] Validation-motorbike=0.639432
+Epoch[26] Validation-person=0.653793
+Epoch[26] Validation-pottedplant=0.239359
+Epoch[26] Validation-sheep=0.581302
+Epoch[26] Validation-sofa=0.480584
+Epoch[26] Validation-train=0.711052
+Epoch[26] Validation-tvmonitor=0.594253
+Epoch[26] Validation-mAP=0.552965
+Epoch[27] Batch [20]	Speed: 91.23 samples/sec	CrossEntropy=0.671317	SmoothL1=0.329074
+Epoch[27] Batch [40]	Speed: 94.13 samples/sec	CrossEntropy=0.690091	SmoothL1=0.313628
+Epoch[27] Batch [60]	Speed: 94.53 samples/sec	CrossEntropy=0.693324	SmoothL1=0.330917
+Epoch[27] Batch [80]	Speed: 95.17 samples/sec	CrossEntropy=0.687105	SmoothL1=0.338284
+Epoch[27] Batch [100]	Speed: 95.68 samples/sec	CrossEntropy=0.699690	SmoothL1=0.339755
+Epoch[27] Batch [120]	Speed: 92.05 samples/sec	CrossEntropy=0.680459	SmoothL1=0.326067
+Epoch[27] Batch [140]	Speed: 92.39 samples/sec	CrossEntropy=0.679997	SmoothL1=0.329492
+Epoch[27] Batch [160]	Speed: 90.88 samples/sec	CrossEntropy=0.654397	SmoothL1=0.295871
+Epoch[27] Batch [180]	Speed: 91.68 samples/sec	CrossEntropy=0.675352	SmoothL1=0.325340
+Epoch[27] Batch [200]	Speed: 95.53 samples/sec	CrossEntropy=0.664348	SmoothL1=0.316766
+Epoch[27] Batch [220]	Speed: 95.08 samples/sec	CrossEntropy=0.680110	SmoothL1=0.330022
+Epoch[27] Batch [240]	Speed: 96.08 samples/sec	CrossEntropy=0.674252	SmoothL1=0.324758
+Epoch[27] Train-CrossEntropy=0.675821
+Epoch[27] Train-SmoothL1=0.325916
+Epoch[27] Time cost=87.545
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0028.params"
+Epoch[27] Validation-aeroplane=0.697428
+Epoch[27] Validation-bicycle=0.628844
+Epoch[27] Validation-bird=0.507137
+Epoch[27] Validation-boat=0.313973
+Epoch[27] Validation-bottle=0.258782
+Epoch[27] Validation-bus=0.670493
+Epoch[27] Validation-car=0.627703
+Epoch[27] Validation-cat=0.800334
+Epoch[27] Validation-chair=0.342082
+Epoch[27] Validation-cow=0.419197
+Epoch[27] Validation-diningtable=0.456470
+Epoch[27] Validation-dog=0.702460
+Epoch[27] Validation-horse=0.612904
+Epoch[27] Validation-motorbike=0.658651
+Epoch[27] Validation-person=0.650358
+Epoch[27] Validation-pottedplant=0.238670
+Epoch[27] Validation-sheep=0.545603
+Epoch[27] Validation-sofa=0.488932
+Epoch[27] Validation-train=0.700978
+Epoch[27] Validation-tvmonitor=0.596089
+Epoch[27] Validation-mAP=0.545854
+Epoch[28] Batch [20]	Speed: 91.43 samples/sec	CrossEntropy=0.680418	SmoothL1=0.327328
+Epoch[28] Batch [40]	Speed: 94.01 samples/sec	CrossEntropy=0.667970	SmoothL1=0.313537
+Epoch[28] Batch [60]	Speed: 92.44 samples/sec	CrossEntropy=0.694629	SmoothL1=0.333773
+Epoch[28] Batch [80]	Speed: 94.26 samples/sec	CrossEntropy=0.668365	SmoothL1=0.331852
+Epoch[28] Batch [100]	Speed: 93.50 samples/sec	CrossEntropy=0.686386	SmoothL1=0.325259
+Epoch[28] Batch [120]	Speed: 93.94 samples/sec	CrossEntropy=0.666348	SmoothL1=0.326330
+Epoch[28] Batch [140]	Speed: 91.79 samples/sec	CrossEntropy=0.670886	SmoothL1=0.318831
+Epoch[28] Batch [160]	Speed: 89.85 samples/sec	CrossEntropy=0.663632	SmoothL1=0.322809
+Epoch[28] Batch [180]	Speed: 94.11 samples/sec	CrossEntropy=0.675686	SmoothL1=0.322975
+Epoch[28] Batch [200]	Speed: 94.60 samples/sec	CrossEntropy=0.669607	SmoothL1=0.309285
+Epoch[28] Batch [220]	Speed: 96.24 samples/sec	CrossEntropy=0.684214	SmoothL1=0.333672
+Epoch[28] Batch [240]	Speed: 93.62 samples/sec	CrossEntropy=0.680719	SmoothL1=0.315680
+Epoch[28] Train-CrossEntropy=0.688445
+Epoch[28] Train-SmoothL1=0.316835
+Epoch[28] Time cost=87.943
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0029.params"
+Epoch[28] Validation-aeroplane=0.712498
+Epoch[28] Validation-bicycle=0.617799
+Epoch[28] Validation-bird=0.513327
+Epoch[28] Validation-boat=0.319402
+Epoch[28] Validation-bottle=0.250844
+Epoch[28] Validation-bus=0.657865
+Epoch[28] Validation-car=0.620567
+Epoch[28] Validation-cat=0.809636
+Epoch[28] Validation-chair=0.328155
+Epoch[28] Validation-cow=0.410220
+Epoch[28] Validation-diningtable=0.409906
+Epoch[28] Validation-dog=0.693640
+Epoch[28] Validation-horse=0.539440
+Epoch[28] Validation-motorbike=0.627826
+Epoch[28] Validation-person=0.655772
+Epoch[28] Validation-pottedplant=0.262207
+Epoch[28] Validation-sheep=0.536767
+Epoch[28] Validation-sofa=0.522429
+Epoch[28] Validation-train=0.701432
+Epoch[28] Validation-tvmonitor=0.578460
+Epoch[28] Validation-mAP=0.538410
+Epoch[29] Batch [20]	Speed: 91.88 samples/sec	CrossEntropy=0.680013	SmoothL1=0.318670
+Epoch[29] Batch [40]	Speed: 93.36 samples/sec	CrossEntropy=0.674997	SmoothL1=0.317647
+Epoch[29] Batch [60]	Speed: 92.68 samples/sec	CrossEntropy=0.685535	SmoothL1=0.338269
+Epoch[29] Batch [80]	Speed: 93.19 samples/sec	CrossEntropy=0.676144	SmoothL1=0.321216
+Epoch[29] Batch [100]	Speed: 92.67 samples/sec	CrossEntropy=0.669752	SmoothL1=0.316969
+Epoch[29] Batch [120]	Speed: 92.37 samples/sec	CrossEntropy=0.661708	SmoothL1=0.308512
+Epoch[29] Batch [140]	Speed: 93.60 samples/sec	CrossEntropy=0.677947	SmoothL1=0.323361
+Epoch[29] Batch [160]	Speed: 94.32 samples/sec	CrossEntropy=0.660973	SmoothL1=0.312299
+Epoch[29] Batch [180]	Speed: 95.00 samples/sec	CrossEntropy=0.672079	SmoothL1=0.331403
+Epoch[29] Batch [200]	Speed: 95.57 samples/sec	CrossEntropy=0.666130	SmoothL1=0.315484
+Epoch[29] Batch [220]	Speed: 94.06 samples/sec	CrossEntropy=0.673025	SmoothL1=0.331913
+Epoch[29] Batch [240]	Speed: 96.03 samples/sec	CrossEntropy=0.676282	SmoothL1=0.320045
+Epoch[29] Train-CrossEntropy=0.680383
+Epoch[29] Train-SmoothL1=0.323733
+Epoch[29] Time cost=87.546
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0030.params"
+Epoch[29] Validation-aeroplane=0.734478
+Epoch[29] Validation-bicycle=0.650221
+Epoch[29] Validation-bird=0.520931
+Epoch[29] Validation-boat=0.376535
+Epoch[29] Validation-bottle=0.268968
+Epoch[29] Validation-bus=0.668710
+Epoch[29] Validation-car=0.648972
+Epoch[29] Validation-cat=0.798418
+Epoch[29] Validation-chair=0.325359
+Epoch[29] Validation-cow=0.424069
+Epoch[29] Validation-diningtable=0.434671
+Epoch[29] Validation-dog=0.711574
+Epoch[29] Validation-horse=0.645561
+Epoch[29] Validation-motorbike=0.687151
+Epoch[29] Validation-person=0.663224
+Epoch[29] Validation-pottedplant=0.259955
+Epoch[29] Validation-sheep=0.549677
+Epoch[29] Validation-sofa=0.500348
+Epoch[29] Validation-train=0.717704
+Epoch[29] Validation-tvmonitor=0.607070
+Epoch[29] Validation-mAP=0.559680
+Epoch[30] Batch [20]	Speed: 93.31 samples/sec	CrossEntropy=0.665625	SmoothL1=0.322786
+Epoch[30] Batch [40]	Speed: 93.92 samples/sec	CrossEntropy=0.657579	SmoothL1=0.311006
+Epoch[30] Batch [60]	Speed: 92.68 samples/sec	CrossEntropy=0.679638	SmoothL1=0.327769
+Epoch[30] Batch [80]	Speed: 95.65 samples/sec	CrossEntropy=0.671170	SmoothL1=0.320479
+Epoch[30] Batch [100]	Speed: 96.01 samples/sec	CrossEntropy=0.651216	SmoothL1=0.313768
+Epoch[30] Batch [120]	Speed: 94.76 samples/sec	CrossEntropy=0.654548	SmoothL1=0.313389
+Epoch[30] Batch [140]	Speed: 89.75 samples/sec	CrossEntropy=0.678065	SmoothL1=0.338071
+Epoch[30] Batch [160]	Speed: 93.55 samples/sec	CrossEntropy=0.650623	SmoothL1=0.315984
+Epoch[30] Batch [180]	Speed: 94.76 samples/sec	CrossEntropy=0.665168	SmoothL1=0.319595
+Epoch[30] Batch [200]	Speed: 92.33 samples/sec	CrossEntropy=0.661787	SmoothL1=0.317177
+Epoch[30] Batch [220]	Speed: 92.43 samples/sec	CrossEntropy=0.661026	SmoothL1=0.328474
+Epoch[30] Batch [240]	Speed: 93.06 samples/sec	CrossEntropy=0.662779	SmoothL1=0.326817
+Epoch[30] Train-CrossEntropy=0.660183
+Epoch[30] Train-SmoothL1=0.321174
+Epoch[30] Time cost=87.977
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0031.params"
+Epoch[30] Validation-aeroplane=0.717400
+Epoch[30] Validation-bicycle=0.665140
+Epoch[30] Validation-bird=0.565333
+Epoch[30] Validation-boat=0.364303
+Epoch[30] Validation-bottle=0.265584
+Epoch[30] Validation-bus=0.686932
+Epoch[30] Validation-car=0.647502
+Epoch[30] Validation-cat=0.809572
+Epoch[30] Validation-chair=0.339230
+Epoch[30] Validation-cow=0.509376
+Epoch[30] Validation-diningtable=0.455240
+Epoch[30] Validation-dog=0.750579
+Epoch[30] Validation-horse=0.656411
+Epoch[30] Validation-motorbike=0.680290
+Epoch[30] Validation-person=0.664537
+Epoch[30] Validation-pottedplant=0.277446
+Epoch[30] Validation-sheep=0.535529
+Epoch[30] Validation-sofa=0.483186
+Epoch[30] Validation-train=0.726761
+Epoch[30] Validation-tvmonitor=0.601541
+Epoch[30] Validation-mAP=0.570095
+Epoch[31] Batch [20]	Speed: 93.11 samples/sec	CrossEntropy=0.657246	SmoothL1=0.321855
+Epoch[31] Batch [40]	Speed: 95.70 samples/sec	CrossEntropy=0.649182	SmoothL1=0.300126
+Epoch[31] Batch [60]	Speed: 95.95 samples/sec	CrossEntropy=0.674120	SmoothL1=0.333842
+Epoch[31] Batch [80]	Speed: 93.97 samples/sec	CrossEntropy=0.673620	SmoothL1=0.317751
+Epoch[31] Batch [100]	Speed: 94.19 samples/sec	CrossEntropy=0.654904	SmoothL1=0.316741
+Epoch[31] Batch [120]	Speed: 94.36 samples/sec	CrossEntropy=0.660059	SmoothL1=0.315157
+Epoch[31] Batch [140]	Speed: 94.01 samples/sec	CrossEntropy=0.656112	SmoothL1=0.323847
+Epoch[31] Batch [160]	Speed: 92.72 samples/sec	CrossEntropy=0.644180	SmoothL1=0.309400
+Epoch[31] Batch [180]	Speed: 92.89 samples/sec	CrossEntropy=0.663890	SmoothL1=0.313359
+Epoch[31] Batch [200]	Speed: 92.84 samples/sec	CrossEntropy=0.662765	SmoothL1=0.309704
+Epoch[31] Batch [220]	Speed: 92.41 samples/sec	CrossEntropy=0.650567	SmoothL1=0.319678
+Epoch[31] Batch [240]	Speed: 95.56 samples/sec	CrossEntropy=0.665322	SmoothL1=0.309989
+Epoch[31] Train-CrossEntropy=0.658746
+Epoch[31] Train-SmoothL1=0.308410
+Epoch[31] Time cost=86.958
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0032.params"
+Epoch[31] Validation-aeroplane=0.740220
+Epoch[31] Validation-bicycle=0.645683
+Epoch[31] Validation-bird=0.554553
+Epoch[31] Validation-boat=0.378412
+Epoch[31] Validation-bottle=0.274877
+Epoch[31] Validation-bus=0.698450
+Epoch[31] Validation-car=0.651856
+Epoch[31] Validation-cat=0.800837
+Epoch[31] Validation-chair=0.349380
+Epoch[31] Validation-cow=0.468101
+Epoch[31] Validation-diningtable=0.468231
+Epoch[31] Validation-dog=0.728383
+Epoch[31] Validation-horse=0.621121
+Epoch[31] Validation-motorbike=0.672173
+Epoch[31] Validation-person=0.661817
+Epoch[31] Validation-pottedplant=0.289488
+Epoch[31] Validation-sheep=0.570422
+Epoch[31] Validation-sofa=0.471965
+Epoch[31] Validation-train=0.739591
+Epoch[31] Validation-tvmonitor=0.610543
+Epoch[31] Validation-mAP=0.569805
+Epoch[32] Batch [20]	Speed: 91.49 samples/sec	CrossEntropy=0.647648	SmoothL1=0.312056
+Epoch[32] Batch [40]	Speed: 97.00 samples/sec	CrossEntropy=0.672219	SmoothL1=0.311215
+Epoch[32] Batch [60]	Speed: 94.83 samples/sec	CrossEntropy=0.667564	SmoothL1=0.316524
+Epoch[32] Batch [80]	Speed: 92.70 samples/sec	CrossEntropy=0.659141	SmoothL1=0.316232
+Epoch[32] Batch [100]	Speed: 94.71 samples/sec	CrossEntropy=0.662383	SmoothL1=0.329367
+Epoch[32] Batch [120]	Speed: 95.90 samples/sec	CrossEntropy=0.651520	SmoothL1=0.297161
+Epoch[32] Batch [140]	Speed: 92.51 samples/sec	CrossEntropy=0.687619	SmoothL1=0.329522
+Epoch[32] Batch [160]	Speed: 95.10 samples/sec	CrossEntropy=0.644432	SmoothL1=0.316476
+Epoch[32] Batch [180]	Speed: 94.49 samples/sec	CrossEntropy=0.641821	SmoothL1=0.305109
+Epoch[32] Batch [200]	Speed: 94.42 samples/sec	CrossEntropy=0.640964	SmoothL1=0.297674
+Epoch[32] Batch [220]	Speed: 94.64 samples/sec	CrossEntropy=0.657233	SmoothL1=0.317594
+Epoch[32] Batch [240]	Speed: 95.61 samples/sec	CrossEntropy=0.663441	SmoothL1=0.305499
+Epoch[32] Train-CrossEntropy=0.666851
+Epoch[32] Train-SmoothL1=0.328184
+Epoch[32] Time cost=87.028
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0033.params"
+Epoch[32] Validation-aeroplane=0.716805
+Epoch[32] Validation-bicycle=0.662183
+Epoch[32] Validation-bird=0.554600
+Epoch[32] Validation-boat=0.336034
+Epoch[32] Validation-bottle=0.264389
+Epoch[32] Validation-bus=0.669247
+Epoch[32] Validation-car=0.650361
+Epoch[32] Validation-cat=0.800184
+Epoch[32] Validation-chair=0.323962
+Epoch[32] Validation-cow=0.521620
+Epoch[32] Validation-diningtable=0.478237
+Epoch[32] Validation-dog=0.743122
+Epoch[32] Validation-horse=0.661283
+Epoch[32] Validation-motorbike=0.678084
+Epoch[32] Validation-person=0.660743
+Epoch[32] Validation-pottedplant=0.283820
+Epoch[32] Validation-sheep=0.586739
+Epoch[32] Validation-sofa=0.475326
+Epoch[32] Validation-train=0.705347
+Epoch[32] Validation-tvmonitor=0.578694
+Epoch[32] Validation-mAP=0.567539
+Epoch[33] Batch [20]	Speed: 92.30 samples/sec	CrossEntropy=0.644855	SmoothL1=0.321950
+Epoch[33] Batch [40]	Speed: 95.08 samples/sec	CrossEntropy=0.647488	SmoothL1=0.296782
+Epoch[33] Batch [60]	Speed: 93.45 samples/sec	CrossEntropy=0.662742	SmoothL1=0.317878
+Epoch[33] Batch [80]	Speed: 94.53 samples/sec	CrossEntropy=0.651613	SmoothL1=0.310865
+Epoch[33] Batch [100]	Speed: 94.14 samples/sec	CrossEntropy=0.657810	SmoothL1=0.316994
+Epoch[33] Batch [120]	Speed: 93.75 samples/sec	CrossEntropy=0.644606	SmoothL1=0.310055
+Epoch[33] Batch [140]	Speed: 94.28 samples/sec	CrossEntropy=0.662435	SmoothL1=0.319119
+Epoch[33] Batch [160]	Speed: 96.74 samples/sec	CrossEntropy=0.638813	SmoothL1=0.305466
+Epoch[33] Batch [180]	Speed: 96.16 samples/sec	CrossEntropy=0.647737	SmoothL1=0.305500
+Epoch[33] Batch [200]	Speed: 95.67 samples/sec	CrossEntropy=0.630860	SmoothL1=0.301247
+Epoch[33] Batch [220]	Speed: 94.34 samples/sec	CrossEntropy=0.644096	SmoothL1=0.311349
+Epoch[33] Batch [240]	Speed: 96.17 samples/sec	CrossEntropy=0.658358	SmoothL1=0.310731
+Epoch[33] Train-CrossEntropy=0.656944
+Epoch[33] Train-SmoothL1=0.313091
+Epoch[33] Time cost=86.637
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0034.params"
+Epoch[33] Validation-aeroplane=0.726308
+Epoch[33] Validation-bicycle=0.674661
+Epoch[33] Validation-bird=0.565503
+Epoch[33] Validation-boat=0.365783
+Epoch[33] Validation-bottle=0.276283
+Epoch[33] Validation-bus=0.714719
+Epoch[33] Validation-car=0.657624
+Epoch[33] Validation-cat=0.805080
+Epoch[33] Validation-chair=0.366391
+Epoch[33] Validation-cow=0.537452
+Epoch[33] Validation-diningtable=0.466514
+Epoch[33] Validation-dog=0.734942
+Epoch[33] Validation-horse=0.683998
+Epoch[33] Validation-motorbike=0.689902
+Epoch[33] Validation-person=0.667139
+Epoch[33] Validation-pottedplant=0.280392
+Epoch[33] Validation-sheep=0.586477
+Epoch[33] Validation-sofa=0.478469
+Epoch[33] Validation-train=0.717284
+Epoch[33] Validation-tvmonitor=0.596979
+Epoch[33] Validation-mAP=0.579595
+Epoch[34] Batch [20]	Speed: 95.24 samples/sec	CrossEntropy=0.646050	SmoothL1=0.300463
+Epoch[34] Batch [40]	Speed: 94.38 samples/sec	CrossEntropy=0.649858	SmoothL1=0.307513
+Epoch[34] Batch [60]	Speed: 95.30 samples/sec	CrossEntropy=0.637337	SmoothL1=0.309348
+Epoch[34] Batch [80]	Speed: 94.08 samples/sec	CrossEntropy=0.658548	SmoothL1=0.316623
+Epoch[34] Batch [100]	Speed: 92.39 samples/sec	CrossEntropy=0.656588	SmoothL1=0.314869
+Epoch[34] Batch [120]	Speed: 95.27 samples/sec	CrossEntropy=0.642271	SmoothL1=0.301416
+Epoch[34] Batch [140]	Speed: 93.37 samples/sec	CrossEntropy=0.653838	SmoothL1=0.316543
+Epoch[34] Batch [160]	Speed: 94.77 samples/sec	CrossEntropy=0.612298	SmoothL1=0.295283
+Epoch[34] Batch [180]	Speed: 95.05 samples/sec	CrossEntropy=0.637406	SmoothL1=0.306453
+Epoch[34] Batch [200]	Speed: 94.40 samples/sec	CrossEntropy=0.631782	SmoothL1=0.306823
+Epoch[34] Batch [220]	Speed: 90.99 samples/sec	CrossEntropy=0.668138	SmoothL1=0.324112
+Epoch[34] Batch [240]	Speed: 95.47 samples/sec	CrossEntropy=0.656236	SmoothL1=0.307928
+Epoch[34] Train-CrossEntropy=0.645574
+Epoch[34] Train-SmoothL1=0.314287
+Epoch[34] Time cost=87.146
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0035.params"
+Epoch[34] Validation-aeroplane=0.727092
+Epoch[34] Validation-bicycle=0.658451
+Epoch[34] Validation-bird=0.541376
+Epoch[34] Validation-boat=0.356263
+Epoch[34] Validation-bottle=0.262377
+Epoch[34] Validation-bus=0.675846
+Epoch[34] Validation-car=0.647764
+Epoch[34] Validation-cat=0.822959
+Epoch[34] Validation-chair=0.352819
+Epoch[34] Validation-cow=0.527775
+Epoch[34] Validation-diningtable=0.478440
+Epoch[34] Validation-dog=0.747306
+Epoch[34] Validation-horse=0.701331
+Epoch[34] Validation-motorbike=0.688931
+Epoch[34] Validation-person=0.671635
+Epoch[34] Validation-pottedplant=0.300969
+Epoch[34] Validation-sheep=0.584117
+Epoch[34] Validation-sofa=0.519224
+Epoch[34] Validation-train=0.737789
+Epoch[34] Validation-tvmonitor=0.606529
+Epoch[34] Validation-mAP=0.580450
+Epoch[35] Batch [20]	Speed: 91.72 samples/sec	CrossEntropy=0.661821	SmoothL1=0.307739
+Epoch[35] Batch [40]	Speed: 93.16 samples/sec	CrossEntropy=0.667345	SmoothL1=0.322598
+Epoch[35] Batch [60]	Speed: 92.07 samples/sec	CrossEntropy=0.657191	SmoothL1=0.321419
+Epoch[35] Batch [80]	Speed: 93.56 samples/sec	CrossEntropy=0.640695	SmoothL1=0.314679
+Epoch[35] Batch [100]	Speed: 94.64 samples/sec	CrossEntropy=0.652050	SmoothL1=0.325676
+Epoch[35] Batch [120]	Speed: 94.38 samples/sec	CrossEntropy=0.644752	SmoothL1=0.301323
+Epoch[35] Batch [140]	Speed: 93.21 samples/sec	CrossEntropy=0.658606	SmoothL1=0.314981
+Epoch[35] Batch [160]	Speed: 93.87 samples/sec	CrossEntropy=0.621943	SmoothL1=0.297085
+Epoch[35] Batch [180]	Speed: 93.04 samples/sec	CrossEntropy=0.660387	SmoothL1=0.311760
+Epoch[35] Batch [200]	Speed: 93.05 samples/sec	CrossEntropy=0.621097	SmoothL1=0.294600
+Epoch[35] Batch [220]	Speed: 93.79 samples/sec	CrossEntropy=0.640064	SmoothL1=0.302320
+Epoch[35] Batch [240]	Speed: 95.73 samples/sec	CrossEntropy=0.648782	SmoothL1=0.306949
+Epoch[35] Train-CrossEntropy=0.654198
+Epoch[35] Train-SmoothL1=0.316765
+Epoch[35] Time cost=87.699
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0036.params"
+Epoch[35] Validation-aeroplane=0.741668
+Epoch[35] Validation-bicycle=0.664616
+Epoch[35] Validation-bird=0.577200
+Epoch[35] Validation-boat=0.393990
+Epoch[35] Validation-bottle=0.275589
+Epoch[35] Validation-bus=0.696713
+Epoch[35] Validation-car=0.656862
+Epoch[35] Validation-cat=0.811342
+Epoch[35] Validation-chair=0.360458
+Epoch[35] Validation-cow=0.508446
+Epoch[35] Validation-diningtable=0.454939
+Epoch[35] Validation-dog=0.725051
+Epoch[35] Validation-horse=0.686605
+Epoch[35] Validation-motorbike=0.687096
+Epoch[35] Validation-person=0.672254
+Epoch[35] Validation-pottedplant=0.284962
+Epoch[35] Validation-sheep=0.591551
+Epoch[35] Validation-sofa=0.453647
+Epoch[35] Validation-train=0.739823
+Epoch[35] Validation-tvmonitor=0.608986
+Epoch[35] Validation-mAP=0.579590
+Epoch[36] Batch [20]	Speed: 95.29 samples/sec	CrossEntropy=0.631383	SmoothL1=0.302988
+Epoch[36] Batch [40]	Speed: 96.81 samples/sec	CrossEntropy=0.626337	SmoothL1=0.293419
+Epoch[36] Batch [60]	Speed: 92.42 samples/sec	CrossEntropy=0.640097	SmoothL1=0.315083
+Epoch[36] Batch [80]	Speed: 93.78 samples/sec	CrossEntropy=0.651351	SmoothL1=0.308833
+Epoch[36] Batch [100]	Speed: 93.87 samples/sec	CrossEntropy=0.646588	SmoothL1=0.315092
+Epoch[36] Batch [120]	Speed: 95.10 samples/sec	CrossEntropy=0.627961	SmoothL1=0.296119
+Epoch[36] Batch [140]	Speed: 95.22 samples/sec	CrossEntropy=0.650159	SmoothL1=0.318402
+Epoch[36] Batch [160]	Speed: 95.50 samples/sec	CrossEntropy=0.629659	SmoothL1=0.302528
+Epoch[36] Batch [180]	Speed: 92.60 samples/sec	CrossEntropy=0.642456	SmoothL1=0.321526
+Epoch[36] Batch [200]	Speed: 93.18 samples/sec	CrossEntropy=0.632665	SmoothL1=0.297148
+Epoch[36] Batch [220]	Speed: 91.85 samples/sec	CrossEntropy=0.633122	SmoothL1=0.312595
+Epoch[36] Batch [240]	Speed: 93.84 samples/sec	CrossEntropy=0.647532	SmoothL1=0.307433
+Epoch[36] Train-CrossEntropy=0.644024
+Epoch[36] Train-SmoothL1=0.312761
+Epoch[36] Time cost=87.435
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0037.params"
+Epoch[36] Validation-aeroplane=0.732266
+Epoch[36] Validation-bicycle=0.661760
+Epoch[36] Validation-bird=0.572271
+Epoch[36] Validation-boat=0.365559
+Epoch[36] Validation-bottle=0.279834
+Epoch[36] Validation-bus=0.690968
+Epoch[36] Validation-car=0.653209
+Epoch[36] Validation-cat=0.826448
+Epoch[36] Validation-chair=0.362664
+Epoch[36] Validation-cow=0.500551
+Epoch[36] Validation-diningtable=0.445243
+Epoch[36] Validation-dog=0.727853
+Epoch[36] Validation-horse=0.642405
+Epoch[36] Validation-motorbike=0.678872
+Epoch[36] Validation-person=0.661978
+Epoch[36] Validation-pottedplant=0.295080
+Epoch[36] Validation-sheep=0.549846
+Epoch[36] Validation-sofa=0.562705
+Epoch[36] Validation-train=0.737031
+Epoch[36] Validation-tvmonitor=0.606083
+Epoch[36] Validation-mAP=0.577631
+Epoch[37] Batch [20]	Speed: 90.79 samples/sec	CrossEntropy=0.626721	SmoothL1=0.298673
+Epoch[37] Batch [40]	Speed: 93.87 samples/sec	CrossEntropy=0.638568	SmoothL1=0.308499
+Epoch[37] Batch [60]	Speed: 94.16 samples/sec	CrossEntropy=0.642419	SmoothL1=0.302528
+Epoch[37] Batch [80]	Speed: 95.78 samples/sec	CrossEntropy=0.622287	SmoothL1=0.316357
+Epoch[37] Batch [100]	Speed: 94.23 samples/sec	CrossEntropy=0.647119	SmoothL1=0.319333
+Epoch[37] Batch [120]	Speed: 92.20 samples/sec	CrossEntropy=0.653339	SmoothL1=0.298317
+Epoch[37] Batch [140]	Speed: 92.55 samples/sec	CrossEntropy=0.629356	SmoothL1=0.311891
+Epoch[37] Batch [160]	Speed: 93.23 samples/sec	CrossEntropy=0.620039	SmoothL1=0.302866
+Epoch[37] Batch [180]	Speed: 94.70 samples/sec	CrossEntropy=0.623149	SmoothL1=0.312123
+Epoch[37] Batch [200]	Speed: 93.37 samples/sec	CrossEntropy=0.632373	SmoothL1=0.295276
+Epoch[37] Batch [220]	Speed: 95.82 samples/sec	CrossEntropy=0.629555	SmoothL1=0.309378
+Epoch[37] Batch [240]	Speed: 94.91 samples/sec	CrossEntropy=0.638886	SmoothL1=0.304775
+Epoch[37] Train-CrossEntropy=0.654441
+Epoch[37] Train-SmoothL1=0.330762
+Epoch[37] Time cost=87.227
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0038.params"
+Epoch[37] Validation-aeroplane=0.743976
+Epoch[37] Validation-bicycle=0.674458
+Epoch[37] Validation-bird=0.574214
+Epoch[37] Validation-boat=0.391353
+Epoch[37] Validation-bottle=0.275324
+Epoch[37] Validation-bus=0.700400
+Epoch[37] Validation-car=0.664684
+Epoch[37] Validation-cat=0.800017
+Epoch[37] Validation-chair=0.372173
+Epoch[37] Validation-cow=0.448589
+Epoch[37] Validation-diningtable=0.471995
+Epoch[37] Validation-dog=0.743343
+Epoch[37] Validation-horse=0.629324
+Epoch[37] Validation-motorbike=0.705222
+Epoch[37] Validation-person=0.664171
+Epoch[37] Validation-pottedplant=0.268714
+Epoch[37] Validation-sheep=0.566856
+Epoch[37] Validation-sofa=0.545599
+Epoch[37] Validation-train=0.744150
+Epoch[37] Validation-tvmonitor=0.596201
+Epoch[37] Validation-mAP=0.579038
+Epoch[38] Batch [20]	Speed: 94.87 samples/sec	CrossEntropy=0.639293	SmoothL1=0.306330
+Epoch[38] Batch [40]	Speed: 94.08 samples/sec	CrossEntropy=0.627815	SmoothL1=0.296159
+Epoch[38] Batch [60]	Speed: 94.04 samples/sec	CrossEntropy=0.622117	SmoothL1=0.311607
+Epoch[38] Batch [80]	Speed: 92.66 samples/sec	CrossEntropy=0.635151	SmoothL1=0.314407
+Epoch[38] Batch [100]	Speed: 90.75 samples/sec	CrossEntropy=0.634903	SmoothL1=0.311235
+Epoch[38] Batch [120]	Speed: 93.62 samples/sec	CrossEntropy=0.625614	SmoothL1=0.302802
+Epoch[38] Batch [140]	Speed: 92.84 samples/sec	CrossEntropy=0.650053	SmoothL1=0.324183
+Epoch[38] Batch [160]	Speed: 92.76 samples/sec	CrossEntropy=0.635295	SmoothL1=0.304071
+Epoch[38] Batch [180]	Speed: 92.05 samples/sec	CrossEntropy=0.639112	SmoothL1=0.308101
+Epoch[38] Batch [200]	Speed: 93.24 samples/sec	CrossEntropy=0.628624	SmoothL1=0.290916
+Epoch[38] Batch [220]	Speed: 95.00 samples/sec	CrossEntropy=0.649957	SmoothL1=0.315865
+Epoch[38] Batch [240]	Speed: 94.62 samples/sec	CrossEntropy=0.633376	SmoothL1=0.295110
+Epoch[38] Train-CrossEntropy=0.625086
+Epoch[38] Train-SmoothL1=0.304326
+Epoch[38] Time cost=88.064
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0039.params"
+Epoch[38] Validation-aeroplane=0.751677
+Epoch[38] Validation-bicycle=0.663622
+Epoch[38] Validation-bird=0.574795
+Epoch[38] Validation-boat=0.393913
+Epoch[38] Validation-bottle=0.306823
+Epoch[38] Validation-bus=0.707809
+Epoch[38] Validation-car=0.663034
+Epoch[38] Validation-cat=0.824849
+Epoch[38] Validation-chair=0.378480
+Epoch[38] Validation-cow=0.403883
+Epoch[38] Validation-diningtable=0.489997
+Epoch[38] Validation-dog=0.709623
+Epoch[38] Validation-horse=0.595828
+Epoch[38] Validation-motorbike=0.692165
+Epoch[38] Validation-person=0.685018
+Epoch[38] Validation-pottedplant=0.315895
+Epoch[38] Validation-sheep=0.543658
+Epoch[38] Validation-sofa=0.512283
+Epoch[38] Validation-train=0.762292
+Epoch[38] Validation-tvmonitor=0.614407
+Epoch[38] Validation-mAP=0.579503
+Epoch[39] Batch [20]	Speed: 93.14 samples/sec	CrossEntropy=0.624815	SmoothL1=0.297885
+Epoch[39] Batch [40]	Speed: 94.35 samples/sec	CrossEntropy=0.632052	SmoothL1=0.291841
+Epoch[39] Batch [60]	Speed: 94.42 samples/sec	CrossEntropy=0.629996	SmoothL1=0.322505
+Epoch[39] Batch [80]	Speed: 93.53 samples/sec	CrossEntropy=0.630388	SmoothL1=0.300912
+Epoch[39] Batch [100]	Speed: 91.78 samples/sec	CrossEntropy=0.634298	SmoothL1=0.318302
+Epoch[39] Batch [120]	Speed: 94.82 samples/sec	CrossEntropy=0.618032	SmoothL1=0.293635
+Epoch[39] Batch [140]	Speed: 93.70 samples/sec	CrossEntropy=0.650543	SmoothL1=0.318976
+Epoch[39] Batch [160]	Speed: 93.59 samples/sec	CrossEntropy=0.601869	SmoothL1=0.285890
+Epoch[39] Batch [180]	Speed: 94.08 samples/sec	CrossEntropy=0.619153	SmoothL1=0.304833
+Epoch[39] Batch [200]	Speed: 93.54 samples/sec	CrossEntropy=0.611238	SmoothL1=0.295134
+Epoch[39] Batch [220]	Speed: 93.39 samples/sec	CrossEntropy=0.633801	SmoothL1=0.299230
+Epoch[39] Batch [240]	Speed: 93.34 samples/sec	CrossEntropy=0.634593	SmoothL1=0.299226
+Epoch[39] Train-CrossEntropy=0.627844
+Epoch[39] Train-SmoothL1=0.313290
+Epoch[39] Time cost=87.671
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0040.params"
+Epoch[39] Validation-aeroplane=0.751416
+Epoch[39] Validation-bicycle=0.679020
+Epoch[39] Validation-bird=0.569242
+Epoch[39] Validation-boat=0.409262
+Epoch[39] Validation-bottle=0.295959
+Epoch[39] Validation-bus=0.685569
+Epoch[39] Validation-car=0.658921
+Epoch[39] Validation-cat=0.831517
+Epoch[39] Validation-chair=0.373516
+Epoch[39] Validation-cow=0.554183
+Epoch[39] Validation-diningtable=0.473643
+Epoch[39] Validation-dog=0.761062
+Epoch[39] Validation-horse=0.673138
+Epoch[39] Validation-motorbike=0.682260
+Epoch[39] Validation-person=0.680669
+Epoch[39] Validation-pottedplant=0.318802
+Epoch[39] Validation-sheep=0.586717
+Epoch[39] Validation-sofa=0.516164
+Epoch[39] Validation-train=0.743758
+Epoch[39] Validation-tvmonitor=0.607863
+Epoch[39] Validation-mAP=0.592634
+Epoch[40] Batch [20]	Speed: 86.27 samples/sec	CrossEntropy=0.625395	SmoothL1=0.295411
+Epoch[40] Batch [40]	Speed: 95.34 samples/sec	CrossEntropy=0.632205	SmoothL1=0.283604
+Epoch[40] Batch [60]	Speed: 92.66 samples/sec	CrossEntropy=0.634287	SmoothL1=0.309884
+Epoch[40] Batch [80]	Speed: 92.89 samples/sec	CrossEntropy=0.637324	SmoothL1=0.313978
+Epoch[40] Batch [100]	Speed: 94.66 samples/sec	CrossEntropy=0.624895	SmoothL1=0.309598
+Epoch[40] Batch [120]	Speed: 94.87 samples/sec	CrossEntropy=0.622886	SmoothL1=0.289976
+Epoch[40] Batch [140]	Speed: 94.93 samples/sec	CrossEntropy=0.629021	SmoothL1=0.312749
+Epoch[40] Batch [160]	Speed: 94.08 samples/sec	CrossEntropy=0.611900	SmoothL1=0.297730
+Epoch[40] Batch [180]	Speed: 93.03 samples/sec	CrossEntropy=0.620479	SmoothL1=0.295290
+Epoch[40] Batch [200]	Speed: 93.73 samples/sec	CrossEntropy=0.616657	SmoothL1=0.293195
+Epoch[40] Batch [220]	Speed: 95.84 samples/sec	CrossEntropy=0.625553	SmoothL1=0.307532
+Epoch[40] Batch [240]	Speed: 94.28 samples/sec	CrossEntropy=0.627705	SmoothL1=0.284625
+Epoch[40] Train-CrossEntropy=0.637526
+Epoch[40] Train-SmoothL1=0.309650
+Epoch[40] Time cost=87.932
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0041.params"
+Epoch[40] Validation-aeroplane=0.738738
+Epoch[40] Validation-bicycle=0.693299
+Epoch[40] Validation-bird=0.516327
+Epoch[40] Validation-boat=0.421589
+Epoch[40] Validation-bottle=0.300383
+Epoch[40] Validation-bus=0.722778
+Epoch[40] Validation-car=0.673862
+Epoch[40] Validation-cat=0.810027
+Epoch[40] Validation-chair=0.385176
+Epoch[40] Validation-cow=0.550030
+Epoch[40] Validation-diningtable=0.484371
+Epoch[40] Validation-dog=0.731020
+Epoch[40] Validation-horse=0.672230
+Epoch[40] Validation-motorbike=0.709002
+Epoch[40] Validation-person=0.674914
+Epoch[40] Validation-pottedplant=0.324573
+Epoch[40] Validation-sheep=0.595311
+Epoch[40] Validation-sofa=0.565995
+Epoch[40] Validation-train=0.764801
+Epoch[40] Validation-tvmonitor=0.622915
+Epoch[40] Validation-mAP=0.597867
+Epoch[41] Batch [20]	Speed: 89.39 samples/sec	CrossEntropy=0.614776	SmoothL1=0.291902
+Epoch[41] Batch [40]	Speed: 91.20 samples/sec	CrossEntropy=0.615475	SmoothL1=0.287210
+Epoch[41] Batch [60]	Speed: 90.48 samples/sec	CrossEntropy=0.629894	SmoothL1=0.311132
+Epoch[41] Batch [80]	Speed: 91.51 samples/sec	CrossEntropy=0.618890	SmoothL1=0.309484
+Epoch[41] Batch [100]	Speed: 94.56 samples/sec	CrossEntropy=0.637274	SmoothL1=0.310607
+Epoch[41] Batch [120]	Speed: 92.35 samples/sec	CrossEntropy=0.609901	SmoothL1=0.284365
+Epoch[41] Batch [140]	Speed: 91.54 samples/sec	CrossEntropy=0.633450	SmoothL1=0.305352
+Epoch[41] Batch [160]	Speed: 92.99 samples/sec	CrossEntropy=0.620913	SmoothL1=0.300954
+Epoch[41] Batch [180]	Speed: 93.57 samples/sec	CrossEntropy=0.616675	SmoothL1=0.298861
+Epoch[41] Batch [200]	Speed: 91.22 samples/sec	CrossEntropy=0.603248	SmoothL1=0.286690
+Epoch[41] Batch [220]	Speed: 91.17 samples/sec	CrossEntropy=0.624104	SmoothL1=0.303304
+Epoch[41] Batch [240]	Speed: 92.04 samples/sec	CrossEntropy=0.627538	SmoothL1=0.305417
+Epoch[41] Train-CrossEntropy=0.641394
+Epoch[41] Train-SmoothL1=0.301151
+Epoch[41] Time cost=89.497
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0042.params"
+Epoch[41] Validation-aeroplane=0.755799
+Epoch[41] Validation-bicycle=0.658707
+Epoch[41] Validation-bird=0.574304
+Epoch[41] Validation-boat=0.415766
+Epoch[41] Validation-bottle=0.298003
+Epoch[41] Validation-bus=0.682336
+Epoch[41] Validation-car=0.661476
+Epoch[41] Validation-cat=0.817987
+Epoch[41] Validation-chair=0.370185
+Epoch[41] Validation-cow=0.468936
+Epoch[41] Validation-diningtable=0.487521
+Epoch[41] Validation-dog=0.709671
+Epoch[41] Validation-horse=0.635373
+Epoch[41] Validation-motorbike=0.710410
+Epoch[41] Validation-person=0.674971
+Epoch[41] Validation-pottedplant=0.288031
+Epoch[41] Validation-sheep=0.590954
+Epoch[41] Validation-sofa=0.506930
+Epoch[41] Validation-train=0.743900
+Epoch[41] Validation-tvmonitor=0.612762
+Epoch[41] Validation-mAP=0.583201
+Epoch[42] Batch [20]	Speed: 89.97 samples/sec	CrossEntropy=0.616849	SmoothL1=0.303094
+Epoch[42] Batch [40]	Speed: 94.37 samples/sec	CrossEntropy=0.618682	SmoothL1=0.291189
+Epoch[42] Batch [60]	Speed: 91.60 samples/sec	CrossEntropy=0.640112	SmoothL1=0.309202
+Epoch[42] Batch [80]	Speed: 92.62 samples/sec	CrossEntropy=0.636408	SmoothL1=0.304884
+Epoch[42] Batch [100]	Speed: 93.67 samples/sec	CrossEntropy=0.632286	SmoothL1=0.315374
+Epoch[42] Batch [120]	Speed: 91.41 samples/sec	CrossEntropy=0.631532	SmoothL1=0.299560
+Epoch[42] Batch [140]	Speed: 91.69 samples/sec	CrossEntropy=0.620742	SmoothL1=0.305960
+Epoch[42] Batch [160]	Speed: 92.70 samples/sec	CrossEntropy=0.604254	SmoothL1=0.296217
+Epoch[42] Batch [180]	Speed: 88.39 samples/sec	CrossEntropy=0.601009	SmoothL1=0.297602
+Epoch[42] Batch [200]	Speed: 94.60 samples/sec	CrossEntropy=0.598003	SmoothL1=0.286836
+Epoch[42] Batch [220]	Speed: 92.92 samples/sec	CrossEntropy=0.613691	SmoothL1=0.296206
+Epoch[42] Batch [240]	Speed: 92.45 samples/sec	CrossEntropy=0.623263	SmoothL1=0.296887
+Epoch[42] Train-CrossEntropy=0.617182
+Epoch[42] Train-SmoothL1=0.317161
+Epoch[42] Time cost=88.721
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0043.params"
+Epoch[42] Validation-aeroplane=0.756825
+Epoch[42] Validation-bicycle=0.680673
+Epoch[42] Validation-bird=0.580691
+Epoch[42] Validation-boat=0.403483
+Epoch[42] Validation-bottle=0.275040
+Epoch[42] Validation-bus=0.699317
+Epoch[42] Validation-car=0.671201
+Epoch[42] Validation-cat=0.819848
+Epoch[42] Validation-chair=0.373231
+Epoch[42] Validation-cow=0.563251
+Epoch[42] Validation-diningtable=0.468257
+Epoch[42] Validation-dog=0.741765
+Epoch[42] Validation-horse=0.696275
+Epoch[42] Validation-motorbike=0.713980
+Epoch[42] Validation-person=0.678415
+Epoch[42] Validation-pottedplant=0.330683
+Epoch[42] Validation-sheep=0.609896
+Epoch[42] Validation-sofa=0.504530
+Epoch[42] Validation-train=0.754660
+Epoch[42] Validation-tvmonitor=0.616940
+Epoch[42] Validation-mAP=0.596948
+Epoch[43] Batch [20]	Speed: 85.95 samples/sec	CrossEntropy=0.605315	SmoothL1=0.290045
+Epoch[43] Batch [40]	Speed: 90.96 samples/sec	CrossEntropy=0.624945	SmoothL1=0.286836
+Epoch[43] Batch [60]	Speed: 89.34 samples/sec	CrossEntropy=0.624189	SmoothL1=0.307052
+Epoch[43] Batch [80]	Speed: 92.07 samples/sec	CrossEntropy=0.635122	SmoothL1=0.302053
+Epoch[43] Batch [100]	Speed: 93.10 samples/sec	CrossEntropy=0.609211	SmoothL1=0.297404
+Epoch[43] Batch [120]	Speed: 94.62 samples/sec	CrossEntropy=0.598248	SmoothL1=0.295682
+Epoch[43] Batch [140]	Speed: 92.10 samples/sec	CrossEntropy=0.617999	SmoothL1=0.313001
+Epoch[43] Batch [160]	Speed: 92.91 samples/sec	CrossEntropy=0.600679	SmoothL1=0.280747
+Epoch[43] Batch [180]	Speed: 93.63 samples/sec	CrossEntropy=0.617450	SmoothL1=0.298868
+Epoch[43] Batch [200]	Speed: 94.19 samples/sec	CrossEntropy=0.606961	SmoothL1=0.278956
+Epoch[43] Batch [220]	Speed: 94.27 samples/sec	CrossEntropy=0.631010	SmoothL1=0.298133
+Epoch[43] Batch [240]	Speed: 92.68 samples/sec	CrossEntropy=0.621583	SmoothL1=0.285005
+Epoch[43] Train-CrossEntropy=0.615167
+Epoch[43] Train-SmoothL1=0.304167
+Epoch[43] Time cost=89.181
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0044.params"
+Epoch[43] Validation-aeroplane=0.754859
+Epoch[43] Validation-bicycle=0.667600
+Epoch[43] Validation-bird=0.582815
+Epoch[43] Validation-boat=0.431629
+Epoch[43] Validation-bottle=0.284657
+Epoch[43] Validation-bus=0.707231
+Epoch[43] Validation-car=0.665553
+Epoch[43] Validation-cat=0.822303
+Epoch[43] Validation-chair=0.375402
+Epoch[43] Validation-cow=0.559916
+Epoch[43] Validation-diningtable=0.468038
+Epoch[43] Validation-dog=0.733807
+Epoch[43] Validation-horse=0.686669
+Epoch[43] Validation-motorbike=0.705999
+Epoch[43] Validation-person=0.683943
+Epoch[43] Validation-pottedplant=0.332887
+Epoch[43] Validation-sheep=0.605791
+Epoch[43] Validation-sofa=0.546183
+Epoch[43] Validation-train=0.752295
+Epoch[43] Validation-tvmonitor=0.619110
+Epoch[43] Validation-mAP=0.599334
+Epoch[44] Batch [20]	Speed: 91.90 samples/sec	CrossEntropy=0.606990	SmoothL1=0.294483
+Epoch[44] Batch [40]	Speed: 92.54 samples/sec	CrossEntropy=0.621805	SmoothL1=0.283318
+Epoch[44] Batch [60]	Speed: 94.48 samples/sec	CrossEntropy=0.617404	SmoothL1=0.303093
+Epoch[44] Batch [80]	Speed: 94.18 samples/sec	CrossEntropy=0.616514	SmoothL1=0.310833
+Epoch[44] Batch [100]	Speed: 94.23 samples/sec	CrossEntropy=0.612523	SmoothL1=0.284825
+Epoch[44] Batch [120]	Speed: 93.93 samples/sec	CrossEntropy=0.611853	SmoothL1=0.291945
+Epoch[44] Batch [140]	Speed: 92.99 samples/sec	CrossEntropy=0.617979	SmoothL1=0.298180
+Epoch[44] Batch [160]	Speed: 92.90 samples/sec	CrossEntropy=0.588424	SmoothL1=0.272805
+Epoch[44] Batch [180]	Speed: 92.01 samples/sec	CrossEntropy=0.596709	SmoothL1=0.294938
+Epoch[44] Batch [200]	Speed: 93.06 samples/sec	CrossEntropy=0.586069	SmoothL1=0.280533
+Epoch[44] Batch [220]	Speed: 93.17 samples/sec	CrossEntropy=0.607839	SmoothL1=0.304995
+Epoch[44] Batch [240]	Speed: 94.32 samples/sec	CrossEntropy=0.622622	SmoothL1=0.294533
+Epoch[44] Train-CrossEntropy=0.626866
+Epoch[44] Train-SmoothL1=0.301279
+Epoch[44] Time cost=88.147
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0045.params"
+Epoch[44] Validation-aeroplane=0.759721
+Epoch[44] Validation-bicycle=0.669080
+Epoch[44] Validation-bird=0.602117
+Epoch[44] Validation-boat=0.415816
+Epoch[44] Validation-bottle=0.291050
+Epoch[44] Validation-bus=0.703222
+Epoch[44] Validation-car=0.666877
+Epoch[44] Validation-cat=0.823294
+Epoch[44] Validation-chair=0.374040
+Epoch[44] Validation-cow=0.542537
+Epoch[44] Validation-diningtable=0.481620
+Epoch[44] Validation-dog=0.720252
+Epoch[44] Validation-horse=0.673101
+Epoch[44] Validation-motorbike=0.691343
+Epoch[44] Validation-person=0.678422
+Epoch[44] Validation-pottedplant=0.323661
+Epoch[44] Validation-sheep=0.594479
+Epoch[44] Validation-sofa=0.529165
+Epoch[44] Validation-train=0.762013
+Epoch[44] Validation-tvmonitor=0.611236
+Epoch[44] Validation-mAP=0.595652
+Epoch[45] Batch [20]	Speed: 92.78 samples/sec	CrossEntropy=0.608806	SmoothL1=0.284666
+Epoch[45] Batch [40]	Speed: 95.12 samples/sec	CrossEntropy=0.615144	SmoothL1=0.277998
+Epoch[45] Batch [60]	Speed: 93.10 samples/sec	CrossEntropy=0.621356	SmoothL1=0.301520
+Epoch[45] Batch [80]	Speed: 93.84 samples/sec	CrossEntropy=0.605838	SmoothL1=0.285637
+Epoch[45] Batch [100]	Speed: 94.20 samples/sec	CrossEntropy=0.610073	SmoothL1=0.286293
+Epoch[45] Batch [120]	Speed: 95.13 samples/sec	CrossEntropy=0.630279	SmoothL1=0.301390
+Epoch[45] Batch [140]	Speed: 94.31 samples/sec	CrossEntropy=0.631332	SmoothL1=0.308382
+Epoch[45] Batch [160]	Speed: 94.03 samples/sec	CrossEntropy=0.595167	SmoothL1=0.283475
+Epoch[45] Batch [180]	Speed: 94.53 samples/sec	CrossEntropy=0.602926	SmoothL1=0.301352
+Epoch[45] Batch [200]	Speed: 93.56 samples/sec	CrossEntropy=0.586818	SmoothL1=0.267346
+Epoch[45] Batch [220]	Speed: 89.75 samples/sec	CrossEntropy=0.600537	SmoothL1=0.297458
+Epoch[45] Batch [240]	Speed: 92.62 samples/sec	CrossEntropy=0.615045	SmoothL1=0.295030
+Epoch[45] Train-CrossEntropy=0.624512
+Epoch[45] Train-SmoothL1=0.299770
+Epoch[45] Time cost=87.713
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0046.params"
+Epoch[45] Validation-aeroplane=0.763213
+Epoch[45] Validation-bicycle=0.685973
+Epoch[45] Validation-bird=0.601750
+Epoch[45] Validation-boat=0.441437
+Epoch[45] Validation-bottle=0.312449
+Epoch[45] Validation-bus=0.711132
+Epoch[45] Validation-car=0.664446
+Epoch[45] Validation-cat=0.831353
+Epoch[45] Validation-chair=0.388047
+Epoch[45] Validation-cow=0.511015
+Epoch[45] Validation-diningtable=0.481655
+Epoch[45] Validation-dog=0.735047
+Epoch[45] Validation-horse=0.682709
+Epoch[45] Validation-motorbike=0.711972
+Epoch[45] Validation-person=0.681769
+Epoch[45] Validation-pottedplant=0.318360
+Epoch[45] Validation-sheep=0.623260
+Epoch[45] Validation-sofa=0.537791
+Epoch[45] Validation-train=0.776421
+Epoch[45] Validation-tvmonitor=0.630407
+Epoch[45] Validation-mAP=0.604510
+Epoch[46] Batch [20]	Speed: 92.61 samples/sec	CrossEntropy=0.609923	SmoothL1=0.297171
+Epoch[46] Batch [40]	Speed: 95.48 samples/sec	CrossEntropy=0.611853	SmoothL1=0.287434
+Epoch[46] Batch [60]	Speed: 90.80 samples/sec	CrossEntropy=0.604930	SmoothL1=0.295351
+Epoch[46] Batch [80]	Speed: 91.81 samples/sec	CrossEntropy=0.617034	SmoothL1=0.295970
+Epoch[46] Batch [100]	Speed: 92.10 samples/sec	CrossEntropy=0.606592	SmoothL1=0.291938
+Epoch[46] Batch [120]	Speed: 89.73 samples/sec	CrossEntropy=0.601545	SmoothL1=0.290633
+Epoch[46] Batch [140]	Speed: 91.35 samples/sec	CrossEntropy=0.628826	SmoothL1=0.315684
+Epoch[46] Batch [160]	Speed: 92.93 samples/sec	CrossEntropy=0.594994	SmoothL1=0.285791
+Epoch[46] Batch [180]	Speed: 91.35 samples/sec	CrossEntropy=0.603786	SmoothL1=0.298366
+Epoch[46] Batch [200]	Speed: 92.11 samples/sec	CrossEntropy=0.600796	SmoothL1=0.291639
+Epoch[46] Batch [220]	Speed: 93.43 samples/sec	CrossEntropy=0.612691	SmoothL1=0.297632
+Epoch[46] Batch [240]	Speed: 93.64 samples/sec	CrossEntropy=0.621874	SmoothL1=0.284748
+Epoch[46] Train-CrossEntropy=0.592718
+Epoch[46] Train-SmoothL1=0.289759
+Epoch[46] Time cost=89.178
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0047.params"
+Epoch[46] Validation-aeroplane=0.748168
+Epoch[46] Validation-bicycle=0.668091
+Epoch[46] Validation-bird=0.593517
+Epoch[46] Validation-boat=0.419107
+Epoch[46] Validation-bottle=0.306423
+Epoch[46] Validation-bus=0.689571
+Epoch[46] Validation-car=0.660468
+Epoch[46] Validation-cat=0.831261
+Epoch[46] Validation-chair=0.380785
+Epoch[46] Validation-cow=0.582334
+Epoch[46] Validation-diningtable=0.494037
+Epoch[46] Validation-dog=0.713981
+Epoch[46] Validation-horse=0.661141
+Epoch[46] Validation-motorbike=0.664472
+Epoch[46] Validation-person=0.680050
+Epoch[46] Validation-pottedplant=0.311628
+Epoch[46] Validation-sheep=0.604686
+Epoch[46] Validation-sofa=0.581835
+Epoch[46] Validation-train=0.752704
+Epoch[46] Validation-tvmonitor=0.635469
+Epoch[46] Validation-mAP=0.598986
+Epoch[47] Batch [20]	Speed: 91.60 samples/sec	CrossEntropy=0.600539	SmoothL1=0.292413
+Epoch[47] Batch [40]	Speed: 94.24 samples/sec	CrossEntropy=0.608539	SmoothL1=0.289597
+Epoch[47] Batch [60]	Speed: 94.23 samples/sec	CrossEntropy=0.597757	SmoothL1=0.294652
+Epoch[47] Batch [80]	Speed: 89.34 samples/sec	CrossEntropy=0.601070	SmoothL1=0.286953
+Epoch[47] Batch [100]	Speed: 92.43 samples/sec	CrossEntropy=0.613662	SmoothL1=0.296742
+Epoch[47] Batch [120]	Speed: 94.60 samples/sec	CrossEntropy=0.600255	SmoothL1=0.286549
+Epoch[47] Batch [140]	Speed: 92.49 samples/sec	CrossEntropy=0.604200	SmoothL1=0.295563
+Epoch[47] Batch [160]	Speed: 91.89 samples/sec	CrossEntropy=0.592810	SmoothL1=0.273772
+Epoch[47] Batch [180]	Speed: 93.70 samples/sec	CrossEntropy=0.605836	SmoothL1=0.297064
+Epoch[47] Batch [200]	Speed: 90.17 samples/sec	CrossEntropy=0.578122	SmoothL1=0.262487
+Epoch[47] Batch [220]	Speed: 87.86 samples/sec	CrossEntropy=0.611722	SmoothL1=0.298402
+Epoch[47] Batch [240]	Speed: 95.50 samples/sec	CrossEntropy=0.597694	SmoothL1=0.274507
+Epoch[47] Train-CrossEntropy=0.609550
+Epoch[47] Train-SmoothL1=0.297594
+Epoch[47] Time cost=88.475
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0048.params"
+Epoch[47] Validation-aeroplane=0.761729
+Epoch[47] Validation-bicycle=0.701469
+Epoch[47] Validation-bird=0.583604
+Epoch[47] Validation-boat=0.416368
+Epoch[47] Validation-bottle=0.306244
+Epoch[47] Validation-bus=0.705657
+Epoch[47] Validation-car=0.670065
+Epoch[47] Validation-cat=0.809633
+Epoch[47] Validation-chair=0.392681
+Epoch[47] Validation-cow=0.575218
+Epoch[47] Validation-diningtable=0.507295
+Epoch[47] Validation-dog=0.769514
+Epoch[47] Validation-horse=0.710037
+Epoch[47] Validation-motorbike=0.698952
+Epoch[47] Validation-person=0.687219
+Epoch[47] Validation-pottedplant=0.323184
+Epoch[47] Validation-sheep=0.615951
+Epoch[47] Validation-sofa=0.556845
+Epoch[47] Validation-train=0.741625
+Epoch[47] Validation-tvmonitor=0.629944
+Epoch[47] Validation-mAP=0.608162
+Epoch[48] Batch [20]	Speed: 90.08 samples/sec	CrossEntropy=0.602612	SmoothL1=0.288669
+Epoch[48] Batch [40]	Speed: 94.00 samples/sec	CrossEntropy=0.602035	SmoothL1=0.284063
+Epoch[48] Batch [60]	Speed: 93.89 samples/sec	CrossEntropy=0.616905	SmoothL1=0.304356
+Epoch[48] Batch [80]	Speed: 93.10 samples/sec	CrossEntropy=0.608336	SmoothL1=0.287061
+Epoch[48] Batch [100]	Speed: 95.88 samples/sec	CrossEntropy=0.601637	SmoothL1=0.291069
+Epoch[48] Batch [120]	Speed: 91.80 samples/sec	CrossEntropy=0.593231	SmoothL1=0.274706
+Epoch[48] Batch [140]	Speed: 93.39 samples/sec	CrossEntropy=0.617689	SmoothL1=0.294728
+Epoch[48] Batch [160]	Speed: 89.16 samples/sec	CrossEntropy=0.580298	SmoothL1=0.282270
+Epoch[48] Batch [180]	Speed: 90.62 samples/sec	CrossEntropy=0.593909	SmoothL1=0.284016
+Epoch[48] Batch [200]	Speed: 95.57 samples/sec	CrossEntropy=0.594562	SmoothL1=0.287839
+Epoch[48] Batch [220]	Speed: 95.07 samples/sec	CrossEntropy=0.606793	SmoothL1=0.299624
+Epoch[48] Batch [240]	Speed: 94.82 samples/sec	CrossEntropy=0.612469	SmoothL1=0.284197
+Epoch[48] Train-CrossEntropy=0.602480
+Epoch[48] Train-SmoothL1=0.285273
+Epoch[48] Time cost=88.267
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0049.params"
+Epoch[48] Validation-aeroplane=0.761844
+Epoch[48] Validation-bicycle=0.683668
+Epoch[48] Validation-bird=0.578699
+Epoch[48] Validation-boat=0.424740
+Epoch[48] Validation-bottle=0.298076
+Epoch[48] Validation-bus=0.715018
+Epoch[48] Validation-car=0.674393
+Epoch[48] Validation-cat=0.831759
+Epoch[48] Validation-chair=0.387768
+Epoch[48] Validation-cow=0.585297
+Epoch[48] Validation-diningtable=0.482291
+Epoch[48] Validation-dog=0.752603
+Epoch[48] Validation-horse=0.679458
+Epoch[48] Validation-motorbike=0.702406
+Epoch[48] Validation-person=0.688807
+Epoch[48] Validation-pottedplant=0.319928
+Epoch[48] Validation-sheep=0.611645
+Epoch[48] Validation-sofa=0.562525
+Epoch[48] Validation-train=0.769712
+Epoch[48] Validation-tvmonitor=0.638080
+Epoch[48] Validation-mAP=0.607436
+Epoch[49] Batch [20]	Speed: 93.39 samples/sec	CrossEntropy=0.578173	SmoothL1=0.271384
+Epoch[49] Batch [40]	Speed: 95.03 samples/sec	CrossEntropy=0.600259	SmoothL1=0.275531
+Epoch[49] Batch [60]	Speed: 94.25 samples/sec	CrossEntropy=0.612852	SmoothL1=0.307320
+Epoch[49] Batch [80]	Speed: 93.41 samples/sec	CrossEntropy=0.608447	SmoothL1=0.297341
+Epoch[49] Batch [100]	Speed: 92.52 samples/sec	CrossEntropy=0.605875	SmoothL1=0.293414
+Epoch[49] Batch [120]	Speed: 93.65 samples/sec	CrossEntropy=0.599357	SmoothL1=0.287967
+Epoch[49] Batch [140]	Speed: 93.27 samples/sec	CrossEntropy=0.620375	SmoothL1=0.298422
+Epoch[49] Batch [160]	Speed: 89.93 samples/sec	CrossEntropy=0.593411	SmoothL1=0.294935
+Epoch[49] Batch [180]	Speed: 93.46 samples/sec	CrossEntropy=0.600870	SmoothL1=0.294510
+Epoch[49] Batch [200]	Speed: 95.10 samples/sec	CrossEntropy=0.584847	SmoothL1=0.281676
+Epoch[49] Batch [220]	Speed: 94.15 samples/sec	CrossEntropy=0.585549	SmoothL1=0.283766
+Epoch[49] Batch [240]	Speed: 93.61 samples/sec	CrossEntropy=0.599345	SmoothL1=0.289169
+Epoch[49] Train-CrossEntropy=0.599909
+Epoch[49] Train-SmoothL1=0.292478
+Epoch[49] Time cost=87.769
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0050.params"
+Epoch[49] Validation-aeroplane=0.751831
+Epoch[49] Validation-bicycle=0.709522
+Epoch[49] Validation-bird=0.602559
+Epoch[49] Validation-boat=0.421618
+Epoch[49] Validation-bottle=0.296709
+Epoch[49] Validation-bus=0.704615
+Epoch[49] Validation-car=0.672988
+Epoch[49] Validation-cat=0.824137
+Epoch[49] Validation-chair=0.390857
+Epoch[49] Validation-cow=0.558329
+Epoch[49] Validation-diningtable=0.482593
+Epoch[49] Validation-dog=0.770419
+Epoch[49] Validation-horse=0.724699
+Epoch[49] Validation-motorbike=0.720171
+Epoch[49] Validation-person=0.676211
+Epoch[49] Validation-pottedplant=0.336282
+Epoch[49] Validation-sheep=0.614881
+Epoch[49] Validation-sofa=0.531362
+Epoch[49] Validation-train=0.766004
+Epoch[49] Validation-tvmonitor=0.628891
+Epoch[49] Validation-mAP=0.609234
+Epoch[50] Batch [20]	Speed: 91.81 samples/sec	CrossEntropy=0.590068	SmoothL1=0.290741
+Epoch[50] Batch [40]	Speed: 96.01 samples/sec	CrossEntropy=0.610901	SmoothL1=0.282576
+Epoch[50] Batch [60]	Speed: 93.45 samples/sec	CrossEntropy=0.615811	SmoothL1=0.307126
+Epoch[50] Batch [80]	Speed: 94.03 samples/sec	CrossEntropy=0.609737	SmoothL1=0.292992
+Epoch[50] Batch [100]	Speed: 94.28 samples/sec	CrossEntropy=0.606048	SmoothL1=0.288371
+Epoch[50] Batch [120]	Speed: 94.23 samples/sec	CrossEntropy=0.594906	SmoothL1=0.294221
+Epoch[50] Batch [140]	Speed: 96.07 samples/sec	CrossEntropy=0.613298	SmoothL1=0.301451
+Epoch[50] Batch [160]	Speed: 93.24 samples/sec	CrossEntropy=0.579413	SmoothL1=0.274743
+Epoch[50] Batch [180]	Speed: 93.97 samples/sec	CrossEntropy=0.603310	SmoothL1=0.291399
+Epoch[50] Batch [200]	Speed: 94.34 samples/sec	CrossEntropy=0.582385	SmoothL1=0.278548
+Epoch[50] Batch [220]	Speed: 93.04 samples/sec	CrossEntropy=0.597981	SmoothL1=0.289685
+Epoch[50] Batch [240]	Speed: 94.81 samples/sec	CrossEntropy=0.585481	SmoothL1=0.283883
+Epoch[50] Train-CrossEntropy=0.600569
+Epoch[50] Train-SmoothL1=0.288946
+Epoch[50] Time cost=87.284
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0051.params"
+Epoch[50] Validation-aeroplane=0.744901
+Epoch[50] Validation-bicycle=0.693423
+Epoch[50] Validation-bird=0.579266
+Epoch[50] Validation-boat=0.406713
+Epoch[50] Validation-bottle=0.308051
+Epoch[50] Validation-bus=0.715399
+Epoch[50] Validation-car=0.660682
+Epoch[50] Validation-cat=0.815526
+Epoch[50] Validation-chair=0.389926
+Epoch[50] Validation-cow=0.553715
+Epoch[50] Validation-diningtable=0.501957
+Epoch[50] Validation-dog=0.764316
+Epoch[50] Validation-horse=0.711787
+Epoch[50] Validation-motorbike=0.709901
+Epoch[50] Validation-person=0.680264
+Epoch[50] Validation-pottedplant=0.334734
+Epoch[50] Validation-sheep=0.611255
+Epoch[50] Validation-sofa=0.485864
+Epoch[50] Validation-train=0.769064
+Epoch[50] Validation-tvmonitor=0.614262
+Epoch[50] Validation-mAP=0.602550
+Epoch[51] Batch [20]	Speed: 91.49 samples/sec	CrossEntropy=0.600644	SmoothL1=0.282901
+Epoch[51] Batch [40]	Speed: 93.75 samples/sec	CrossEntropy=0.576719	SmoothL1=0.265396
+Epoch[51] Batch [60]	Speed: 94.15 samples/sec	CrossEntropy=0.614390	SmoothL1=0.290696
+Epoch[51] Batch [80]	Speed: 93.91 samples/sec	CrossEntropy=0.602896	SmoothL1=0.295980
+Epoch[51] Batch [100]	Speed: 93.53 samples/sec	CrossEntropy=0.610500	SmoothL1=0.301177
+Epoch[51] Batch [120]	Speed: 94.39 samples/sec	CrossEntropy=0.588408	SmoothL1=0.287614
+Epoch[51] Batch [140]	Speed: 92.46 samples/sec	CrossEntropy=0.603014	SmoothL1=0.285528
+Epoch[51] Batch [160]	Speed: 90.96 samples/sec	CrossEntropy=0.578047	SmoothL1=0.274152
+Epoch[51] Batch [180]	Speed: 91.79 samples/sec	CrossEntropy=0.592907	SmoothL1=0.284496
+Epoch[51] Batch [200]	Speed: 91.35 samples/sec	CrossEntropy=0.581306	SmoothL1=0.272848
+Epoch[51] Batch [220]	Speed: 93.94 samples/sec	CrossEntropy=0.589827	SmoothL1=0.285544
+Start training with (gpu(0),gpu(1)) from pretrained model /media/tx-deepocean/tx-data/st/ssd/model/vgg16_reduced
+Freezed parameters: [conv1_1_weight,conv1_1_bias,conv1_2_weight,conv1_2_bias,conv2_1_weight,conv2_1_bias,conv2_2_weight,conv2_2_bias]
+Start training with (gpu(0),gpu(1)) from pretrained model /media/tx-deepocean/tx-data/st/ssd/model/vgg16_reduced
+Freezed parameters: [conv1_1_weight,conv1_1_bias,conv1_2_weight,conv1_2_bias,conv2_1_weight,conv2_1_bias,conv2_2_weight,conv2_2_bias]
+Start training with (gpu(0),gpu(1)) from pretrained model /media/tx-deepocean/tx-data/st/ssd/model/vgg16_reduced
+Freezed parameters: [conv1_1_weight,conv1_1_bias,conv1_2_weight,conv1_2_bias,conv2_1_weight,conv2_1_bias,conv2_2_weight,conv2_2_bias]
+Epoch[0] Batch [20]	Speed: 87.76 samples/sec	CrossEntropy=3.699666	SmoothL1=0.767470
+Epoch[0] Batch [40]	Speed: 90.42 samples/sec	CrossEntropy=2.850610	SmoothL1=0.740294
+Start training with (gpu(0),gpu(1)) from pretrained model /media/tx-deepocean/tx-data/st/ssd/model/vgg16_reduced
+Freezed parameters: [conv1_1_weight,conv1_1_bias,conv1_2_weight,conv1_2_bias,conv2_1_weight,conv2_1_bias,conv2_2_weight,conv2_2_bias]
+Epoch[0] Batch [20]	Speed: 89.56 samples/sec	CrossEntropy=3.699690	SmoothL1=0.767467
+Epoch[0] Batch [40]	Speed: 86.73 samples/sec	CrossEntropy=2.850258	SmoothL1=0.740348
+Epoch[0] Batch [60]	Speed: 88.40 samples/sec	CrossEntropy=2.002003	SmoothL1=0.711022
+Epoch[0] Batch [80]	Speed: 90.75 samples/sec	CrossEntropy=1.531483	SmoothL1=0.689081
+Epoch[0] Batch [100]	Speed: 91.56 samples/sec	CrossEntropy=1.408215	SmoothL1=0.666544
+Epoch[0] Batch [120]	Speed: 91.04 samples/sec	CrossEntropy=1.321027	SmoothL1=0.629259
+Epoch[0] Batch [140]	Speed: 88.39 samples/sec	CrossEntropy=1.268186	SmoothL1=0.650271
+Epoch[0] Batch [160]	Speed: 90.38 samples/sec	CrossEntropy=1.247874	SmoothL1=0.609979
+Epoch[0] Batch [180]	Speed: 89.95 samples/sec	CrossEntropy=1.241969	SmoothL1=0.574697
+Epoch[0] Batch [200]	Speed: 90.76 samples/sec	CrossEntropy=1.233930	SmoothL1=0.574497
+Epoch[0] Batch [220]	Speed: 89.47 samples/sec	CrossEntropy=1.231339	SmoothL1=0.580536
+Epoch[0] Batch [240]	Speed: 88.79 samples/sec	CrossEntropy=1.239430	SmoothL1=0.563510
+Epoch[0] Train-CrossEntropy=1.229182
+Epoch[0] Train-SmoothL1=0.566181
+Epoch[0] Time cost=91.947
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0001.params"
+Epoch[0] Validation-aeroplane=0.004785
+Epoch[0] Validation-bicycle=0.000000
+Epoch[0] Validation-bird=0.000000
+Epoch[0] Validation-boat=0.030303
+Epoch[0] Validation-bottle=0.000000
+Epoch[0] Validation-bus=0.000000
+Epoch[0] Validation-car=0.027999
+Epoch[0] Validation-cat=0.004523
+Epoch[0] Validation-chair=0.002674
+Epoch[0] Validation-cow=0.000000
+Epoch[0] Validation-diningtable=0.000000
+Epoch[0] Validation-dog=0.000000
+Epoch[0] Validation-horse=0.000000
+Epoch[0] Validation-motorbike=0.000000
+Epoch[0] Validation-person=0.106851
+Epoch[0] Validation-pottedplant=0.000000
+Epoch[0] Validation-sheep=0.004545
+Epoch[0] Validation-sofa=0.000000
+Epoch[0] Validation-train=0.000000
+Epoch[0] Validation-tvmonitor=0.000000
+Epoch[0] Validation-mAP=0.009084
+Epoch[1] Batch [20]	Speed: 85.20 samples/sec	CrossEntropy=1.216931	SmoothL1=0.558031
+Epoch[1] Batch [40]	Speed: 87.87 samples/sec	CrossEntropy=1.225430	SmoothL1=0.540626
+Epoch[1] Batch [60]	Speed: 88.66 samples/sec	CrossEntropy=1.222018	SmoothL1=0.559216
+Epoch[1] Batch [80]	Speed: 87.69 samples/sec	CrossEntropy=1.200996	SmoothL1=0.529406
+Epoch[1] Batch [100]	Speed: 88.27 samples/sec	CrossEntropy=1.197012	SmoothL1=0.536591
+Epoch[1] Batch [120]	Speed: 89.12 samples/sec	CrossEntropy=1.186834	SmoothL1=0.518481
+Epoch[1] Batch [140]	Speed: 88.13 samples/sec	CrossEntropy=1.193873	SmoothL1=0.528099
+Epoch[1] Batch [160]	Speed: 88.08 samples/sec	CrossEntropy=1.187379	SmoothL1=0.522115
+Epoch[1] Batch [180]	Speed: 89.62 samples/sec	CrossEntropy=1.188560	SmoothL1=0.527239
+Epoch[1] Batch [200]	Speed: 89.21 samples/sec	CrossEntropy=1.185030	SmoothL1=0.518348
+Epoch[1] Batch [220]	Speed: 89.22 samples/sec	CrossEntropy=1.173995	SmoothL1=0.508046
+Epoch[1] Batch [240]	Speed: 90.38 samples/sec	CrossEntropy=1.181699	SmoothL1=0.505454
+Epoch[1] Train-CrossEntropy=1.164928
+Epoch[1] Train-SmoothL1=0.508203
+Epoch[1] Time cost=92.809
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0002.params"
+Epoch[1] Validation-aeroplane=0.026374
+Epoch[1] Validation-bicycle=0.090909
+Epoch[1] Validation-bird=0.004132
+Epoch[1] Validation-boat=0.045455
+Epoch[1] Validation-bottle=0.000000
+Epoch[1] Validation-bus=0.000000
+Epoch[1] Validation-car=0.110064
+Epoch[1] Validation-cat=0.024390
+Epoch[1] Validation-chair=0.008441
+Epoch[1] Validation-cow=0.000000
+Epoch[1] Validation-diningtable=0.002273
+Epoch[1] Validation-dog=0.090909
+Epoch[1] Validation-horse=0.000000
+Epoch[1] Validation-motorbike=0.000000
+Epoch[1] Validation-person=0.203519
+Epoch[1] Validation-pottedplant=0.000000
+Epoch[1] Validation-sheep=0.012987
+Epoch[1] Validation-sofa=0.000000
+Epoch[1] Validation-train=0.003135
+Epoch[1] Validation-tvmonitor=0.003714
+Epoch[1] Validation-mAP=0.031315
+Epoch[2] Batch [20]	Speed: 86.07 samples/sec	CrossEntropy=1.182695	SmoothL1=0.492254
+Epoch[2] Batch [40]	Speed: 88.88 samples/sec	CrossEntropy=1.176126	SmoothL1=0.486401
+Epoch[2] Batch [60]	Speed: 88.18 samples/sec	CrossEntropy=1.172581	SmoothL1=0.501892
+Epoch[2] Batch [80]	Speed: 89.31 samples/sec	CrossEntropy=1.155761	SmoothL1=0.504615
+Epoch[2] Batch [100]	Speed: 89.25 samples/sec	CrossEntropy=1.142331	SmoothL1=0.480886
+Epoch[2] Batch [120]	Speed: 89.76 samples/sec	CrossEntropy=1.154737	SmoothL1=0.477030
+Epoch[2] Batch [140]	Speed: 89.45 samples/sec	CrossEntropy=1.139552	SmoothL1=0.492248
+Epoch[2] Batch [160]	Speed: 88.70 samples/sec	CrossEntropy=1.138472	SmoothL1=0.474409
+Epoch[2] Batch [180]	Speed: 89.59 samples/sec	CrossEntropy=1.130980	SmoothL1=0.464349
+Epoch[2] Batch [200]	Speed: 89.32 samples/sec	CrossEntropy=1.149266	SmoothL1=0.477951
+Epoch[2] Batch [220]	Speed: 89.71 samples/sec	CrossEntropy=1.117238	SmoothL1=0.479738
+Epoch[2] Batch [240]	Speed: 89.93 samples/sec	CrossEntropy=1.126054	SmoothL1=0.478333
+Epoch[2] Train-CrossEntropy=1.122086
+Epoch[2] Train-SmoothL1=0.470267
+Epoch[2] Time cost=92.215
+Saved checkpoint to "/media/tx-deepocean/tx-data/st/ssd/model/ssd_vgg16_reduced_300-0003.params"
+Epoch[2] Validation-aeroplane=0.046850
+Epoch[2] Validation-bicycle=0.090909
+Epoch[2] Validation-bird=0.008264
+Epoch[2] Validation-boat=0.018182
+Epoch[2] Validation-bottle=0.000000
+Epoch[2] Validation-bus=0.008264
+Epoch[2] Validation-car=0.200133
+Epoch[2] Validation-cat=0.145766
+Epoch[2] Validation-chair=0.017207
+Epoch[2] Validation-cow=0.000079
+Epoch[2] Validation-diningtable=0.008658
+Epoch[2] Validation-dog=0.107326
+Epoch[2] Validation-horse=0.090909
+Epoch[2] Validation-motorbike=0.030303
+Epoch[2] Validation-person=0.334604
+Epoch[2] Validation-pottedplant=0.000000
+Epoch[2] Validation-sheep=0.060827
+Epoch[2] Validation-sofa=0.000000
+Epoch[2] Validation-train=0.018182
+Epoch[2] Validation-tvmonitor=0.106372
+Epoch[2] Validation-mAP=0.064642
+Epoch[3] Batch [20]	Speed: 85.35 samples/sec	CrossEntropy=1.118104	SmoothL1=0.465632
+Epoch[3] Batch [40]	Speed: 89.15 samples/sec	CrossEntropy=1.124802	SmoothL1=0.463677
+Epoch[3] Batch [60]	Speed: 88.29 samples/sec	CrossEntropy=1.113184	SmoothL1=0.485652
+Epoch[3] Batch [80]	Speed: 87.39 samples/sec	CrossEntropy=1.095670	SmoothL1=0.488109
+Epoch[3] Batch [100]	Speed: 88.01 samples/sec	CrossEntropy=1.087837	SmoothL1=0.445506
+Epoch[3] Batch [120]	Speed: 89.41 samples/sec	CrossEntropy=1.089551	SmoothL1=0.450642
+Epoch[3] Batch [140]	Speed: 84.72 samples/sec	CrossEntropy=1.110276	SmoothL1=0.488613
+Start training with (gpu(0),gpu(1)) from pretrained model /media/tx-deepocean/tx-data/st/ssd/model/vgg16_reduced
+Freezed parameters: [conv1_1_weight,conv1_1_bias,conv1_2_weight,conv1_2_bias,conv2_1_weight,conv2_1_bias,conv2_2_weight,conv2_2_bias]
+Start training with (gpu(0),gpu(1)) from pretrained model /media/tx-deepocean/tx-data/st/ssd/model/vgg16_reduced
+Freezed parameters: [conv1_1_weight,conv1_1_bias,conv1_2_weight,conv1_2_bias,conv2_1_weight,conv2_1_bias,conv2_2_weight,conv2_2_bias]
+Start training with (gpu(0),gpu(1)) from pretrained model /media/tx-deepocean/tx-data/st/ssd/model/vgg16_reduced
+Freezed parameters: [conv1_1_weight,conv1_1_bias,conv1_2_weight,conv1_2_bias,conv2_1_weight,conv2_1_bias,conv2_2_weight,conv2_2_bias]
+Epoch[0] Batch [20]	Speed: 82.79 samples/sec	CrossEntropy=3.699677	SmoothL1=0.767465
+Epoch[0] Batch [40]	Speed: 80.89 samples/sec	CrossEntropy=2.850197	SmoothL1=0.740219
+Epoch[0] Batch [60]	Speed: 75.58 samples/sec	CrossEntropy=2.000027	SmoothL1=0.711278
+Start training with (gpu(0),gpu(1)) from pretrained model /media/tx-deepocean/tx-data/st/ssd/model/vgg16_reduced
+Freezed parameters: [conv1_1_weight,conv1_1_bias,conv1_2_weight,conv1_2_bias,conv2_1_weight,conv2_1_bias,conv2_2_weight,conv2_2_bias]
+Epoch[0] Batch [20]	Speed: 75.80 samples/sec	CrossEntropy=3.725893	SmoothL1=0.756861
+Start training with (gpu(0),gpu(1)) from pretrained model /media/tx-deepocean/tx-data/st/ssd/model/vgg16_reduced
+Freezed parameters: [conv1_1_weight,conv1_1_bias,conv1_2_weight,conv1_2_bias,conv2_1_weight,conv2_1_bias,conv2_2_weight,conv2_2_bias]
+Start training with (gpu(0),gpu(1)) from pretrained model /media/tx-deepocean/tx-data/st/ssd/model/vgg16_reduced
+Freezed parameters: [conv1_1_weight,conv1_1_bias,conv1_2_weight,conv1_2_bias,conv2_1_weight,conv2_1_bias,conv2_2_weight,conv2_2_bias]
+Epoch[0] Batch [20]	Speed: 77.73 samples/sec	CrossEntropy=3.699727	SmoothL1=0.767466
+Epoch[0] Batch [40]	Speed: 74.96 samples/sec	CrossEntropy=2.849446	SmoothL1=0.740550
+Epoch[0] Batch [60]	Speed: 75.05 samples/sec	CrossEntropy=2.006148	SmoothL1=0.711262
+Start training with (cpu(0)) from pretrained model /media/tx-deepocean/tx-data/st/ssd/model/vgg16_reduced
+Freezed parameters: [conv1_1_weight,conv1_1_bias,conv1_2_weight,conv1_2_bias,conv2_1_weight,conv2_1_bias,conv2_2_weight,conv2_2_bias]
+Start training with (cpu(0)) from pretrained model /media/tx-deepocean/tx-data/st/ssd/model/vgg16_reduced
+Freezed parameters: [conv1_1_weight,conv1_1_bias,conv1_2_weight,conv1_2_bias,conv2_1_weight,conv2_1_bias,conv2_2_weight,conv2_2_bias]
+Start training with (gpu(0),gpu(1)) from pretrained model /media/tx-deepocean/tx-data/st/ssd/model/vgg16_reduced
+Freezed parameters: [conv1_1_weight,conv1_1_bias,conv1_2_weight,conv1_2_bias,conv2_1_weight,conv2_1_bias,conv2_2_weight,conv2_2_bias]
+Epoch[0] Batch [20]	Speed: 80.08 samples/sec	CrossEntropy=3.688155	SmoothL1=0.775762
+Experimental: start training from scratch with (gpu(0),gpu(1))
+Experimental: start training from scratch with (gpu(0))
+Experimental: start training from scratch with (gpu(0))
+Experimental: start training from scratch with (gpu(0))
+Epoch[0] Batch [20]	Speed: 110.40 samples/sec	CrossEntropy=2.670138	SmoothL1=0.673471
+Epoch[0] Batch [40]	Speed: 112.83 samples/sec	CrossEntropy=1.694857	SmoothL1=0.556667
+Epoch[0] Batch [60]	Speed: 114.41 samples/sec	CrossEntropy=1.382060	SmoothL1=0.544641
+Epoch[0] Batch [80]	Speed: 115.75 samples/sec	CrossEntropy=1.284870	SmoothL1=0.540398
+Epoch[0] Batch [100]	Speed: 118.04 samples/sec	CrossEntropy=1.250921	SmoothL1=0.541212
+Epoch[0] Batch [120]	Speed: 117.71 samples/sec	CrossEntropy=1.226584	SmoothL1=0.535408
+Epoch[0] Batch [140]	Speed: 118.98 samples/sec	CrossEntropy=1.232580	SmoothL1=0.531270
+Epoch[0] Batch [160]	Speed: 117.69 samples/sec	CrossEntropy=1.216639	SmoothL1=0.520049

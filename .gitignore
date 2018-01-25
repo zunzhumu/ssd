@@ -1,0 +1,11 @@
+*.lst
+*.rec
+*.idx
+*.json
+*.params
+*.pdf
+*.gv
+*.txt
+data/
+model/
+result/
