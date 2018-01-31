@@ -2854,3 +2854,107 @@ Epoch[0] Batch [100]	Speed: 118.04 samples/sec	CrossEntropy=1.250921	SmoothL1=0.
 Epoch[0] Batch [120]	Speed: 117.71 samples/sec	CrossEntropy=1.226584	SmoothL1=0.535408
 Epoch[0] Batch [140]	Speed: 118.98 samples/sec	CrossEntropy=1.232580	SmoothL1=0.531270
 Epoch[0] Batch [160]	Speed: 117.69 samples/sec	CrossEntropy=1.216639	SmoothL1=0.520049
+Experimental: start training from scratch with (gpu(0))
+Epoch[0] Batch [20]	Speed: 375.81 samples/sec	CrossEntropy=2.854912	SmoothL1=0.702518
+Epoch[0] Batch [40]	Speed: 365.71 samples/sec	CrossEntropy=2.092544	SmoothL1=0.591100
+Epoch[0] Batch [60]	Speed: 375.81 samples/sec	CrossEntropy=1.684585	SmoothL1=0.596298
+Epoch[0] Batch [80]	Speed: 379.15 samples/sec	CrossEntropy=1.454229	SmoothL1=0.589556
+Epoch[0] Batch [100]	Speed: 379.37 samples/sec	CrossEntropy=1.312175	SmoothL1=0.521944
+Epoch[0] Batch [120]	Speed: 365.71 samples/sec	CrossEntropy=1.296916	SmoothL1=0.487233
+Epoch[0] Batch [140]	Speed: 375.81 samples/sec	CrossEntropy=1.280125	SmoothL1=0.445852
+Epoch[0] Batch [160]	Speed: 375.37 samples/sec	CrossEntropy=1.258699	SmoothL1=0.413444
+Epoch[0] Batch [180]	Speed: 379.15 samples/sec	CrossEntropy=1.253171	SmoothL1=0.411351
+Epoch[0] Batch [200]	Speed: 379.37 samples/sec	CrossEntropy=1.238614	SmoothL1=0.422838
+Epoch[0] Batch [220]	Speed: 374.05 samples/sec	CrossEntropy=1.224339	SmoothL1=0.401895
+Epoch[0] Batch [240]	Speed: 405.58 samples/sec	CrossEntropy=1.244538	SmoothL1=0.413124
+Epoch[0] Train-CrossEntropy=1.224107
+Epoch[0] Train-SmoothL1=0.397137
+Epoch[0] Time cost=22.025
+Experimental: start training from scratch with (gpu(0))
+Epoch[0] Batch [20]	Speed: 379.15 samples/sec	CrossEntropy=2.854770	SmoothL1=0.705388
+Epoch[0] Batch [40]	Speed: 369.09 samples/sec	CrossEntropy=2.092318	SmoothL1=0.593672
+Epoch[0] Batch [60]	Speed: 382.78 samples/sec	CrossEntropy=1.676174	SmoothL1=0.598260
+Epoch[0] Batch [80]	Speed: 390.01 samples/sec	CrossEntropy=1.435996	SmoothL1=0.589699
+Epoch[0] Batch [100]	Speed: 393.85 samples/sec	CrossEntropy=1.301524	SmoothL1=0.520980
+Epoch[0] Batch [120]	Speed: 397.27 samples/sec	CrossEntropy=1.289768	SmoothL1=0.483305
+Epoch[0] Batch [140]	Speed: 386.47 samples/sec	CrossEntropy=1.279755	SmoothL1=0.445304
+Epoch[0] Batch [160]	Speed: 405.58 samples/sec	CrossEntropy=1.254963	SmoothL1=0.411575
+Epoch[0] Batch [180]	Speed: 405.58 samples/sec	CrossEntropy=1.251317	SmoothL1=0.410411
+Epoch[0] Batch [200]	Speed: 397.52 samples/sec	CrossEntropy=1.237572	SmoothL1=0.423951
+Epoch[0] Batch [220]	Speed: 382.78 samples/sec	CrossEntropy=1.224271	SmoothL1=0.401956
+Epoch[0] Batch [240]	Speed: 418.03 samples/sec	CrossEntropy=1.247409	SmoothL1=0.413576
+Epoch[0] Train-CrossEntropy=1.225308
+Epoch[0] Train-SmoothL1=0.400208
+Epoch[0] Time cost=21.189
+Saved checkpoint to "D:\DL\ssd\model\ssd_resnet50_FPN_50-0001.params"
+Epoch[0] Validation-aeroplane=0.091953
+Epoch[0] Validation-bicycle=0.000000
+Epoch[0] Validation-bird=0.000068
+Epoch[0] Validation-boat=0.000000
+Epoch[0] Validation-bottle=0.000000
+Epoch[0] Validation-bus=0.000402
+Epoch[0] Validation-car=0.004355
+Epoch[0] Validation-cat=0.020092
+Epoch[0] Validation-chair=0.001748
+Epoch[0] Validation-cow=0.000000
+Epoch[0] Validation-diningtable=0.004451
+Epoch[0] Validation-dog=0.012272
+Epoch[0] Validation-horse=0.000000
+Epoch[0] Validation-motorbike=0.001010
+Epoch[0] Validation-person=0.015841
+Epoch[0] Validation-pottedplant=0.000000
+Epoch[0] Validation-sheep=0.000000
+Epoch[0] Validation-sofa=0.000315
+Epoch[0] Validation-train=0.000299
+Epoch[0] Validation-tvmonitor=0.000069
+Epoch[0] Validation-mAP=0.007644
+Epoch[1] Batch [20]	Speed: 390.01 samples/sec	CrossEntropy=1.224828	SmoothL1=0.397011
+Epoch[1] Batch [40]	Speed: 401.51 samples/sec	CrossEntropy=1.214852	SmoothL1=0.389459
+Epoch[1] Batch [60]	Speed: 401.51 samples/sec	CrossEntropy=1.213622	SmoothL1=0.381184
+Epoch[1] Batch [80]	Speed: 401.76 samples/sec	CrossEntropy=1.217660	SmoothL1=0.398091
+Epoch[1] Batch [100]	Speed: 405.58 samples/sec	CrossEntropy=1.194518	SmoothL1=0.370664
+Epoch[1] Batch [120]	Speed: 409.47 samples/sec	CrossEntropy=1.169177	SmoothL1=0.346063
+Epoch[1] Batch [140]	Speed: 405.58 samples/sec	CrossEntropy=1.231677	SmoothL1=0.391460
+Epoch[1] Batch [160]	Speed: 393.85 samples/sec	CrossEntropy=1.190811	SmoothL1=0.375126
+Epoch[1] Batch [180]	Speed: 380.95 samples/sec	CrossEntropy=1.189632	SmoothL1=0.388756
+Epoch[1] Batch [200]	Speed: 401.51 samples/sec	CrossEntropy=1.210870	SmoothL1=0.369692
+Epoch[1] Batch [220]	Speed: 401.51 samples/sec	CrossEntropy=1.194892	SmoothL1=0.374391
+Epoch[1] Batch [240]	Speed: 401.76 samples/sec	CrossEntropy=1.186523	SmoothL1=0.372154
+Epoch[1] Train-CrossEntropy=1.211855
+Epoch[1] Train-SmoothL1=0.388822
+Epoch[1] Time cost=20.555
+Saved checkpoint to "D:\DL\ssd\model\ssd_resnet50_FPN_50-0002.params"
+Epoch[1] Validation-aeroplane=0.008121
+Epoch[1] Validation-bicycle=0.000000
+Epoch[1] Validation-bird=0.010101
+Epoch[1] Validation-boat=0.000000
+Epoch[1] Validation-bottle=0.000000
+Epoch[1] Validation-bus=0.000219
+Epoch[1] Validation-car=0.003741
+Epoch[1] Validation-cat=0.020778
+Epoch[1] Validation-chair=0.000277
+Epoch[1] Validation-cow=0.000000
+Epoch[1] Validation-diningtable=0.008356
+Epoch[1] Validation-dog=0.007812
+Epoch[1] Validation-horse=0.000000
+Epoch[1] Validation-motorbike=0.090909
+Epoch[1] Validation-person=0.012171
+Epoch[1] Validation-pottedplant=0.000000
+Epoch[1] Validation-sheep=0.000000
+Epoch[1] Validation-sofa=0.003711
+Epoch[1] Validation-train=0.000263
+Epoch[1] Validation-tvmonitor=0.000000
+Epoch[1] Validation-mAP=0.008323
+Epoch[2] Batch [20]	Speed: 397.76 samples/sec	CrossEntropy=1.192454	SmoothL1=0.362541
+Epoch[2] Batch [40]	Speed: 397.27 samples/sec	CrossEntropy=1.202667	SmoothL1=0.378152
+Epoch[2] Batch [60]	Speed: 399.25 samples/sec	CrossEntropy=1.193237	SmoothL1=0.369871
+Epoch[2] Batch [80]	Speed: 393.85 samples/sec	CrossEntropy=1.196262	SmoothL1=0.366805
+Epoch[2] Batch [100]	Speed: 397.76 samples/sec	CrossEntropy=1.173458	SmoothL1=0.364346
+Epoch[2] Batch [120]	Speed: 401.51 samples/sec	CrossEntropy=1.169750	SmoothL1=0.351973
+Epoch[2] Batch [140]	Speed: 390.01 samples/sec	CrossEntropy=1.208987	SmoothL1=0.354395
+Experimental: start training from scratch with (gpu(0))
+Epoch[0] Batch [20]	Speed: 340.06 samples/sec	CrossEntropy=2.792035	SmoothL1=0.707702
+Epoch[0] Batch [40]	Speed: 330.24 samples/sec	CrossEntropy=1.944107	SmoothL1=0.592481
+Epoch[0] Batch [60]	Speed: 330.07 samples/sec	CrossEntropy=1.496097	SmoothL1=0.599863
+Experimental: start training from scratch with (gpu(0))
+Experimental: start training from scratch with (gpu(0))

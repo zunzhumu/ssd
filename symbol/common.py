@@ -148,6 +148,9 @@ def multi_layer_feature(body, from_layers, num_filters, strides, pads, min_filte
             conv_3x3 = conv_act_layer(conv_1x1, 'multi_feat_%d_conv_3x3' % (k),
                 num_filter, kernel=(3, 3), pad=(p, p), stride=(s, s), act_type='relu')
             layers.append(conv_3x3)
+    # for i in range(len(layers)):
+    #     arg_shape, output_shape, aux_shape = layers[i].infer_shape(data=(1, 3, 300, 300))
+    #     print  'layers'+str(i)+',output_shape, ', output_shape
     return layers
 
 
@@ -190,13 +193,13 @@ def multi_layer_feature_v1(body, from_layers, num_filters, strides, pads, min_fi
     assert isinstance(from_layers[0], str) and len(from_layers[0].strip()) > 0
     assert len(from_layers) == len(num_filters) == len(strides) == len(pads)
 
-    internals = body[-1].get_internals()
     layers = []
     for k, params in enumerate(zip(from_layers, num_filters, strides, pads)):
         from_layer, num_filter, s, p = params
         if from_layer.strip():
             # extract from base network
-            layer = internals[from_layer.strip() + '_output']
+            layer = conv_act_layer(body[-(k+1)], 'multi_feat_%d_conv_3x3' % (k),
+                                      num_filter // 2, kernel=(1, 1), pad=(p, p), stride=(s, s), act_type='relu')
             layers.append(layer)
         else:
             # attach from last feature layer
@@ -205,22 +208,20 @@ def multi_layer_feature_v1(body, from_layers, num_filters, strides, pads, min_fi
             layer = layers[-1]
             num_1x1 = max(min_filter, num_filter // 2)
             conv_1x1 = conv_act_layer(layer, 'multi_feat_%d_conv_1x1' % (k),
-                num_1x1, kernel=(1, 1), pad=(0, 0), stride=(1, 1), act_type='relu')
+                num_1x1, kernel=(3, 3), pad=(0, 0), stride=(1, 1), act_type='relu')
 
             UpSampling_2 = mx.symbol.UpSampling(conv_1x1, scale=2, sample_type='nearest',
                                        name='multi_feat_%d_UpSampling_2' % (k), workspace=2048)
             conv_branch = conv_act_layer(body[-(k+1)], 'multi_feat_%d_conv_branch' % (k),
                 num_1x1, kernel=(1, 1), pad=(0, 0), stride=(1, 1), act_type='relu')
             Crop_UpSampling = mx.symbol.Crop(*[UpSampling_2, conv_branch], name='multi_feat_%d_UpSampling_crop' % (k))
-            conv = mx.symbol.broadcast_add(conv_branch, Crop_UpSampling, name='multi_feat_%d_broadcast_add' % (k))
-            # arg_shape, output_shape, aux_shape = conv.infer_shape(data=(1, 3, 300, 300))
-            # print  'output_shape, ', output_shape
+            conv = mx.symbol.ElementWiseSum(*[Crop_UpSampling, conv_branch], name='multi_feat_%d_ElementWiseSum' % (k))
             conv_3x3 = conv_act_layer(conv, 'multi_feat_%d_conv_3x3' % (k),
-                                      num_filter, kernel=(3, 3), pad=(p, p), stride=(s, s), act_type='relu')
+                                      num_filter // 2, kernel=(1, 1), pad=(p, p), stride=(s, s), act_type='relu')
             layers.append(conv_3x3)
-    # for i in range(len(layers)):
-    #     arg_shape, output_shape, aux_shape = layers[i].infer_shape(data=(1, 3, 300, 300))
-    #     print  'layers'+str(i)+',output_shape, ', output_shape
+    for i in range(len(layers)):
+        arg_shape, output_shape, aux_shape = layers[i].infer_shape(data=(1, 3, 300, 300))
+        print  'layers'+str(i)+',output_shape, ', output_shape
     return layers
 
 def multibox_layer(from_layers, num_classes, sizes=[.2, .95],
