@@ -101,11 +101,11 @@ def get_config(network, data_shape, **kwargs):
         image_shape = '3,224,224'  # resnet require it as shape check
         network = 'Resnet_FPN'
         from_layers = ['relu1', '', '', '']
-        num_filters = [-1, 512, 256, 128]
-        strides = [-1, 1, 1, 1]
-        pads = [-1, 1, 1, 1]
-        sizes = [[.1, .141], [.2,.272], [.54, .619], [.88, .961]]
-        ratios = [[1,2,.5], [1,2,.5,3,1./3], [1,2,.5,3,1./3], [1,2,.5,3,1./3]]
+        num_filters = [512, 512, 256, 128]
+        strides = [2, 2, 2, 2]
+        pads = [2, 2, 2, 2]
+        sizes = [[.88, .961],[.54, .619], [.2,.272], [.1, .141]]
+        ratios = [[1,2,.5,3,1./3], [1,2,.5,3,1./3], [1,2,.5,3,1./3], [1,2,.5,3,1./3]]
         normalizations = -1
         steps = []
         return locals()

@@ -157,9 +157,13 @@ def resnet(units, num_stages, filter_list, num_classes, image_shape, num_group, 
         if i > 0 and i < num_stages -1:
             fmaps.append(body)
 
-    bn1 = mx.sym.BatchNorm(data=body, fix_gamma=False, eps=2e-5, momentum=bn_mom, name='bn1')
+    bn1 = mx.sym.BatchNorm(data=body, fix_gamma=False, eps=2e-5, momentum=0.9, name='bn1')
     relu1 = mx.sym.Activation(data=bn1, act_type='relu', name='relu1')
-    fmaps.append(relu1)
+    body = mx.sym.Convolution(data=relu1, num_filter=512, kernel=(3, 3), stride=(2, 2), pad=(2, 2), name="final_conv", workspace=256)
+    bn2 = mx.sym.BatchNorm(data=body, fix_gamma=False, eps=2e-5, momentum=0.9, name='bn2')
+    relu2 = mx.sym.Activation(data=bn2, act_type='relu', name='relu2')
+    body = deformable_conv_unit(relu2, 256, 256, name='deformable_conv')
+    fmaps.append(body)
     # for i in range(len(fmaps)):
     #     arg_shape, output_shape, aux_shape = fmaps[i].infer_shape(data=(1, 3, 300, 300))
     #     print  'fmap'+str(i)+',output_shape, ', output_shape
@@ -173,7 +177,7 @@ def get_symbol(num_classes, num_layers, image_shape, conv_workspace=256, **kwarg
     """
     image_shape = [int(l) for l in image_shape.split(',')]
     (nchannel, height, width) = image_shape
-    num_group = 32
+    num_group = 1
     if height <= 28:
         num_stages = 3
         if (num_layers-2) % 9 == 0 and num_layers >= 164:

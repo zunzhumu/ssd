@@ -7,5 +7,6 @@
 *.gv
 *.txt
 data/
-model/
+VOCdevkit/
 result/
+mxnet/
