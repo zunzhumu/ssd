@@ -34,7 +34,7 @@ def parse_args():
                         default="", type=str)
     parser.add_argument('--network', dest='network', type=str, default='resnet50_FPN',
                         help='which network to use')
-    parser.add_argument('--batch-size', dest='batch_size', type=int, default=32,
+    parser.add_argument('--batch-size', dest='batch_size', type=int, default=16,
                         help='training batch size')
     parser.add_argument('--resume', dest='resume', type=int, default=-1,
                         help='resume training from epoch n')
@@ -42,9 +42,9 @@ def parse_args():
                         help='finetune from epoch n, rename the model before doing this')
     # os.path.join(os.getcwd(), 'model', 'vgg16_reduced')
     parser.add_argument('--pretrained', dest='pretrained', help='pretrained model prefix',
-                        default=None, type=str)
+                        default=os.path.join(os.getcwd(), 'model', 'resnet-50'), type=str)
     parser.add_argument('--epoch', dest='epoch', help='epoch of pretrained model',
-                        default=1, type=int)
+                        default=0, type=int)
     parser.add_argument('--prefix', dest='prefix', help='new model prefix',
                         default=os.path.join(os.getcwd(), 'model', 'ssd'), type=str)
     parser.add_argument('--gpus', dest='gpus', help='GPU devices to train with',
@@ -55,11 +55,11 @@ def parse_args():
                         default=240, type=int)
     parser.add_argument('--frequent', dest='frequent', help='frequency of logging',
                         default=20, type=int)
-    parser.add_argument('--data-shape', dest='data_shape', type=int, default=50,
+    parser.add_argument('--data-shape', dest='data_shape', type=int, default=300,
                         help='set image shape')
     parser.add_argument('--label-width', dest='label_width', type=int, default=350,
                         help='force padding label width to sync across train and validation')
-    parser.add_argument('--lr', dest='learning_rate', type=float, default=0.002,
+    parser.add_argument('--lr', dest='learning_rate', type=float, default=0.008,
                         help='learning rate')
     parser.add_argument('--momentum', dest='momentum', type=float, default=0.9,
                         help='momentum')
