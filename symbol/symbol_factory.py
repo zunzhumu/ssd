@@ -98,14 +98,15 @@ def get_config(network, data_shape, **kwargs):
         return locals()
     elif network == 'resnet50_FPN':
         num_layers = 50
-        image_shape = '3,224,224'  # resnet require it as shape check
-        network = 'Resnet_FPN'
-        from_layers = ['relu1', '', '', '']
-        num_filters = [512, 512, 256, 128]
-        strides = [2, 2, 2, 2]
-        pads = [2, 2, 2, 2]
-        sizes = [[.88, .961],[.54, .619], [.2,.272], [.1, .141]]
-        ratios = [[1,2,.5,3,1./3], [1,2,.5,3,1./3], [1,2,.5,3,1./3], [1,2,.5,3,1./3]]
+        image_shape = '3,224,224'
+        network = 'resnet'
+        from_layers = ['_plus12', '_plus15', '', '', '', '']
+        num_filters = [-1, -1, 512, 256, 256, 128]
+        strides = [-1, -1, 2, 2, 2, 2]
+        pads = [-1, -1, 1, 1, 1, 1]
+        sizes = [[.1, .141], [.2, .272], [.37, .447], [.54, .619], [.71, .79], [.88, .961]]
+        ratios = [[1, 2, .5], [1, 2, .5, 3, 1. / 3], [1, 2, .5, 3, 1. / 3], [1, 2, .5, 3, 1. / 3], \
+                  [1, 2, .5], [1, 2, .5]]
         normalizations = -1
         steps = []
         return locals()

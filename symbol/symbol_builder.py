@@ -17,9 +17,9 @@
 
 import mxnet as mx
 from symbol.common import multi_layer_feature, multibox_layer
-from symbol.common import multi_layer_feature_v1
+from symbol.common import multi_layer_feature_FPN
 import resnet
-import Resnet_FPN
+
 
 
 def import_module(module_name):
@@ -84,7 +84,7 @@ def get_symbol_train(network, num_classes, from_layers, num_filters, strides, pa
     label = mx.sym.Variable('label')
     body = import_module(network).get_symbol(num_classes, **kwargs)
 
-    layers = multi_layer_feature_v1(body, from_layers, num_filters, strides, pads,
+    layers = multi_layer_feature_FPN(body, from_layers, num_filters, strides, pads,
         min_filter=min_filter)
 
     loc_preds, cls_preds, anchor_boxes = multibox_layer(layers, \

@@ -48,16 +48,16 @@ def parse_args():
     parser.add_argument('--prefix', dest='prefix', help='new model prefix',
                         default=os.path.join(os.getcwd(), 'model', 'ssd'), type=str)
     parser.add_argument('--gpus', dest='gpus', help='GPU devices to train with',
-                        default='0', type=str)
+                        default='', type=str)
     parser.add_argument('--begin-epoch', dest='begin_epoch', help='begin epoch of training',
                         default=0, type=int)
     parser.add_argument('--end-epoch', dest='end_epoch', help='end epoch of training 240',
                         default=240, type=int)
     parser.add_argument('--frequent', dest='frequent', help='frequency of logging',
                         default=20, type=int)
-    parser.add_argument('--data-shape', dest='data_shape', type=int, default=50,
+    parser.add_argument('--data-shape', dest='data_shape', type=int, default=512,
                         help='set image shape')
-    parser.add_argument('--label-width', dest='label_width', type=int, default=350,
+    parser.add_argument('--label-width', dest='label_width', type=int, default=-1,
                         help='force padding label width to sync across train and validation')
     parser.add_argument('--lr', dest='learning_rate', type=float, default=0.002,
                         help='learning rate')

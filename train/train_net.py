@@ -22,7 +22,7 @@ import sys
 import os
 import importlib
 import re
-from dataset.iterator import DetRecordIter
+from dataset.iterator import DetRecordIter, DetIter
 from train.metric import MultiBoxMetric
 from evaluate.eval_metric import MApMetric, VOC07MApMetric
 from config.config import cfg
@@ -194,7 +194,6 @@ def train_net(net, train_path, num_classes, batch_size,
             label_pad_width=label_pad_width, path_imglist=val_list, **cfg.valid)
     else:
         val_iter = None
-
     # load symbol
     net = get_symbol_train(net, data_shape[1], num_classes=num_classes,
         nms_thresh=nms_thresh, force_suppress=force_suppress, nms_topk=nms_topk)

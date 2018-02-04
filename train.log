@@ -2958,3 +2958,5 @@ Epoch[0] Batch [40]	Speed: 330.24 samples/sec	CrossEntropy=1.944107	SmoothL1=0.5
 Epoch[0] Batch [60]	Speed: 330.07 samples/sec	CrossEntropy=1.496097	SmoothL1=0.599863
 Experimental: start training from scratch with (gpu(0))
 Experimental: start training from scratch with (gpu(0))
+Experimental: start training from scratch with (cpu(0))
+Experimental: start training from scratch with (cpu(0))
