@@ -10,3 +10,5 @@ data/
 VOCdevkit/
 result/
 mxnet/
+*.so
+*.pyc
