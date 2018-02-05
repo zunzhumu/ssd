@@ -2960,3 +2960,25 @@ Experimental: start training from scratch with (gpu(0))
 Experimental: start training from scratch with (gpu(0))
 Experimental: start training from scratch with (cpu(0))
 Experimental: start training from scratch with (cpu(0))
+Experimental: start training from scratch with (cpu(0))
+Experimental: start training from scratch with (cpu(0))
+Experimental: start training from scratch with (cpu(0))
+Experimental: start training from scratch with (cpu(0))
+Experimental: start training from scratch with (cpu(0))
+Epoch[0] Batch [20]	Speed: 0.74 samples/sec	CrossEntropy=4.243574	SmoothL1=1.017192
+Experimental: start training from scratch with (cpu(0))
+Epoch[0] Batch [1]	Speed: 0.61 samples/sec	CrossEntropy=8.003487	SmoothL1=0.482048
+Epoch[0] Batch [2]	Speed: 0.60 samples/sec	CrossEntropy=6.387551	SmoothL1=1.803473
+Epoch[0] Batch [3]	Speed: 0.77 samples/sec	CrossEntropy=5.695495	SmoothL1=1.292851
+Epoch[0] Batch [4]	Speed: 0.75 samples/sec	CrossEntropy=3.721728	SmoothL1=0.565197
+Epoch[0] Batch [5]	Speed: 0.77 samples/sec	CrossEntropy=3.496331	SmoothL1=0.712034
+Epoch[0] Batch [6]	Speed: 0.79 samples/sec	CrossEntropy=4.007628	SmoothL1=0.883184
+Epoch[0] Batch [7]	Speed: 0.77 samples/sec	CrossEntropy=4.733742	SmoothL1=2.016633
+Epoch[0] Batch [8]	Speed: 0.74 samples/sec	CrossEntropy=3.513037	SmoothL1=0.983822
+Epoch[0] Batch [9]	Speed: 0.80 samples/sec	CrossEntropy=3.243022	SmoothL1=0.490110
+Epoch[0] Batch [10]	Speed: 0.74 samples/sec	CrossEntropy=4.637929	SmoothL1=1.142181
+Experimental: start training from scratch with (cpu(0))
+Epoch[0] Batch [1]	Speed: 0.90 samples/sec	CrossEntropy=7.624691	SmoothL1=0.607417
+Epoch[0] Batch [2]	Speed: 0.93 samples/sec	CrossEntropy=5.540376	SmoothL1=0.940629
+Epoch[0] Batch [3]	Speed: 0.54 samples/sec	CrossEntropy=4.516047	SmoothL1=1.006522
+Epoch[0] Batch [4]	Speed: 0.69 samples/sec	CrossEntropy=4.001633	SmoothL1=0.485514

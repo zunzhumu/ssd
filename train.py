@@ -32,9 +32,9 @@ def parse_args():
                         default=os.path.join(os.getcwd(), 'data', 'val.rec'), type=str)
     parser.add_argument('--val-list', dest='val_list', help='validation list to use',
                         default="", type=str)
-    parser.add_argument('--network', dest='network', type=str, default='resnet50_FPN',
+    parser.add_argument('--network', dest='network', type=str, default='resnet50',
                         help='which network to use')
-    parser.add_argument('--batch-size', dest='batch_size', type=int, default=32,
+    parser.add_argument('--batch-size', dest='batch_size', type=int, default=2,
                         help='training batch size')
     parser.add_argument('--resume', dest='resume', type=int, default=-1,
                         help='resume training from epoch n')
@@ -54,8 +54,8 @@ def parse_args():
     parser.add_argument('--end-epoch', dest='end_epoch', help='end epoch of training 240',
                         default=240, type=int)
     parser.add_argument('--frequent', dest='frequent', help='frequency of logging',
-                        default=20, type=int)
-    parser.add_argument('--data-shape', dest='data_shape', type=int, default=512,
+                        default=1, type=int)
+    parser.add_argument('--data-shape', dest='data_shape', type=int, default=300,
                         help='set image shape')
     parser.add_argument('--label-width', dest='label_width', type=int, default=350,
                         help='force padding label width to sync across train and validation')
@@ -128,7 +128,7 @@ if __name__ == '__main__':
     print mx.__version__
     # context list
     ctx = [mx.gpu(int(i)) for i in args.gpus.split(',') if i.strip()]
-    ctx = [mx.cpu()] if not ctx else ctx
+    ctx = [mx.cpu(0)] if not ctx else ctx
     # ctx = [mx.cpu()]
     # class names if applicable
     class_names = parse_class_names(args)

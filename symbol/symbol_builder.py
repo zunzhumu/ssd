@@ -83,13 +83,15 @@ def get_symbol_train(network, num_classes, from_layers, num_filters, strides, pa
     """
     label = mx.sym.Variable('label')
     body = import_module(network).get_symbol(num_classes, **kwargs)
-
+    #   change multi_layer_feature_FPN to multi_layer_feature
     layers = multi_layer_feature_FPN(body, from_layers, num_filters, strides, pads,
         min_filter=min_filter)
 
     loc_preds, cls_preds, anchor_boxes = multibox_layer(layers, \
         num_classes, sizes=sizes, ratios=ratios, normalization=normalizations, \
         num_channels=num_filters, clip=False, interm_layer=0, steps=steps)
+    # arg_shape, output_shape, aux_shape = anchor_boxes.infer_shape(data=(1, 3, 300, 300))
+    # print  'output_shape', output_shape
     tmp = mx.symbol.contrib.MultiBoxTarget(
         *[anchor_boxes, label, cls_preds], overlap_threshold=.5, \
         ignore_label=-1, negative_mining_ratio=3, minimum_negative_samples=0, \

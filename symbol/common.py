@@ -256,6 +256,31 @@ def multi_layer_feature_FPN(body, from_layers, num_filters, strides, pads, min_f
 
             layers.append(conv_3x3)
 
+    new_layer=[]
+    layers = layers[::-1]
+    for k, layer in enumerate(layers):
+        if k == 0:
+            new_layer.append(layer)
+        else:
+            num_3x3 = conv_act_layer(layer, 'multi_feat_FPN%d_conv_1x1_1' % (k),
+                                      256, kernel=(3, 3), pad=(1, 1), stride=(1, 1), act_type='relu')
+            num_3x3 = mx.symbol.Convolution(data=num_3x3, num_filter=256, kernel=(3,3), stride=(1,1), pad=(1,1), name='multi_feat_FPN%d_conv_1x1_2' % (k))
+            arg_shape, output_shape, aux_shape = num_3x3.infer_shape(data=(1, 3, 300, 300))
+            print  'output_shape', output_shape
+            print 'layer'
+            deconv = mx.symbol.Deconvolution(data=new_layer[-1], num_filter=256, kernel=(4,4), stride=(2,2), pad=(1,1), name='multi_feat_FPN%d_deconv' % (k))
+            deconv_crop = mx.symbol.Crop(*[deconv, num_3x3], name='FPN_crop%d' % (k))
+            arg_shape, output_shape, aux_shape = deconv_crop.infer_shape(data=(1, 3, 300, 300))
+            print  'output_shape', output_shape
+            print 'layer'
+            elew_sum = mx.symbol.ElementWiseSum(*[num_3x3, deconv_crop], name='FPN_ElementWiseSum%d' % (k))
+            bn = mx.sym.BatchNorm(data=elew_sum, fix_gamma=False, eps=2e-5, momentum=0.9, name='FPN_bn%d'% (k))
+            act = mx.sym.Activation(data=bn, act_type='relu', name='FPN_relu%d'% (k))
+            layer = conv_act_layer(act, 'multi_feat_FPN%d_conv_1x1_3' % (k), 256, kernel=(3, 3), pad=(1, 1), stride=(1, 1), act_type='relu')
+            new_layer.append(layer)
+
+    layers = new_layer[::-1]
+
     for i in range(len(layers)):
         arg_shape, output_shape, aux_shape = layers[i].infer_shape(data=(1, 3, 300, 300))
         print  'layers'+str(i)+',output_shape, ', output_shape
