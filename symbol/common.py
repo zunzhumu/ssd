@@ -219,12 +219,12 @@ def multi_layer_feature_FPN(body, from_layers, num_filters, strides, pads, min_f
     second_layer = internals[two_layer[1].strip() + '_output']
 
     # frist__layer_downsampling (b, 512, 38, 38)
-    frist_layer_downsampling = conv_act_layer(frist_layer, 'frist_layer_downsampling', 512, kernel=(3, 3), pad=(1, 1),
+    frist_layer_downsampling = conv_act_layer(frist_layer, 'frist_layer_downsampling', 64, kernel=(3, 3), pad=(1, 1),
                                               stride=(2, 2), act_type='relu', use_batchnorm=True)
-    second_layer_EWS = mx.symbol.ElementWiseSum(*[frist_layer_downsampling, second_layer], name='second_layer_ElementWiseSum')
+    second_layer_EWS = mx.symbol.Concat(*[frist_layer_downsampling, second_layer], name='second_layer_Concat')
 
     # second_layer_EWS_downsampling (b, 1024, 19, 19)
-    second_layer_EWS_downsampling = conv_act_layer(second_layer_EWS, 'second_layer_EWS_downsampling', 1024, kernel=(3, 3), pad=(1, 1),
+    second_layer_EWS_downsampling = conv_act_layer(second_layer_EWS, 'second_layer_Concat_downsampling', 64, kernel=(3, 3), pad=(1, 1),
                                                    stride=(2, 2), act_type='relu', use_batchnorm=True)
     # arg_shape, output_shape, aux_shape = second_layer_EWS_downsampling.infer_shape(data=(1, 3, 300, 300))
     # print  'output_shape', output_shape
@@ -235,13 +235,13 @@ def multi_layer_feature_FPN(body, from_layers, num_filters, strides, pads, min_f
             layer = internals[from_layer.strip() + '_output']
             if k == 0:
                 # layer (b, 1024, 19, 19)
-                layer = mx.symbol.ElementWiseSum(*[layer, second_layer_EWS_downsampling], name='ElementWiseSum_plus12')
-                layer = deformable_conv_unit(data=layer, num_filter=1024, workspace=2048, name = 'plus12_deformable')
+                layer = mx.symbol.Concat(*[layer, second_layer_EWS_downsampling], name='Concat_plus12')
+                layer = deformable_conv_unit(data=layer, num_filter=64, workspace=2048, name = 'plus12_deformable')
             elif k == 1:
-                plus12_layer_downsampling = conv_act_layer(layers[-1], 'plus12_layer_downsampling', 2048, kernel=(3, 3), pad=(1, 1),
+                plus12_layer_downsampling = conv_act_layer(layers[-1], 'plus12_layer_downsampling', 64, kernel=(3, 3), pad=(1, 1),
                                               stride=(2, 2), act_type='relu', use_batchnorm=True)
-                layer = mx.symbol.ElementWiseSum(*[layer, plus12_layer_downsampling], name='ElementWiseSum_plus15')
-                layer = deformable_conv_unit(data=layer, num_filter=2048, workspace=2048, name='plus15_deformable')
+                layer = mx.symbol.Concat(*[layer, plus12_layer_downsampling], name='Concat_plus15')
+                layer = deformable_conv_unit(data=layer, num_filter=32, workspace=2048, name='plus15_deformable')
             layers.append(layer)
         else:
             # attach from last feature layer
@@ -257,34 +257,128 @@ def multi_layer_feature_FPN(body, from_layers, num_filters, strides, pads, min_f
             layers.append(conv_3x3)
 
     new_layer=[]
+    layer1 = layers
     layers = layers[::-1]
     for k, layer in enumerate(layers):
         if k == 0:
+            layer = conv_act_layer(layer, 'multi_feat_FPN%d_conv_1x1_1' % (k),
+                                      128, kernel=(1, 1), pad=(0, 0), stride=(1, 1), act_type='relu')
             new_layer.append(layer)
         else:
             num_3x3 = conv_act_layer(layer, 'multi_feat_FPN%d_conv_1x1_1' % (k),
-                                      256, kernel=(3, 3), pad=(1, 1), stride=(1, 1), act_type='relu')
+                                      64, kernel=(3, 3), pad=(1, 1), stride=(1, 1), act_type='relu')
             num_3x3 = mx.symbol.Convolution(data=num_3x3, num_filter=256, kernel=(3,3), stride=(1,1), pad=(1,1), name='multi_feat_FPN%d_conv_1x1_2' % (k))
-            arg_shape, output_shape, aux_shape = num_3x3.infer_shape(data=(1, 3, 300, 300))
-            print  'output_shape', output_shape
-            print 'layer'
             deconv = mx.symbol.Deconvolution(data=new_layer[-1], num_filter=256, kernel=(4,4), stride=(2,2), pad=(1,1), name='multi_feat_FPN%d_deconv' % (k))
             deconv_crop = mx.symbol.Crop(*[deconv, num_3x3], name='FPN_crop%d' % (k))
-            arg_shape, output_shape, aux_shape = deconv_crop.infer_shape(data=(1, 3, 300, 300))
-            print  'output_shape', output_shape
-            print 'layer'
-            elew_sum = mx.symbol.ElementWiseSum(*[num_3x3, deconv_crop], name='FPN_ElementWiseSum%d' % (k))
+            elew_sum = mx.symbol.Concat(*[num_3x3, deconv_crop], name='FPN_Concat%d' % (k))
             bn = mx.sym.BatchNorm(data=elew_sum, fix_gamma=False, eps=2e-5, momentum=0.9, name='FPN_bn%d'% (k))
             act = mx.sym.Activation(data=bn, act_type='relu', name='FPN_relu%d'% (k))
-            layer = conv_act_layer(act, 'multi_feat_FPN%d_conv_1x1_3' % (k), 256, kernel=(3, 3), pad=(1, 1), stride=(1, 1), act_type='relu')
+            layer = conv_act_layer(act, 'multi_feat_FPN%d_conv_1x1_3' % (k), 64, kernel=(3, 3), pad=(1, 1), stride=(1, 1), act_type='relu')
             new_layer.append(layer)
 
-    layers = new_layer[::-1]
+    layer2 = new_layer[::-1]
 
-    for i in range(len(layers)):
-        arg_shape, output_shape, aux_shape = layers[i].infer_shape(data=(1, 3, 300, 300))
-        print  'layers'+str(i)+',output_shape, ', output_shape
-    return layers
+    # for i in range(len(layer1)):
+    #     arg_shape, output_shape, aux_shape = layer1[i].infer_shape(data=(1, 3, 300, 300))
+    #     print  'layer1'+str(i)+',output_shape, ', output_shape
+    # for i in range(len(layer2)):
+    #     arg_shape, output_shape, aux_shape = layer2[i].infer_shape(data=(1, 3, 300, 300))
+    #     print  'layer2'+str(i)+',output_shape, ', output_shape
+    return layer1, layer2
+
+
+
+def multi_layer_feature_FPN_new(body, from_layers, num_filters, strides, pads, min_filter=128):
+    """Wrapper function to extract features from base network, attaching extra
+    layers and SSD specific layers
+
+    Parameters
+    ----------
+    from_layers : list of str
+        feature extraction layers, use '' for add extra layers
+        For example:
+        from_layers = ['relu4_3', 'fc7', '', '', '', '']
+        which means extract feature from relu4_3 and fc7, adding 4 extra layers
+        on top of fc7
+    num_filters : list of int
+        number of filters for extra layers, you can use -1 for extracted features,
+        however, if normalization and scale is applied, the number of filter for
+        that layer must be provided.
+        For example:
+        num_filters = [512, -1, 512, 256, 256, 256]
+    strides : list of int
+        strides for the 3x3 convolution appended, -1 can be used for extracted
+        feature layers
+    pads : list of int
+        paddings for the 3x3 convolution, -1 can be used for extracted layers
+    min_filter : int
+        minimum number of filters used in 1x1 convolution
+
+    Returns
+    -------
+    list of mx.Symbols
+
+    """
+    # arguments check
+    assert len(from_layers) > 0
+    assert isinstance(from_layers[0], str) and len(from_layers[0].strip()) > 0
+    assert len(from_layers) == len(num_filters) == len(strides) == len(pads)
+    # __plus15 (b, 2048, 10, 10)
+    #  __plus12 (b, 1024, 19, 19)
+    #  __plus6 (b, 512, 38, 38)
+    #  __plus2 (b, 256, 75, 75)
+    internals = body.get_internals()
+    layers = []
+    for k, params in enumerate(zip(from_layers, num_filters, strides, pads)):
+        from_layer, num_filter, s, p = params
+        if from_layer.strip():
+            # extract from base network
+            layer = internals[from_layer.strip() + '_output']
+            layers.append(layer)
+        else:
+            # attach from last feature layer
+            assert len(layers) > 0
+            assert num_filter > 0
+            layer = layers[-1]
+            num_1x1 = max(min_filter, num_filter // 2)
+            conv_1x1 = conv_act_layer(layer, 'multi_feat_%d_conv_1x1' % (k),
+                                      num_1x1, kernel=(1, 1), pad=(0, 0), stride=(1, 1), act_type='relu')
+            conv_3x3 = conv_act_layer(conv_1x1, 'multi_feat_%d_conv_3x3' % (k),
+                                      num_filter, kernel=(3, 3), pad=(p, p), stride=(s, s), act_type='relu')
+            layers.append(conv_3x3)
+    # for i in range(len(layers)):
+    #     arg_shape, output_shape, aux_shape = layers[i].infer_shape(data=(1, 3, 300, 300))
+    #     print  'layers'+str(i)+',output_shape, ', output_shape
+
+    layer1 = layers
+    new_layer = []
+    layers = layers[::-1]
+    for k, layer in enumerate(layers):
+        if k == 0:
+            layer = conv_act_layer(layer, 'multi_feat_FPN%d_conv_1x1_1' % (k),
+                                      128, kernel=(1, 1), pad=(0, 0), stride=(1, 1), act_type='relu')
+            new_layer.append(layer)
+        else:
+            num_3x3 = conv_act_layer(layer, 'multi_feat_FPN%d_conv_1x1_1' % (k),
+                                      64, kernel=(3, 3), pad=(1, 1), stride=(1, 1), act_type='relu')
+            num_3x3 = mx.symbol.Convolution(data=num_3x3, num_filter=256, kernel=(3,3), stride=(1,1), pad=(1,1), name='multi_feat_FPN%d_conv_1x1_2' % (k))
+            deconv = mx.symbol.Deconvolution(data=new_layer[-1], num_filter=256, kernel=(4,4), stride=(2,2), pad=(1,1), name='multi_feat_FPN%d_deconv' % (k))
+            deconv_crop = mx.symbol.Crop(*[deconv, num_3x3], name='FPN_crop%d' % (k))
+            elew_sum = mx.symbol.Concat(*[num_3x3, deconv_crop], name='FPN_Concat%d' % (k))
+            bn = mx.sym.BatchNorm(data=elew_sum, fix_gamma=False, eps=2e-5, momentum=0.9, name='FPN_bn%d'% (k))
+            act = mx.sym.Activation(data=bn, act_type='relu', name='FPN_relu%d'% (k))
+            layer = conv_act_layer(act, 'multi_feat_FPN%d_conv_1x1_3' % (k), 64, kernel=(3, 3), pad=(1, 1), stride=(1, 1), act_type='relu')
+            new_layer.append(layer)
+
+    layer2 = new_layer[::-1]
+
+    # for i in range(len(layer1)):
+    #     arg_shape, output_shape, aux_shape = layer1[i].infer_shape(data=(1, 3, 300, 300))
+    #     print  'layer1'+str(i)+',output_shape, ', output_shape
+    # for i in range(len(layer2)):
+    #     arg_shape, output_shape, aux_shape = layer2[i].infer_shape(data=(1, 3, 300, 300))
+    #     print  'layer2'+str(i)+',output_shape, ', output_shape
+    return layer1, layer2
 
 def multibox_layer(from_layers, num_classes, sizes=[.2, .95],
                     ratios=[1], normalization=-1, num_channels=[],

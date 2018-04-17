@@ -17,7 +17,8 @@
 
 import mxnet as mx
 from symbol.common import multi_layer_feature, multibox_layer
-from symbol.common import multi_layer_feature_FPN
+from symbol.common import multi_layer_feature_FPN_new
+from operator_py.det2proposal import *
 import resnet
 
 
@@ -84,14 +85,22 @@ def get_symbol_train(network, num_classes, from_layers, num_filters, strides, pa
     label = mx.sym.Variable('label')
     body = import_module(network).get_symbol(num_classes, **kwargs)
     #   change multi_layer_feature_FPN to multi_layer_feature
-    layers = multi_layer_feature_FPN(body, from_layers, num_filters, strides, pads,
+    layers, layers2 = multi_layer_feature_FPN_new(body, from_layers, num_filters, strides, pads,
         min_filter=min_filter)
-
+    # layers = multi_layer_feature(body, from_layers, num_filters, strides, pads,
+    #     min_filter=min_filter)
+    # branch 1
+    # anchor (1, 2268, 4)
+    # loc_preds (batch_size, 2268*4)
+    # cls_preds (batch_size, 21, 2268)
+    # label (batch_size, 58, 6)
     loc_preds, cls_preds, anchor_boxes = multibox_layer(layers, \
         num_classes, sizes=sizes, ratios=ratios, normalization=normalizations, \
         num_channels=num_filters, clip=False, interm_layer=0, steps=steps)
-    # arg_shape, output_shape, aux_shape = anchor_boxes.infer_shape(data=(1, 3, 300, 300))
-    # print  'output_shape', output_shape
+    # arg_shape, output_shape, aux_shape = loc_preds.infer_shape(data=(1, 3, 512, 512))
+    # print 'output_shape', output_shape
+    # arg_shape, output_shape, aux_shape = cls_preds.infer_shape(data=(1, 3, 300, 300))
+    # print 'output_shape', output_shape
     tmp = mx.symbol.contrib.MultiBoxTarget(
         *[anchor_boxes, label, cls_preds], overlap_threshold=.5, \
         ignore_label=-1, negative_mining_ratio=3, minimum_negative_samples=0, \
@@ -100,7 +109,8 @@ def get_symbol_train(network, num_classes, from_layers, num_filters, strides, pa
     loc_target = tmp[0]
     loc_target_mask = tmp[1]
     cls_target = tmp[2]
-
+    #anchors (xmin,ymin,xmax,ymax)
+    #loc_preds (target x, y, w, h)
     cls_prob = mx.symbol.SoftmaxOutput(data=cls_preds, label=cls_target, \
         ignore_label=-1, use_ignore=True, grad_scale=1., multi_output=True, \
         normalization='valid', name="cls_prob")
@@ -108,15 +118,38 @@ def get_symbol_train(network, num_classes, from_layers, num_filters, strides, pa
         data=loc_target_mask * (loc_preds - loc_target), scalar=1.0)
     loc_loss = mx.symbol.MakeLoss(loc_loss_, grad_scale=1., \
         normalization='valid', name="loc_loss")
-
-    # monitoring training status
     cls_label = mx.symbol.MakeLoss(data=cls_target, grad_scale=0, name="cls_label")
     det = mx.symbol.contrib.MultiBoxDetection(*[cls_prob, loc_preds, anchor_boxes], \
-        name="detection", nms_threshold=nms_thresh, force_suppress=force_suppress,
-        variances=(0.1, 0.1, 0.2, 0.2), nms_topk=nms_topk)
+                                              name="detection", nms_threshold=nms_thresh, force_suppress=force_suppress,
+                                              variances=(0.1, 0.1, 0.2, 0.2), nms_topk=nms_topk)
     det = mx.symbol.MakeLoss(data=det, grad_scale=0, name="det_out")
-
-    # group output
+    #  branch 2
+    # loc_preds2, cls_preds2, anchor_boxes2 = multibox_layer(layers2, \
+    #                                                        num_classes, sizes=sizes, ratios=ratios,
+    #                                                        normalization=normalizations, \
+    #                                                        num_channels=num_filters, clip=False, interm_layer=0,
+    #                                                        steps=steps)
+    #
+    #
+    # tmp2 = mx.symbol.contrib.MultiBoxDet2Target(*[loc_preds, anchor_boxes, label, cls_preds2], overlap_threshold=.5, \
+    #     ignore_label=-1, negative_mining_ratio=3, minimum_negative_samples=0,\
+    #     negative_mining_thresh=.5, variances=(0.1, 0.1, 0.2, 0.2),
+    #     name="multibox_target2")
+    # loc_target2 = tmp2[0]
+    # loc_target_mask2 = tmp2[1]
+    # cls_target2 = tmp2[2]
+    #
+    # cls_prob2= mx.symbol.SoftmaxOutput(data=cls_preds2, label=cls_target2, \
+    #                                    ignore_label=-1, use_ignore=True, grad_scale=1., multi_output=True, \
+    #                                    normalization='valid', name="cls_prob2")
+    # loc_loss_2 = mx.symbol.smooth_l1(name="loc_loss_2", \
+    #                                 data=loc_target_mask2 * (loc_preds2 - loc_target2), scalar=1.0)
+    # loc_loss2 = mx.symbol.MakeLoss(loc_loss_2, grad_scale=1., \
+    #                               normalization='valid', name="loc_loss2")
+    # # group output
+    # # monitoring training status
+    # cls_label2 = mx.symbol.MakeLoss(data=cls_target2, grad_scale=0, name="cls_label2")
+    # out = mx.symbol.Group([cls_prob2, loc_loss2, cls_label2, det, cls_prob, loc_loss, cls_label])
     out = mx.symbol.Group([cls_prob, loc_loss, cls_label, det])
     return out
 

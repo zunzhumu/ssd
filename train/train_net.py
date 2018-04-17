@@ -224,6 +224,7 @@ def train_net(net, train_path, num_classes, batch_size,
     elif pretrained:
         logger.info("Start training with {} from pretrained model {}"
             .format(ctx_str, pretrained))
+        fixed_param_names = None
         _, args, auxs = mx.model.load_checkpoint(pretrained, epoch)
         args = convert_pretrained(pretrained, args)
     else:

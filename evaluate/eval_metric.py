@@ -124,7 +124,7 @@ class MApMetric(mx.metric.EvalMetric):
             return ious
 
         # independant execution for each image
-        for i in range(labels[0].shape[0]):
+        for i in range(labels[0].shape[0]):#batch size
             # get as numpy arrays
             label = labels[0][i].asnumpy()
             if np.sum(label[:, 0] >= 0) < 1:
